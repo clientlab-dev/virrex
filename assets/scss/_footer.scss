@@ -17,7 +17,7 @@
         // width: 224px;
         float: left;
         &:not(:last-child) {
-            margin-right: 90px;
+            margin-right: 114px;
         }
     }
     &__list-item {
@@ -30,7 +30,7 @@
     &__list-link {
         text-decoration: none;
         color: #3a72be;
-        font-weight: 700;
+        font-weight: 400;
         &:hover {
             color: black;
         }
