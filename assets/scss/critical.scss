@@ -288,6 +288,34 @@ body {
         .logo__img_dark {
             display: block;
         }
+
+        .header__personal {
+            .btn_round {
+                background: #5690FF;
+            }
+
+            .btn_link {
+                color: #FFF;
+            }
+        }
+    }
+
+    &-light {
+        border-bottom: none;
+
+        .header__nav {
+            .nav__el {
+                & > a {
+                    color: #FFF;
+                }
+            }
+        }
+
+        .header__personal {
+            .btn_link {
+                color: #FFF;
+            }
+        }
     }
 
     .mobile-menu-btn {
@@ -393,7 +421,10 @@ body {
                     height: auto;
 
                     //height: 60px;
-               
+
+                    .btn-link {
+                        color: #000;
+                    }
                 }
 
                 .nav__el-has-child {

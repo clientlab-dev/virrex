@@ -7,7 +7,8 @@
 *.sql
 /node_modules
 #/wp-admin
-
+/css
+/js
 # Hidden files
 *.DS_Store
 .DS_Store
