@@ -83,50 +83,25 @@
 </div><!-- /.header__wrap -->
 
 
-<div class="hero hero-fill">
+<div class="hero hero-fill hero-fill_blue">
 	<div class="wrap">
+		<div class="text-with-right-illustration text-with-right-illustration_white">
+				<h1 class="text-with-right-illustration__title">Virrex Cryptocurrency Digital Bank</h1><!-- /.title -->
+				<div class="text-with-right-illustration__description">
+					Безопасное технологическое решение, сочетающее в себе функциональное наполнение классического банка — хранение, приумножение и обмен, с поддержкой альтернативного способа инвестирования на рынке цифровых валют
+				</div><!-- /.description -->
+				<div class="text-with-right-illustration__action-b">
+					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></button>
+					<button class="btn btn_icon btn_icon-white">
+							<img class="btn__ico" src="assets/img/btn_icon/play.svg" height="25" width="25" alt="" />
+						<span class="btn__text">СМОТРЕТЬ ВИДЕО</span>
+					</button>
+				</div><!-- /.action-b -->
 
-		<br />
-		<br />
-		<br />	
-	
-		<button class="btn btn_fill btn_fill_green btn_shadow">
-			<span class="btn__text">BUTTON</span>
-		</button>
-
-		<button class="btn btn_fill btn_fill_blue btn_shadow">
-			<span class="btn__text">BUTTON</span>
-		</button>
-		<br />
-		<br />
-		<br />
-		
-
-		<div class="heading heading_h1">
-			<div class="heading__text">
-				1 Heading 46 px medium
-			</div><!-- /.heading__text -->
-			<div class="heading__sub">
-				1 Subheading 20  px regular 80% opacity
-			</div><!-- /.heading__sub -->
-		</div><!-- /.heading heading_h1 -->
-
-
-		<div class="heading heading_h2">
-			<div class="heading__text">
-				2 Heading 26 px regular
-			</div><!-- /.heading__text -->
-			<div class="heading__sub">
-				2 Subheading 22 px regular 80% opacity
-			</div><!-- /.heading__sub -->
-		</div><!-- /.heading heading_h2 -->
-
-		<div class="heading heading_h3">
-			<div class="heading__text">
-				3 Heading 20 px regular
-			</div><!-- /.heading__text -->
-		</div><!-- /.heading heading_h3 -->
-
+				<div class="text-with-right-illustration__illustration">
+					<img src="assets/img/ilustrations/mainpage1.png" height="554" width="446" alt="" />
+				</div><!-- /.text-with-right-illustration__illustration -->
+		</div><!-- /.text-with-right-illustration -->
 	</div><!-- /.wrap -->
 </div><!-- /.hero -->
 

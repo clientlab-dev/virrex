@@ -63,8 +63,49 @@
 }
 
 .hero-fill {
-    background: #3599E1;
+    background: rgb(135, 220, 255);
+    background: -moz-linear-gradient(45deg, rgb(135, 220, 255) 0%, rgb(20, 133, 217) 100%);
+    background: -webkit-linear-gradient(45deg, rgb(135, 220, 255) 0%, rgb(20, 133, 217) 100%);
+    background: linear-gradient(45deg, rgb(135, 220, 255) 0%, rgb(20, 133, 217) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87dcff', endColorstr='#1485d9',GradientType=1 );
 }
+
+.text-with-right-illustration {
+    position: relative;
+    width: 100%;
+    padding-right: 488px;
+    min-height: 600px;
+    padding-top: 86px;
+    padding-bottom: 86px;
+
+    &__title {
+        font-size: 46px;
+        font-weight: 400;
+    }
+
+    &__description {
+        font-size: 19px;
+        line-height: 1.4;
+        font-weight: 100;
+        margin-top: 26px;
+    }
+
+    &__illustration {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    &__action-b {
+        margin-top: 42px;
+    }
+
+    &_white {
+        color: #FFF;
+    }
+} //text-with-right-illustration
 
 @import "_fonts";
 @import "_simplebar";
