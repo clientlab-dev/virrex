@@ -4,6 +4,8 @@
 	<meta charset="UTF-8" />
 	<title>Virrex</title>
 
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimal-ui"/>
+
 	<link rel="stylesheet" href="css/critical.min.css" />
 </head>
 <body>
@@ -19,7 +21,7 @@
 			</div><!-- /.header__logo -->
 
 
-			<button class="mobile-menu-btn mobile-menu-btn_active">
+			<button class="mobile-menu-btn js-mobile-menu-btn __mobile-menu-btn_active">
 				<div class="mobile-menu-btn__line"></div><!-- /.mobile-menu-btn__line -->
 				<div class="mobile-menu-btn__line"></div><!-- /.mobile-menu-btn__line -->
 				<div class="mobile-menu-btn__line"></div><!-- /.mobile-menu-btn__line -->
