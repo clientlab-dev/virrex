@@ -1,8 +1,18 @@
 .footer {
     padding-top: 34px;
+    padding-bottom: 10px;
     border-top: 2px solid #f0f0f0;
     max-width: 1170px;
     margin: 0 auto;
+    &__wrap {
+        // @include clearfix ;
+        &::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+    }
     &__col {
         // width: 224px;
         float: left;
@@ -31,6 +41,34 @@
             }
     }
     &__list-item-image {
+        // color: red;
+    }
+    &-social-links {
+        // color: red;
+    }
+    &__info {
+        margin-top: 24px;
+        color: #565656;
+        &::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    }
+    &__site-name{
+        float: left;
+    }
+    &__made-by {
+        float: right;
+        font-size: 13px;
+    }   
 
+    &__info-right-text {
+        float: left;
+        width: 190px;
+        margin-right: 10px;
+    }
+    &__info-image {
+        float: left;
     }
 }
