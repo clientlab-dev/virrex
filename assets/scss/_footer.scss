@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 34px;
+    border-top: 2px solid #f0f0f0;
+    max-width: 1170px;
+    margin: 0 auto;
+    &__col {
+        // width: 224px;
+        float: left;
+        &:not(:last-child) {
+            margin-right: 90px;
+        }
+    }
+    &__list-item {
+        padding-bottom: 14px;
+        font-weight: 300;
+    }
+    &__top-list-item {
+        font-weight: 700;
+    }
+    &__list-link {
+        text-decoration: none;
+        color: #3a72be;
+        font-weight: 700;
+        &:hover {
+            color: black;
+        }
+            &--dotted {
+                font-weight: 300;
+                padding-bottom: 1px;
+                border-bottom: 1px dashed;
+            }
+    }
+    &__list-item-image {
+
+    }
+}
