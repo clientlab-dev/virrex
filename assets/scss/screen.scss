@@ -1,6 +1,75 @@
+.header__wrap {
+    &_transparent {
+        .header {
+            background: transparent;
+        }
+    }
+
+    &_transparent_blue {
+        position: relative;
+
+        &:after {
+            content: "";
+            background: url(../assets/img/header/blue.svg) no-repeat 286px -61px;
+            background-size: 100%;
+            display: block;
+            position: absolute;
+            height: 277%;
+            width: 100%;
+            z-index: 0;
+            top: 0;
+            pointer-events: none;
+        }
+    }
+
+    &_transparent_purpure {
+        position: relative;
+
+        &:after {
+            content: "";
+            background: url(../assets/img/header/purpure.svg) no-repeat 286px -61px;
+            background-size: 100%;
+            display: block;
+            position: absolute;
+            height: 277%;
+            width: 100%;
+            z-index: 0;
+            top: 0;
+            pointer-events: none;
+        }
+    }
+
+    &_transparent_green {
+        position: relative;
+
+        &:after {
+            content: "";
+            background: url(../assets/img/header/green.svg) no-repeat 286px -61px;
+            background-size: 100%;
+            display: block;
+            position: absolute;
+            height: 277%;
+            width: 100%;
+            z-index: 0;
+            top: 0;
+            pointer-events: none;
+        }
+    }
+}
+
+.hero {
+    margin-top: -92px;
+    padding-top: 92px;
+}
+
+.hero-fill {
+    //background: #3599E1;
+}
+
 @import "_fonts";
 @import "_simplebar";
 @import "_arcticmodal";
+
 //@import "_arcticmodal";
 
 //@import "_jqrange";

@@ -256,6 +256,7 @@ body {
     padding-right: 194px;
     height: 92px;
     border-bottom: 2px solid #efefef;
+    z-index: 2;
 
     @include respond(1088px) {
         padding-left: 120px;
