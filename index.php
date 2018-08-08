@@ -86,7 +86,7 @@
 <div class="hero hero-fill hero-fill_blue">
 	<div class="wrap">
 		<div class="text-with-right-illustration text-with-right-illustration_white js-svg-lines svg-lines_blue-2">
-				<h1 class="text-with-right-illustration__title">Virrex Cryptocurrency Digital Bank</h1><!-- /.title -->
+				<h1 class="text-with-right-illustration__title">Virrex Cryptocurrency Digital&nbsp;Bank</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
 					Безопасное технологическое решение, сочетающее в себе функциональное наполнение классического банка — хранение, приумножение и обмен, с поддержкой альтернативного способа инвестирования на рынке цифровых валют
 				</div><!-- /.description -->
@@ -105,38 +105,42 @@
 	</div><!-- /.wrap -->
 </div><!-- /.hero -->
 
-<div class="catalog">
-	<div class="wrap">
-		<div class="catalo__cards">
-			<div class="card">
-				<a href="#">
-					<img height="158" src="assets/img/catalog_icons/valet.svg" alt="" />
-					<span class="title">Кошелек</span>
-					<span class="descr">
-						Совершайте переводы, оплачивайте счета и отправляйте криптовалюту без комиссий внутри системы
-					</span>
-				</a>
-			</div><!-- /.card -->
-			<div class="card">
-				<a href="#">
-					<img height="158" src="assets/img/catalog_icons/trade.svg" alt="" />
-					<span class="title">Вклады</span>
-					<span class="descr">
-						Более 50 возможных вариантов инвестирования
-					</span>
-				</a>
-			</div><!-- /.card -->
-			<div class="card">
-				<a href="#">
-					<img height="158" src="assets/img/catalog_icons/inverstement.svg" alt="" />
-					<span class="title">Торговля</span>
-					<span class="descr">
-						Самый выгодный и удобный обменный сервис
-					</span>
-				</a>
-			</div><!-- /.card -->
-		</div><!-- /.catalo__cards -->
-	</div><!-- /.wrap -->
+<div class="catalog skew-narrow-gradient skew-narrow-gradient_top">
+	<div class="skew-line"></div><!-- /.skew-line -->
+ 
+			
+		<div class="wrap">
+			<div class="catalog__cards cols-3">
+				<div class="card col">
+					<a href="#">
+						<img height="158" src="assets/img/catalog_icons/valet.svg" alt="" />
+						<span class="title">Кошелек</span>
+						<span class="descr">
+							Совершайте переводы, оплачивайте счета и отправляйте криптовалюту без комиссий внутри системы
+						</span>
+					</a>
+				</div><!-- /.card -->
+				<div class="card col">
+					<a href="#">
+						<img height="158" src="assets/img/catalog_icons/trade.svg" alt="" />
+						<span class="title">Вклады</span>
+						<span class="descr">
+							Более 50 возможных вариантов инвестирования
+						</span>
+					</a>
+				</div><!-- /.card -->
+				<div class="card col">
+					<a href="#">
+						<img height="158" src="assets/img/catalog_icons/inverstement.svg" alt="" />
+						<span class="title">Торговля</span>
+						<span class="descr">
+							Самый выгодный и удобный обменный сервис
+						</span>
+					</a>
+				</div><!-- /.card -->
+			</div><!-- /.catalog__cards -->
+		</div><!-- /.wrap -->
+ 
 </div><!-- /.catalog -->
 
 
