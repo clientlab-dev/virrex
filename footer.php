@@ -16,10 +16,18 @@
                 </li>
             </ul>
             <div class="footer__underline"></div>
-            <div class="footer__lang-switcher">
+            <div class="footer__lang-switcher" id="langSwitcher">
                 <div class="footer__lang-icon"></div>
                 <div class="footer__lang-text">Русский</div>
                 <div class="footer__dropdown-icon"></div>
+                <div class="footer__dropdown-popup">
+                    <ul class="footer__popup-list">
+                        <li class="footer__popup-item">English</li>
+                        <li class="footer__popup-item footer__popup-item--active">Русский</li>
+                        <li class="footer__popup-item">Deutsch</li>
+                        <li class="footer__popup-item">Italiano</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="footer__col footer__col--2">
@@ -130,4 +138,17 @@
 <link rel="stylesheet" href="css/screen.min.css" />
 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script defer src="js/main.min.js"></script>
+<script>
+    var langSwitcher = document.getElementById('langSwitcher');
+    var langOpen = false;
+    langSwitcher.addEventListener('click', function() {
+        if(!langOpen) {
+            langSwitcher.children[3].style.display = 'block';
+            langOpen = true;
+        } else {
+            langSwitcher.children[3].style.display = 'none';
+            langOpen = false;
+        }
+    })
+</script>
 </html>
