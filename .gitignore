@@ -9,8 +9,8 @@
 #/wp-admin
 /css
 /js
-css/
-js/
+#css/
+#js/
 # Hidden files
 *.DS_Store
 .DS_Store
