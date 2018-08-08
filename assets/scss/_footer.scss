@@ -17,7 +17,7 @@
         // width: 224px;
         float: left;
         &:not(:last-child) {
-            margin-right: 114px;
+            margin-right: 108px;
         }
     }
     &__list-item {
@@ -43,8 +43,13 @@
     &__list-item-image {
         // color: red;
     }
-    &-social-links {
-        // color: red;
+    &__social-links {
+        a img {
+            opacity: .4;
+            &:hover {
+                opacity: 1;
+            }
+        }
     }
     &__info {
         margin-top: 24px;
@@ -57,6 +62,8 @@
     }
     &__site-name{
         float: left;
+        font-size: 14px;
+        padding-top: 16px;
     }
     &__made-by {
         float: right;
@@ -70,5 +77,80 @@
     }
     &__info-image {
         float: left;
+    }
+    &__underline {
+        background-color: #a8c4df;
+        height: 1px;
+        width: 44px;
+        margin-bottom: 16px;
+    }
+    &__lang-switcher {
+        position: relative;
+        color: #3a72be;;
+        font-size: 14px;
+        user-select: none;
+        margin-top: 1px;
+        z-index: 999;
+        &::after {
+            display: block;
+            content: '';
+            clear: both;
+        }
+        &:hover {
+            cursor: pointer;
+            // filter: saturate(0%) brightness(70%) contrast(1000%);
+        }
+        &:hover .footer__lang-text, &:hover .footer__lang-icon, &:hover .footer__dropdown-icon {
+            cursor: pointer;
+            // color: black;
+            filter: saturate(0%) brightness(70%) contrast(1000%);
+        }
+    }
+    &__dropdown-popup {
+        cursor: default;
+        position: absolute;
+        top: -186px;
+        width: 120px;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 7px 14px rgba(116, 116, 116, 0.31);
+        border-radius: 1px;
+        background: white;
+        padding: 10px;
+        display: none;
+    }
+    &__popup-item {
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 300;
+
+        &--active {
+            color: black;
+            font-weight: 500;
+        }
+    }
+    &__popup-list {
+        & li {
+        }
+    }
+    &__lang-icon {
+        background-image: url("../assets/img/interface_icons/lang.png");
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 12px;
+        float: left;
+        margin-right: 8px;
+    }
+    &__lang-text {
+        float: left;
+    }
+    &__dropdown-icon {
+        background-image: url("../assets/img/interface_icons/arrow_down.png");
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 6px;
+        margin: 4px 0 0 6px;
+        float: left;
+
     }
 }

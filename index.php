@@ -105,7 +105,6 @@
 	</div><!-- /.wrap -->
 </div><!-- /.hero -->
 
-
 <div class="catalog">
 	<div class="wrap">
 		<div class="catalo__cards">
@@ -139,5 +138,8 @@
 		</div><!-- /.catalo__cards -->
 	</div><!-- /.wrap -->
 </div><!-- /.catalog -->
+
+
+<?php include('wallets.php'); ?>
 
 <?php include('footer.php'); ?>

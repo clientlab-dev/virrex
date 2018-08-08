@@ -1,0 +1,34 @@
+@import "_mixins";
+.wallets {
+    padding: 40px 0;
+    &__image {
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        padding-bottom: 20px;
+    }
+    &__title {
+        padding-top: 4px;
+        color: #2c2c2c;
+        font-size: 15px;
+
+    }
+}
+.row {
+   display: flex;
+   align-items: center;
+   justify-content: flex-satrt;
+   flex-direction: row;
+   flex-wrap: wrap;
+   flex-flow: row wrap;
+   align-content: flex-end;
+}
+.col {
+    flex-basis: 16.6%;
+    @include respond(750px) {
+        flex-basis: 25%;
+    }
+    @include respond(380px) {
+        flex-basis: 33%;
+    }
+}
