@@ -17,7 +17,7 @@
         // width: 224px;
         float: left;
         &:not(:last-child) {
-            margin-right: 114px;
+            margin-right: 108px;
         }
     }
     &__list-item {
@@ -43,8 +43,10 @@
     &__list-item-image {
         // color: red;
     }
-    &-social-links {
-        // color: red;
+    &__social-links {
+        a img {
+            opacity: .4;
+        }
     }
     &__info {
         margin-top: 24px;
@@ -57,6 +59,7 @@
     }
     &__site-name{
         float: left;
+        font-size: 14px;
         padding-top: 16px;
     }
     &__made-by {
@@ -71,5 +74,45 @@
     }
     &__info-image {
         float: left;
+    }
+    &__underline {
+        background-color: #a8c4df;
+        height: 1px;
+        width: 44px;
+        margin-bottom: 16px;
+    }
+    &__lang-switcher {
+        color: #3a72be;;
+        font-size: 14px;
+        margin-top: 1px;
+        &::after {
+            display: block;
+            content: '';
+            clear: both;
+        }
+        &:hover {
+            color: black;
+            cursor: pointer;
+        }
+    }
+    &__lang-icon {
+        background-image: url("../assets/img/interface_icons/lang.png");
+        background-repeat: no-repeat;
+        width: 15px;
+        height: 12px;
+        float: left;
+        margin-right: 8px;
+    }
+    &__lang-text {
+        float: left;
+    }
+    &__dropdown-icon {
+        background-image: url("../assets/img/interface_icons/arrow_down.png");
+        background-repeat: no-repeat;
+        width: 8px;
+        height: 6px;
+        margin: 4px 0 0 6px;
+        float: left;
+
     }
 }

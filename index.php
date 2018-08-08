@@ -105,4 +105,6 @@
 	</div><!-- /.wrap -->
 </div><!-- /.hero -->
 
+<?php include('wallets.php'); ?>
+
 <?php include('footer.php'); ?>

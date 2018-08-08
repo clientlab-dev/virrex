@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="footer__wrap">
+    <div class="footer__wrap wrap">
         <div class="footer__col footer__col--1">
             <ul class="footer__list">
                 <li class="footer__list-item footer__top-list-item">
@@ -15,6 +15,12 @@
                     <a href="#" class="footer__list-link">FAQ</a>
                 </li>
             </ul>
+            <div class="footer__underline"></div>
+            <div class="footer__lang-switcher">
+                <div class="footer__lang-icon"></div>
+                <div class="footer__lang-text">Русский</div>
+                <div class="footer__dropdown-icon"></div>
+            </div>
         </div>
         <div class="footer__col footer__col--2">
             <ul class="footer__list">
