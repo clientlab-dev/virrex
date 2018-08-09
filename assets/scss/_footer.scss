@@ -1,3 +1,12 @@
+@import "_mixins";
+.clientlab-logo {
+    right: auto !important;
+    left: 0 !important;
+}
+.clientlab-copyright {
+    text-align: left !important;
+    padding-left: 32px !important;
+}
 .footer {
     padding-top: 34px;
     padding-bottom: 10px;
@@ -11,21 +20,97 @@
             display: block;
             clear: both;
         }
+        @include respond(640px) {
+            &__social-links {
+                margin-top: 40px;
+            }
+        }
 
+    }
+    @include respond(640px) {
+        &__social-links {
+            margin-top: 40px;
+        }
     }
     &__col {
         // width: 224px;
         float: left;
-        &:not(:last-child) {
-            margin-right: 108px;
+        &--5 {
+            float: right;
+            @include respond(984px) {
+                float: left;
+                width: 100%;
+            }
+        }
+        @include respond(1024px) {
+            &--4 {
+                margin-right: 0 !important;
+            }
+            &:nth-child(5) {
+                margin-top: 40px;
+                width: 100%;
+            }
+        }
+        &--3 {
+            @include respond(380px) {
+                width: 100%;
+                margin-top: 40px;
+            }
+        }
+        &--2 {
+            @include respond(380px) {
+                margin-left: 10%;
+            }
+        }
+        &--1, &--2, &--3 {
+            margin-right: 7%;
+            @include respond(940px) {
+                margin-right: 6%;
+            }
+            @include respond(800px) {
+                margin-right: 4%;
+            }
+            @include respond(700px) {
+                margin-right: 3%;
+            }
+            @include respond(650px) {
+                margin-right: 2%;
+            }
+        }
+        @include respond(640px) {
+            &--4 {
+                margin-top: 40px;
+                width: 100%;
+            }
+            &--5, &--4 {
+                margin-top: 40px;
+            }
+        }
+    }
+    &__first-three {
+        @include respond(640px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        @include respond(380px) {
+            display: inline-block;
         }
     }
     &__list-item {
         padding-bottom: 14px;
         font-weight: 300;
+        color: #2c2c2c;
+        a {
+            color: #6e6e6e;
+            text-decoration: none;
+            &:hover {
+                color: black;
+            }
+        }
     }
     &__top-list-item {
         font-weight: 700;
+        color: black;
     }
     &__list-link {
         text-decoration: none;
@@ -50,6 +135,9 @@
                 opacity: 1;
             }
         }
+        @include respond(984px) {
+            margin-top: 40px;
+        }
     }
     &__info {
         margin-top: 24px;
@@ -68,6 +156,10 @@
     &__made-by {
         float: right;
         font-size: 13px;
+        @include respond(460px) {
+            width: 100%;
+            margin-top: 20px;
+        }
     }   
 
     &__info-right-text {
@@ -100,11 +192,19 @@
             cursor: pointer;
             // filter: saturate(0%) brightness(70%) contrast(1000%);
         }
-        &:hover .footer__lang-text, &:hover .footer__lang-icon, &:hover .footer__dropdown-icon {
-            cursor: pointer;
-            // color: black;
-            filter: saturate(0%) brightness(70%) contrast(1000%);
-        }
+        // &:hover .footer__lang-text, &:hover .footer__lang-icon, &:hover .footer__dropdown-icon, &:active .footer__lang-text {
+        //     cursor: pointer;
+        //     // color: black;
+        //     filter: saturate(0%) brightness(70%) contrast(1000%);
+        // }
+    }
+    &__lang-switcher--active {
+        filter: saturate(0%) brightness(70%) contrast(1000%);
+    }
+    &__lang-arrow--active {
+        // backface-visibility: visible;
+        transform: rotate(180deg);
+        // transition: all .1s;
     }
     &__dropdown-popup {
         cursor: default;
@@ -113,7 +213,7 @@
         width: 120px;
         box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
         box-shadow: 0 7px 14px rgba(116, 116, 116, 0.31);
-        border-radius: 1px;
+        border-radius: 4px;
         background: white;
         padding: 10px;
         display: none;

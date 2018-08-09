@@ -8,6 +8,34 @@
         // flex-direction: column;
         // align-items: center;
         padding-bottom: 20px;
+        position: relative;
+        outline: none;
+
+        .wallets__tooltip {
+            position: absolute;
+            background-color: #5adc9d;
+            color: white;
+            top: -30px;
+            font-size: 12px;
+            font-weight: 500;
+            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.29);
+            border-radius: 4px;
+
+            // left: -24%;
+            white-space: nowrap;
+            padding: 7px 10px;
+            visibility: hidden;
+        }
+
+        &:focus .wallets__tooltip {
+            visibility: visible;
+        }
+
+        p {
+            @include respond(360px) {
+                // display: none;
+            }
+        }
     }
 
     &__title {
@@ -37,5 +65,16 @@
         @include respond(380px) {
             flex-basis: 33%;
         }
+
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-satrt;
+
+        // flex-flow is shorthand  for 
+        // flex-direction: row;
+        // flex-wrap: wrap;
+        flex-flow: row wrap;
+        align-content: flex-end;
     }
 }
