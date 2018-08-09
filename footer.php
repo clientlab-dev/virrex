@@ -103,6 +103,7 @@
             </ul>
         </div>
     </div>
+    <div class="wrap">
     <div class="footer__social-links">
         <a href="#"><img src="assets/img/youtube.svg" width="34" alt=""></a>
         <a href="#"><img src="assets/img/telegram.svg" width="34" alt=""></a>
@@ -132,6 +133,7 @@
 </div>
             </div>
         </div>
+    </div>
     </div>
 </footer>
 </body>
