@@ -34,32 +34,32 @@
         <div class="footer__col footer__col--2">
             <ul class="footer__list">
                 <li class="footer__list-item footer__top-list-item">
-                    Продукты
+                    ПРОДУКТЫ
                 </li>
                 <li class="footer__list-item">
-                    Кошелёк
+                    <a href="#">Кошелёк</a>
                 </li>
                 <li class="footer__list-item">
-                    Вклады
+                    <a href="#">Вклады</a>
                 </li>
                 <li class="footer__list-item">
-                    Торговля
+                    <a href="#">Торговля</a>
                 </li>
                 <li class="footer__list-item">
-                    ICO
+                    <a href="#">ICO</a>
                 </li>
             </ul>
         </div>
         <div class="footer__col footer__col--3">
             <ul class="footer__list">
                 <li class="footer__list-item footer__top-list-item">
-                    Мерчант
+                    МЕРЧАНТ
                 </li>
                 <li class="footer__list-item">
-                    API
+                    <a href="#">API</a>
                 </li>
                 <li class="footer__list-item">
-                    VICASH
+                    <a href="#">VICASH</a>
                 </li>
             </ul>
         </div>
@@ -67,19 +67,19 @@
         <div class="footer__col footer__col--4">
             <ul class="footer__list">
                 <li class="footer__list-item footer__top-list-item">
-                    Документы и Презентации
+                    ДОКУМЕНТЫ И ПРЕЗЕНТАЦИИ
                 </li>
                 <li class="footer__list-item">
-                    Пользовательское соглашение
+                    <a href="#">Пользовательское соглашение</a>
                 </li>
                 <li class="footer__list-item">
-                    Партнерское соглашение
+                    <a href="#">Партнерское соглашение</a>
                 </li>
                 <li class="footer__list-item">
-                    Политика конфиденциальности
+                    <a href="#">Политика конфиденциальности</a>
                 </li>
                 <li class="footer__list-item">
-                    Регистрация компании
+                    <a href="#">Регистрация компании</a>
                 </li>
                 <li class="footer__list-item">
                     <a href="#" class="footer__list-link footer__list-link--dotted">Бизнес с VIRREX.pdf</a>
@@ -94,7 +94,7 @@
         <div class="footer__col footer__col--5">
             <ul class="footer__list">
                 <li class="footer__list-item footer__top-list-item">
-                    В разработке
+                    В РАЗРАБОТКЕ
                 </li>
                 <li class="footer__list-item footer__top-list-item">
                     <a href="#" class="footer__list-item-image"><img src="assets/img/app-store.png" alt="app-store"></a>
@@ -142,17 +142,4 @@
 <link rel="stylesheet" href="css/screen.min.css" />
 <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script defer src="js/main.min.js"></script>
-<script>
-    var langSwitcher = document.getElementById('langSwitcher');
-    var langOpen = false;
-    langSwitcher.addEventListener('click', function() {
-        if(!langOpen) {
-            langSwitcher.children[3].style.display = 'block';
-            langOpen = true;
-        } else {
-            langSwitcher.children[3].style.display = 'none';
-            langOpen = false;
-        }
-    })
-</script>
 </html>
