@@ -1,5 +1,6 @@
 <footer class="footer">
     <div class="footer__wrap wrap">
+        <div class="footer__first-three">
         <div class="footer__col footer__col--1">
             <ul class="footer__list">
                 <li class="footer__list-item footer__top-list-item">
@@ -61,6 +62,7 @@
                     VICASH
                 </li>
             </ul>
+        </div>
         </div>
         <div class="footer__col footer__col--4">
             <ul class="footer__list">

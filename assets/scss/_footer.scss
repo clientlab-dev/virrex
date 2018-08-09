@@ -1,3 +1,12 @@
+@import "_mixins";
+.clientlab-logo {
+    right: auto !important;
+    left: 0 !important;
+}
+.clientlab-copyright {
+    text-align: left !important;
+    padding-left: 32px !important;
+}
 .footer {
     padding-top: 34px;
     padding-bottom: 10px;
@@ -11,13 +20,73 @@
             display: block;
             clear: both;
         }
+        @include respond(640px) {
+            &__social-links {
+                margin-top: 40px;
+            }
+        }
 
+    }
+    @include respond(640px) {
+        &__social-links {
+            margin-top: 40px;
+        }
     }
     &__col {
         // width: 224px;
         float: left;
-        &:not(:last-child) {
-            margin-right: 108px;
+        &--5 {
+            float: right;
+            @include respond(948px) {
+                float: left;
+            }
+        }
+        @include respond(1024px) {
+            &--4 {
+                margin-right: 0 !important;
+            }
+            &:nth-child(5) {
+                margin-top: 40px;
+                width: 100%;
+            }
+        }
+        &--3 {
+            @include respond(380px) {
+                width: 100%;
+                margin-top: 40px;
+            }
+        }
+        &--2 {
+            @include respond(380px) {
+                margin-left: 10%;
+            }
+        }
+        &--1, &--2, &--3 {
+            margin-right: 7%;
+            @include respond(940px) {
+                margin-right: 6%;
+            }
+            @include respond(700px) {
+                margin-right: 4%;
+            }
+        }
+        @include respond(640px) {
+            &--4 {
+                margin-top: 40px;
+                width: 100%;
+            }
+            &--5, &--4 {
+                margin-top: 40px;
+            }
+        }
+    }
+    &__first-three {
+        @include respond(640px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        @include respond(380px) {
+            display: inline-block;
         }
     }
     &__list-item {
@@ -68,6 +137,10 @@
     &__made-by {
         float: right;
         font-size: 13px;
+        @include respond(460px) {
+            width: 100%;
+            margin-top: 20px;
+        }
     }   
 
     &__info-right-text {
