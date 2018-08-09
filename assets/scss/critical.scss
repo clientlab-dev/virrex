@@ -127,6 +127,8 @@ body {
             }
 
             &:hover, &:focus {
+                transform: translateY(-2px);
+
                 &:before {
                     opacity: 1;
                 }
@@ -177,6 +179,8 @@ body {
             }
 
             &:hover, &:focus {
+                transform: translateY(-2px);
+
                 &:before {
                     opacity: 1;
                 }
@@ -198,6 +202,38 @@ body {
             }
         }
     } //fill
+
+    &_frame {
+        padding: 12px 30px;
+        border: none;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 4px;
+        cursor: pointer;
+        outline: none;
+        position: relative;
+        overflow: hidden;
+
+        &_blue {
+            border: 2px solid #4389ca;
+
+            &:hover {
+                & {
+                    transform: translateY(-2px);
+                }
+            }
+        }
+
+        &_green {
+            border: 2px solid #2bc073;
+
+            &:hover {
+                & {
+                    transform: translateY(-2px);
+                }
+            }
+        }
+    }
 
     &_round {
         border-radius: 30px;
@@ -256,6 +292,7 @@ body {
 
         &:hover {
             opacity: 0.7;
+            transform: translateY(-2px);
         }
 
         &-white {
@@ -275,6 +312,10 @@ body {
 
     &_shadow {
         box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.17);
+
+        &:hover {
+            box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
+        }
 
         &:active {
             box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0);
@@ -395,6 +436,7 @@ body {
                 transform: rotateZ(45deg);
                 position: relative;
                 border-radius: 1px;
+                background: #000 !important;
 
                 //top: 6px;
                 top: 7px;
@@ -697,3 +739,18 @@ body {
 .header__personal {
     height: 35px;
 } //header__personal
+
+.arrow-link {
+    display: inline-block !important;
+    padding-right: 27px;
+
+    &_white {
+        background: url("../assets/img/btn_icon/link_arrow_white.svg") no-repeat right top;
+        background-size: 16px 16px;
+    }
+
+    &_black {
+        background: url("../assets/img/btn_icon/link_arrow_black.svg") no-repeat right top;
+        background-size: 16px 16px;
+    }
+} //

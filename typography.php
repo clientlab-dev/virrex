@@ -7,6 +7,14 @@
 		<button class="btn btn_fill btn_fill_blue btn_shadow">
 			<span class="btn__text">BUTTON</span>
 		</button>
+
+		<button class="btn btn_frame btn_frame_blue">
+			<span class="btn__text">BUTTON</span>
+		</button>
+
+		<button class="btn btn_frame btn_frame_green">
+			<span class="btn__text">BUTTON</span>
+		</button>
  
 		
 
