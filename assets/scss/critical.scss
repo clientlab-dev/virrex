@@ -372,6 +372,11 @@ body {
 
             .btn_link {
                 color: #FFF;
+
+                @include respond(940px) {
+                    color: #3a72be;
+                    float: right;
+                }
             }
         }
     }
@@ -390,6 +395,11 @@ body {
         .header__personal {
             .btn_link {
                 color: #FFF;
+
+                @include respond(940px) {
+                    color: #3a72be;
+                    float: right;
+                }
             }
         }
     }
@@ -498,10 +508,7 @@ body {
                     height: auto;
 
                     //height: 60px;
-
-                    .btn-link {
-                        color: #000;
-                    }
+               
                 }
 
                 .nav__el-has-child {
