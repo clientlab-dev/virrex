@@ -556,60 +556,6 @@
     }
 }
 
-/* .skew-narrow-gradient {
-    &_top {
-        position: relative;
-        margin-top: -10%;
-
-        .skew-content {
-            position: absolute;
-            width: 100%;
-            top: 0;
-        }
-
-        .skew-line {
-            height: 100%;
-
-            //height: 420px;
-            width: 100%;
-            position: absolute;
-
-            //position: relative;
-            background: #fff;
-            transform-origin: center;
-            transform: skewY(-8deg);
-            background: #FFF;
-
-            //background: url("../assets/img/svg_bg/4blue.svg") no-repeat right (top / 40%), #fff;
-
-            &:after {
-                content: "";
-                display: block;
-                height: 50%;
-                top: -201px;
-                width: 100%;
-                position: absolute;
-                transform-origin: 0 0;
-                transform: skewY(8deg);
-                background: url("../assets/img/svg_bg/3blue.svg") no-repeat left top;
-            }
-
-            &:before {
-                content: "";
-                display: block;
-                height: 47%;
-                top: 0;
-                width: 100%;
-                position: absolute;
-                background: url("../assets/img/svg_bg/4blue.svg") no-repeat right top;
-                transform-origin: top right;
-                z-index: 2;
-                transform: skewY(8.5deg);
-            }
-        }
-    }
-}
- */
 .block-title {
     position: relative;
     margin: 0 0 53px 0;
@@ -933,12 +879,15 @@
     padding-top: 100px;
 } //white-content
 
-@import "_footer.scss";
+@import "footer.scss";
 @import "wallets.scss";
+@import "two-collumns.scss";
+@import "news.scss";
+@import "pagination.scss";
 
-@import "_fonts";
-@import "_simplebar";
-@import "_arcticmodal";
+@import "fonts";
+@import "simplebar";
+@import "arcticmodal";
 
 //@import "_arcticmodal";
 
