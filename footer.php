@@ -17,7 +17,7 @@
                 </li>
             </ul>
             <div class="footer__underline"></div>
-            <div class="footer__lang-switcher" id="langSwitcher">
+            <div class="footer__lang-switcher"  id="langSwitcher">
                 <div class="footer__lang-icon"></div>
                 <div class="footer__lang-text">Русский</div>
                 <div class="footer__dropdown-icon"></div>

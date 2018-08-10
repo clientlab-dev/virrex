@@ -148,4 +148,14 @@
 </section><!-- /.white-content -->
 
 
+<section class="gradient-before-footer gradient-before-footer--blue">
+	<div class="wrap">
+		<div class="gradient-before-footer__content">
+		<p class="gradient-before-footer__title">С нами двигаться в эру цифровой экономики - легче</p>
+		<a href="#" class="btn btn_fill btn_fill_blue btn_shadow"><span class="btn__text">СТАТЬ ПАРТНЕРОМ</span></a>
+		</div>
+	</div>
+</section>
+
+
 <?php include('footer.php'); ?>
