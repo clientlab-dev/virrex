@@ -682,8 +682,11 @@
     }
 } //ready-to-start
 
-@import "_footer.scss";
+@import "footer.scss";
 @import "wallets.scss";
+@import "two-collumns.scss";
+@import "news.scss";
+@import "pagination.scss";
 
 @import "_fonts";
 @import "_simplebar";
