@@ -15,6 +15,9 @@
     margin: 0 auto;
     &__wrap {
         // @include clearfix ;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
         &::after {
             content: "";
             display: block;
@@ -34,68 +37,29 @@
     }
     &__col {
         // width: 224px;
-        float: left;
-        &--5 {
-            float: right;
-            @include respond(984px) {
-                float: left;
-                width: 100%;
-            }
-        }
-        @include respond(1024px) {
-            &--4 {
-                margin-right: 0 !important;
-            }
-            &:nth-child(5) {
-                margin-top: 40px;
-                width: 100%;
-            }
+        &:not(:last-child) {
+            margin-right: 5%;
         }
         &--3 {
-            @include respond(380px) {
-                width: 100%;
+            @include respond(400px) {
+                flex-basis: 100%;
                 margin-top: 40px;
             }
         }
-        &--2 {
-            @include respond(380px) {
-                margin-left: 10%;
-            }
-        }
-        &--1, &--2, &--3 {
-            margin-right: 7%;
-            @include respond(940px) {
-                margin-right: 6%;
-            }
-            @include respond(800px) {
-                margin-right: 4%;
-            }
-            @include respond(700px) {
-                margin-right: 3%;
-            }
-            @include respond(650px) {
-                margin-right: 2%;
-            }
-        }
-        @include respond(640px) {
-            &--4 {
+        &--4 {
+            @include respond(745px) {
+                flex-basis: 100%;
                 margin-top: 40px;
-                width: 100%;
             }
-            &--5, &--4 {
+        }
+        &--5 {
+            @include respond(745px) {
+                flex-basis: 100%;
                 margin-top: 40px;
             }
         }
     }
-    &__first-three {
-        @include respond(640px) {
-            display: flex;
-            justify-content: space-between;
-        }
-        @include respond(380px) {
-            display: inline-block;
-        }
-    }
+
     &__list-item {
         padding-bottom: 14px;
         font-weight: 300;
