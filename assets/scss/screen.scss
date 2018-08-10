@@ -67,24 +67,95 @@
     margin-top: -92px;
     padding-top: 92px;
     overflow: hidden;
-    padding-bottom: 20%;
 
     .text-with-right-illustration {
         margin: 75px 0;
 
         @include respond(740px) {
             margin-bottom: 0;
-            padding-bottom: 0;
+
+            //       padding-bottom: 0;
         }
     }
 }
 
 .hero-fill {
-    background: rgb(135, 220, 255);
-    background: -moz-linear-gradient(45deg, rgb(135, 220, 255) 0%, rgb(20, 133, 217) 100%);
-    background: -webkit-linear-gradient(45deg, rgb(135, 220, 255) 0%, rgb(20, 133, 217) 100%);
-    background: linear-gradient(45deg, rgb(135, 220, 255) 0%, rgb(20, 133, 217) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87dcff', endColorstr='#1485d9',GradientType=1 );
+    &_blue {
+        background: linear-gradient(-7deg, #87dcff 0, #1485d9 100%);
+    }
+
+    &_dark-blue {
+        background: linear-gradient(149deg, #3474bc 0, #0b3d70 69%, #0b3d70 100%);
+    }
+
+    //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87dcff', endColorstr='#1485d9',GradientType=1 );
+}
+
+.hero-skew {
+    position: relative;
+
+    &__polygon {
+        height: 236px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+
+        @include respond(750px) {
+            height: 64px;
+        }
+
+
+        @include respond(480px) {
+            height: 75px;
+        }
+    }
+
+    &.hero-fill_blue {
+        .hero-skew__polygon {
+            &__left-grad {
+                display: block;
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                transform-origin: left bottom;
+
+                //transform: skewY(8deg);
+                background: url("../assets/img/svg_bg/3blue.svg") no-repeat left top;
+
+                //background: red;
+                //opacity: 0.6;
+           
+            }
+
+            &__right-grad {
+                display: block;
+
+                //height: 47%;
+                height: 100%;
+                top: 0;
+                width: 100%;
+                position: absolute;
+                background: url("../assets/img/svg_bg/4blue.svg") no-repeat right top;
+
+                //background: red;
+                //opacity: 0.7;
+                transform-origin: top right;
+                z-index: 2;
+
+                //transform: skewY(8.5deg);
+           
+            }
+        }
+    }
+}
+
+.hero-main-page {
+    padding-bottom: 20%;
+
+    @include respond(740px) {
+        padding-bottom: 100px;
+    }
 }
 
 .text-with-right-illustration {
@@ -131,7 +202,7 @@
 
         img {
             width: 100%;
-            max-width: 446px;
+            max-width: 502px;
             height: auto;
             margin: auto;
             display: block;
@@ -206,15 +277,33 @@
     //background: blue;
     margin-bottom: 78px;
 
+    &_main-page {
+        margin-top: -18%;
+
+        @include respond(1024px) {
+            margin-top: -27%;
+        }
+
+
+        @include respond(740px) {
+            margin-top: -22%;
+        }
+
+
+        @include respond(480px) {
+            margin-top: -39%;
+        }
+    }
+
     .catalog__cards {
         position: relative;
         z-index: 2;
-        transform: translateY(-30%);
 
-        @include respond(740px) {
+        //transform: translateY(-30%);
+
+        /* @include respond(740px) {
             transform: translateY(0);
-        }
-
+        } */
 
         .card {
             padding: 48px 28px;
@@ -310,7 +399,7 @@
     }
 }
 
-.skew-narrow-gradient {
+/* .skew-narrow-gradient {
     &_top {
         position: relative;
         margin-top: -10%;
@@ -363,7 +452,7 @@
         }
     }
 }
-
+ */
 .block-title {
     position: relative;
     margin: 0 0 53px 0;
@@ -539,6 +628,7 @@
         position: absolute;
         bottom: 0;
         width: 100%;
+        overflow: hidden;
 
         @include respond(1024px) {
             height: 117px;

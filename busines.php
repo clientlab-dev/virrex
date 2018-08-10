@@ -83,64 +83,35 @@
 </div><!-- /.header__wrap -->
 
 
-<div class="hero hero-fill hero-skew hero-fill_blue hero-main-page">
+<div class="hero hero-fill hero-fill_dark-blue">
 	<div class="wrap">
 		<div class="text-with-right-illustration text-with-right-illustration_white js-svg-lines svg-lines_blue-2">
-				<h1 class="text-with-right-illustration__title">Virrex Cryptocurrency Digital&nbsp;Bank</h1><!-- /.title -->
+				<h1 class="text-with-right-illustration__title">Бизнес</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
-					Безопасное технологическое решение, сочетающее в себе функциональное наполнение классического банка — хранение, приумножение и обмен, с поддержкой альтернативного способа инвестирования на рынке цифровых валют
+					Приглашайте своих друзей, обучайте основам <br /> криптовалютного рынка, зарабатывайте до 23% <br />от оборота вашей структуры
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></button>
-					<button class="btn btn_icon btn_icon-white">
-							<img class="btn__ico" src="assets/img/btn_icon/play.svg" height="25" width="25" alt="" />
-						<span class="btn__text">СМОТРЕТЬ ВИДЕО</span>
-					</button>
+					<button class="btn btn_fill btn_fill_blue btn_shadow"><span class="btn__text">Стать партнером</span></button>
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration">
-					<img src="assets/img/ilustrations/mainpage1.png" height="554" width="446" alt="" />
+					<img src="assets/img/ilustrations/busines.png" alt="" />
 				</div><!-- /.text-with-right-illustration__illustration -->
 		</div><!-- /.text-with-right-illustration -->
 	</div><!-- /.wrap -->
-	<div class="hero-skew__polygon">
-		<div class="hero-skew__polygon__left-grad"></div><!-- /.hero-skew__polygon__left-grad -->
-		<div class="hero-skew__polygon__right-grad"></div><!-- /.hero-skew__polygon__rigth-grad -->
-	</div><!-- /.hero-skew__polygon -->
 </div><!-- /.hero -->
 
-<div class="catalog catalog_main-page">
+<div class=" __skew-narrow-gradient skew-narrow-gradient_top">
 	<!-- <div class="skew-line"></div><!-- /.skew-line -->
 		<div class="wrap">
-			<div class="catalog__cards cols-3">
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/valet.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Кошелек</span>
-						<span class="descr">
-							Совершайте переводы, оплачивайте счета и отправляйте криптовалюту без комиссий внутри системы
-						</span>
-					</a>
-				</div><!-- /.card -->
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/trade.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Вклады</span>
-						<span class="descr">
-							Более 50 возможных вариантов инвестирования
-						</span>
-					</a>
-				</div><!-- /.card -->
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/inverstement.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Торговля</span>
-						<span class="descr">
-							Самый выгодный и удобный обменный сервис
-						</span>
-					</a>
-				</div><!-- /.card -->
-			</div><!-- /.catalog__cards -->
+			
+				<div class="block-title block-title_white">
+					<h2 class="title">Virrex Digital Bank</h2><!-- /.title -->
+					<p class="subtitle">
+						Многофункциональная платформа собственной разработки, включающая в себя хранение, приумножение и обмен цифровых валют.
+					</p><!-- /.subtitle -->
+				</div><!-- /.block-title -->
+			
 		</div><!-- /.wrap -->
 </div><!-- /.catalog -->
 

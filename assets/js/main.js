@@ -38,34 +38,105 @@ function makeSvgLines(){
 /*
 Safety block skew
 */
-if ($('.safety').length>0) {
 
-	// get the image
-	var polygon = $(".safety__polygon")[0];
-	// create and customize the canvas
-	var canvas = document.createElement("canvas");
+(function(){
 
-	function render(){
-		canvas.width = $(polygon).width();
-		canvas.height = $(polygon).height();
-		polygon.appendChild(canvas);
-		// get the context
-		var ctx = canvas.getContext("2d");
-		ctx.clearRect(0, 0, canvas.width, canvas.height);
-		ctx.beginPath();
-		ctx.moveTo(0,canvas.height);
-		ctx.lineTo(canvas.width,canvas.height);
-		ctx.lineTo(canvas.width, 0);
-		ctx.fillStyle = "#fff";
-		ctx.fill();
-	}
+	if ($('.safety').length>0) {
 
-	render();
-	$(window).resize(function(){
+		// get the image
+		var polygon = $(".safety__polygon")[0];
+		// create and customize the canvas
+		var canvas = document.createElement("canvas");
+
+		function render(){
+			canvas.width = $(polygon).width();
+			canvas.height = $(polygon).height();
+			polygon.appendChild(canvas);
+			// get the context
+			var ctx = canvas.getContext("2d");
+			ctx.clearRect(0, 0, canvas.width, canvas.height);
+			ctx.beginPath();
+			ctx.moveTo(0,canvas.height);
+			ctx.lineTo(canvas.width,canvas.height);
+			ctx.lineTo(canvas.width, 0);
+			ctx.fillStyle = "#fff";
+			ctx.fill();
+		}
+
 		render();
-	});
-};
+		$(window).resize(function(){
+			render();
+		});
+	};
+})();
 
+/*
+hero-skew
+*/
+(function(){
+
+	if ($('.hero-skew').length>0) {
+
+		// get the image
+		var polygon = $(".hero-skew__polygon")[0];
+		// create and customize the canvas
+		var canvas = document.createElement("canvas");
+
+		var leftGrad = $(".hero-skew__polygon").find('.hero-skew__polygon__left-grad');
+		var rightGrad = $(".hero-skew__polygon").find('.hero-skew__polygon__right-grad');
+
+
+		var rightGradDelta =8.4;
+		var leftGradDelta =8.4;
+
+
+		function render(){
+
+			var tanBeta = canvas.width/canvas.height;
+
+			var beta = Math.degrees(Math.atan(tanBeta));
+
+			rightGrad.css({
+				'transform': "rotate("+(beta - 90 + rightGradDelta)+"deg)"
+			});
+
+
+			//console.log('beta', beta);
+
+
+			var alfa  = 180 - 90 - beta;
+
+			//console.log('alfa', alfa);
+
+			leftGrad.css({
+				'transform': "rotate("+(beta - 90 + leftGradDelta)+"deg)"
+			});
+
+
+			//console.log('beta', beta);
+
+			canvas.width = $(polygon).width();
+			canvas.height = $(polygon).height();
+			polygon.appendChild(canvas);
+			// get the context
+			var ctx = canvas.getContext("2d");
+			ctx.clearRect(0, 0, canvas.width, canvas.height);
+			ctx.beginPath();
+			ctx.moveTo(0,canvas.height);
+			ctx.lineTo(canvas.width,canvas.height);
+			ctx.lineTo(canvas.width, 0);
+			ctx.fillStyle = "#fff";
+			ctx.fill();
+		}
+
+		render();
+		render();
+		$(window).resize(function(){
+			render();
+		});
+	};
+
+})();
 
 
 	(function() {
@@ -125,3 +196,7 @@ if ($('.safety').length>0) {
 	// let result = difference / 2;
 
 });
+
+Math.degrees = function(radians) {
+	return radians * 180 / Math.PI;
+}
