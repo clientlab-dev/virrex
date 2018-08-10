@@ -781,7 +781,10 @@ padding: 18px 22px;
 color: darken($color-gray, 20%);
 font-size: 14px;
 border-radius: 3px;
+font-family: "Gotham Pro";
 border: none;
+width: 100%;
+max-width: 358px;
 outline: none;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
 &::placeholder {
