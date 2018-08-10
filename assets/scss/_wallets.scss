@@ -15,7 +15,7 @@
             position: absolute;
             background-color: #5adc9d;
             color: white;
-            top: -30px;
+            top: -32px;
             font-size: 12px;
             font-weight: 500;
             box-shadow: 0 3px 3px rgba(0, 0, 0, 0.29);
@@ -25,6 +25,19 @@
             white-space: nowrap;
             padding: 7px 10px;
             visibility: hidden;
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top:100%;
+                left:50%;
+                transform: translateX(-50%);
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 8px 6px 0 6px;
+                border-color: #5adc9d transparent transparent transparent;
+            }
         }
 
         &:focus .wallets__tooltip {
@@ -42,6 +55,9 @@
         padding-top: 4px;
         color: #2c2c2c;
         font-size: 15px;
+        @include respond(360px) {
+            display: none;
+        }
     }
 }
 
