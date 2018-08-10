@@ -20,6 +20,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 15px;
 }
 
 .simplebar-scroll-content {
@@ -45,6 +46,8 @@
     right: 0;
     bottom: 0;
     width: 11px;
+    background-color: #D3F0FD;
+    border-radius: 6px;
 }
 
 .simplebar-scrollbar {
@@ -57,11 +60,11 @@
 .simplebar-scrollbar:before {
     position: absolute;
     content: "";
-    background: black;
+    background: #74c1e4;
     border-radius: 7px;
     left: 0;
     right: 0;
-    opacity: 0;
+    opacity: 1;
     -webkit-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
 }
@@ -69,7 +72,7 @@
 .simplebar-track:hover .simplebar-scrollbar:before,
 .simplebar-track .simplebar-scrollbar.visible:before {
     /* When hovered, remove all transitions from drag handle */
-    opacity: 0.5;
+    opacity: 1;
     -webkit-transition: opacity 0 linear;
     transition: opacity 0 linear;
 }

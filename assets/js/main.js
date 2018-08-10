@@ -197,6 +197,56 @@ $(function(){
 		// let result = difference / 2;
 	}
 
+/*
+	Adaptive tables
+*/
+	(function(){
+
+			if ($('.adaptive-table').length>0) {
+
+				$('.simplebar-content').each(function(){
+					$(this).scroll(function(){
+							if ($(window).width()>600) {
+									var scrL = $(this).scrollLeft();
+
+									var firstColW = $(this).find('.adaptive-table__table td').first().width();
+
+									if (scrL>=firstColW) {
+										$(this).find('.adaptive-table__table').addClass('adaptive-table__onscroll');
+										$(this).find('.adaptive-table__table tr td,th:first-child').width(Math.round(firstColW));
+									}else{
+										$(this).find('.adaptive-table__table').removeClass('adaptive-table__onscroll');
+									}
+							}else{
+								$('.adaptive-table__table').removeClass('adaptive-table__onscroll');
+							}
+					});
+				});
+
+			try{
+				var headertext = [],
+					headers = document.querySelectorAll(".adaptive-table__table  th"),
+					tablerows = document.querySelectorAll(".adaptive-table__table  th"),
+					tablebody = document.querySelector(".adaptive-table__table  tbody");
+
+				for(var i = 0; i < headers.length; i++) {
+				  var current = headers[i];
+				  headertext.push(current.textContent.replace(/\r?\n|\r/,""));
+				} 
+				for (var i = 0, row; row = tablebody.rows[i]; i++) {
+				  for (var j = 0, col; col = row.cells[j]; j++) {
+				    col.setAttribute("data-th", headertext[j]);
+				  } 
+				}
+			}catch(e){
+				console.warn(e);
+			}
+
+
+		};
+	})();
+
+
 });
 
 

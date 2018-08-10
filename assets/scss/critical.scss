@@ -34,13 +34,15 @@ body {
         display: block;
 
         & + .heading__sub {
-            margin-top: 17px;
+            //margin-top: 17px;
+            margin-top: 42px;
         }
     }
 
     &_center {
         text-align: center;
-        max-width: 540px;
+
+        //max-width: 540px;
         margin: auto;
     }
 
@@ -70,6 +72,7 @@ body {
             opacity: .8;
             font-weight: 300;
             color: #2C2C2C;
+            line-height: 1.6;
         }
     }
 

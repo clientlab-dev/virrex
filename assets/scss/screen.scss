@@ -876,8 +876,222 @@
 } //ready-to-start
 
 .white-content {
-    padding-top: 100px;
+    //padding-top: 100px;
+    padding-bottom: 144px;
+
+    @include respond(720px) {
+        padding-bottom: 129px;
+    }
+
+
+    @include respond(720px) {
+        padding-bottom: 129px;
+    }
+
+
+    @include respond(480px) {
+        padding-bottom: 80px;
+    }
+
+
+    .heading {
+        margin-top: 100px;
+    }
+
+    .benefits-list {
+        margin-top: 74px;
+        padding-bottom: 80px;
+    }
+
+    hr {
+        border: none;
+        border-top: 2px solid #f0f0f0;
+        margin: 0;
+        padding-bottom: 13px;
+    }
+
+    .adaptive-table {
+        margin-top: 66px;
+    }
 } //white-content
+
+.benefits-list {
+    &__item {
+        position: relative;
+        padding: 0 15px;
+
+        @include respond(740px) {
+            max-width: 300px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+
+        .title {
+            font-weight: 100;
+            color: #565656;
+            margin-top: 7px;
+            line-height: 1.6;
+            font-size: 16px;
+
+            @include respond(740px) {
+                text-align: center;
+            }
+        }
+
+        .img {
+            text-align: left;
+            height: 170px;
+            display: table;
+            vertical-align: middle;
+            width: 100%;
+            display: table-cell;
+
+            @include respond(740px) {
+                display: block;
+                height: auto;
+            }
+
+
+            img {
+                display: table-caption;
+                vertical-align: middle;
+                max-width: 100%;
+                height: auto;
+
+                @include respond(740px) {
+                    //display: inline-block;
+                    display: block;
+                    margin: auto;
+                }
+            }
+        }
+    } //benefits-list__item
+} //benefits-list
+
+.adaptive-table {
+    width: 100%;
+    overflow: auto;
+
+    &__table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 4px;
+        min-width: 750px;
+
+        thead {
+            tr {
+                th {
+                    font-size: 14px;
+                    color: #2F3341;
+                    background: #fff;
+                    font-weight: 400;
+
+                    &:first-child {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+
+        tr {
+            td, th {
+                padding: 18px;
+                text-align: left;
+                background: #DFF5FF;
+                border-radius: 4px;
+                font-weight: 100;
+
+                &:first-child {
+                    text-align: left;
+                    font-weight: 400;
+                }
+            }
+
+            &:nth-child(2n) {
+                td {
+                    background: #f4fbff;
+                }
+            }
+        }
+
+        @media screen and (max-width: 600px) {
+            min-width: 100%;
+
+            & caption {
+                background-image: none;
+            }
+
+            & thead {
+                display: none;
+            }
+
+            & tbody td {
+                display: block;
+
+                //padding: .6rem;
+                border-radius: 0;
+                background-color: #F8FCFF;
+            }
+
+            & tbody td:before {
+                content: attr(data-th);
+                font-weight: bold;
+                display: inline-block;
+                width: 50%;
+                color: #575B67;
+
+                //width: 6rem;
+           
+            }
+
+            & tbody tr td:first-child {
+                background: #edf7ff;
+                color: #2F3341;
+                margin-bottom: 4px;
+                border-radius: 4px;
+
+                &:before {
+                    color: #2F3341 !important;
+                }
+            }
+        }
+    }
+
+    @keyframes FIXED_COLS {
+        0% {
+            opacity: 0;
+            margin-left: -40px;
+        }
+
+        ,
+        100% {
+            opacity: 1;
+            margin-left: -4px;
+        }
+    }
+
+    &__onscroll {
+        tr {
+            td, th {
+                &:first-child {
+                    position: absolute;
+                    box-shadow: 0 0 0 0 #000;
+                    border-right: 2px solid #d3f0fd;
+                    border-top-right-radius: 0;
+                    margin-left: -4px;
+                    animation: FIXED_COLS .3s;
+                }
+            }
+        }
+    }
+
+    &_no-wrap {
+        tr, th {
+            white-space: nowrap;
+        }
+    }
+} //adaptive-table
 
 @import "footer.scss";
 @import "wallets.scss";
