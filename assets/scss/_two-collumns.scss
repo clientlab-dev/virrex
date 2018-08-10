@@ -1,0 +1,14 @@
+@import "mixins";
+.two-collumns {
+    margin-top: 84px;
+    @include clearfix;
+    &__left-col {
+        float: left;
+        width: 60%;
+        margin-right: 18%;
+    }
+    &__aside {
+        float: right;
+        width: 22%;
+    }
+}
