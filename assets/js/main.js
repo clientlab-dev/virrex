@@ -99,7 +99,7 @@ if ($('.safety').length>0) {
 	            }
 	    })
 	}());
-
+	try {
 	let row = document.querySelector('#row');
 	let size = row.childElementCount;
 	// console.log(row.children);
@@ -123,5 +123,9 @@ if ($('.safety').length>0) {
 	// let imgSize = document.getElementById('img').offsetWidth;
 	// let difference = tooltipSize - imgSize;
 	// let result = difference / 2;
+
+	} catch(e) {
+		console.log('don\'t forget to fix it\nthere are no tooltips for this js code to work');
+	}
 
 });
