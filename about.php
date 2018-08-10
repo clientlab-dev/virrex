@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
-<div class="header__wrap header__wrap_transparent header__wrap_transparent_blue __header__wrap_transparent_purpure __header__wrap_transparent_green">
+<div class="header__wrap header__wrap_transparent __header__wrap_transparent_blue __header__wrap_transparent_purpure __header__wrap_transparent_green">
 	<div class="wrap">
-		<div class="header __header-dark header-light">
+		<div class="header header-dark __header-light">
 				<div class="header__logo">
 					<div class="logo__img logo__img_dark">
 						<img width="94" src="assets/img/logo_dark.svg" alt="virrex logo" />
@@ -83,21 +83,16 @@
 </div><!-- /.header__wrap -->
 
 
-<div class="hero hero-fill hero-skew hero-fill_dark-blue">
+<div class="hero hero-fill hero-skew hero-fill_gray-dark-blue">
 	<div class="wrap">
-		<div class="text-with-right-illustration text-with-right-illustration_white js-svg-lines svg-lines_blue-2">
-				<h1 class="text-with-right-illustration__title">Бизнес</h1><!-- /.title -->
-				<div class="text-with-right-illustration__description">
-					Приглашайте своих друзей, обучайте основам <br /> криптовалютного рынка, зарабатывайте до 23% <br />от оборота вашей структуры
-				</div><!-- /.description -->
-				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_blue btn_shadow"><span class="btn__text">СТАТЬ ПАРТНЕРОМ</span></button>
-				</div><!-- /.action-b -->
-
-				<div class="text-with-right-illustration__illustration">
-					<img src="assets/img/ilustrations/busines.png" alt="" />
-				</div><!-- /.text-with-right-illustration__illustration -->
-		</div><!-- /.text-with-right-illustration -->
+		<div class="heading heading_h1">
+			<div class="heading__text">
+				О компании
+			</div><!-- /.heading__text -->
+			<div class="heading__sub">
+				При создании Virrex.io мы руководстовались принципами максимального комфорта, удобства и качественного обслуживания своих клиентов, путем предоставления различных по функционалу сервисов и услуг в рамках Единой Системы
+			</div><!-- /.heading__sub -->
+		</div><!-- /.heading heading_h1 -->
 	</div><!-- /.wrap -->
 	<div class="hero-skew__polygon">
 		<div class="hero-skew__polygon__left-grad"></div><!-- /.hero-skew__polygon__left-grad -->
@@ -114,36 +109,6 @@
 			Virrex Cryptocurrency Digital Bank
 		</div><!-- /.heading__text -->
 	</div><!-- /.heading heading_h2 -->
-
-
-	<div class="benefits-list">
-		<div class="cols-3">
-			<div class="col">
-				<div class="benefits-list__item">
-					<img src="assets/img/benefits/statuses.png" height="139" width="157" alt="" />
-					<div class="title">
-						11 карьерных статусов, ведущих к финансовым высотам
-					</div><!-- /.title -->
-				</div><!-- /.benefits-list__item -->
-			</div><!-- /.col -->
-			<div class="col">
-				<div class="benefits-list__item">
-					<img src="assets/img/benefits/linear_marketing.png" height="160" width="240" alt="" />
-					<div class="title">
-						Традиционный многоуровневый линейный маркетинг
-					</div><!-- /.title -->
-				</div><!-- /.benefits-list__item -->
-			</div><!-- /.col -->
-			<div class="col">
-				<div class="benefits-list__item">
-					<img src="assets/img/benefits/partners_reword.png" height="121" width="155" alt="" />
-					<div class="title">
-						Щедрые партнерские вознаграждения за активное участие в продвижении и развитии нашего банка
-					</div><!-- /.title -->
-				</div><!-- /.benefits-list__item -->
-			</div><!-- /.col -->
-		</div><!-- /.cols-3 -->
-	</div><!-- /.benefits-list -->
 </div><!-- /.wrap -->
 </section><!-- /.white-content -->
 
