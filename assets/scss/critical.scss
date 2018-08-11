@@ -580,6 +580,39 @@ body {
         top: 0;
         bottom: 0;
         margin: auto;
+
+        .lang-switcher {
+            display: inline-block;
+            top: -12px;
+            z-index: 99;
+
+            .lang-switcher__handle--active {
+                color: rgba(255, 255, 255, 0.84) !important;
+            }
+
+            .lang-switcher__dropdown-popup {
+                right: 0;
+                top: 40px;
+            }
+
+            @include respond(940px) {
+                top: 0;
+
+                .lang-switcher__dropdown-popup {
+                    right: auto;
+                    top: auto;
+                    bottom: 40px;
+                    left: 0;
+
+                    //z-index: 99;
+               
+                }
+
+                .lang-switcher__handle--active {
+                    color: rgba(0, 0, 0, 1) !important;
+                }
+            }
+        }
     }
 } //header
 

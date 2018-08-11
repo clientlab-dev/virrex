@@ -17,7 +17,7 @@
                 </li>
             </ul>
             <div class="footer__underline"></div>
-            <div class="footer__lang-switcher" id="langSwitcher">
+            <!-- <div class="footer__lang-switcher js-lang-switcher" id="langSwitcher">
                 <div class="footer__lang-icon"></div>
                 <div class="footer__lang-text">Русский</div>
                 <div class="footer__dropdown-icon"></div>
@@ -29,6 +29,29 @@
                         <li class="footer__popup-item">Italiano</li>
                     </ul>
                 </div>
+            </div> -->
+
+
+            <div class="footer__lang-switcher lang-switcher js-lang-switcher">
+                <div class="lang-switcher__handle">
+                    <div class="footer__lang-text">
+                        <div class="current-lang">
+                            Русский
+                        </div><!-- /.current-lang -->
+                        <div class="lang-switcher__body">
+                            <div class="lang-switcher__dropdown-popup">
+                                <ul class="dropdown-popup__popup-list">
+                                    <li class="popup-list__popup-item"><a href="#">English</a></li>
+                                    <li class="popup-list__popup-item popup-list__popup-item--active"><a href="#">Русский</a></li>
+                                    <li class="popup-list__popup-item"><a href="#">Deutsch</a></li>
+                                    <li class="popup-list__popup-item"><a href="#">Italiano</a></li>
+                                </ul>
+                            </div>
+                        </div><!-- /.lang-switcher__body -->
+                        <div class="footer__lang-switcher__lang-icon"></div>
+                        <div class="footer__lang-switcher__dropdown-icon"></div>
+                    </div>
+                </div><!-- /.lang-switcher__handle -->
             </div>
         </div>
         <div class="footer__col footer__col--2">

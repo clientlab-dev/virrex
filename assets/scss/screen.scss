@@ -432,18 +432,21 @@
 
 .catalog {
     //background: blue;
-    margin-bottom: 78px;
 
     &_main-page {
         margin-top: -18%;
+        margin-bottom: 200px;
 
         @include respond(1024px) {
             margin-top: -27%;
+
+            //margin-bottom: 100px;
         }
 
 
         @include respond(740px) {
             margin-top: -22%;
+            margin-bottom: 138px;
         }
 
 
@@ -1092,6 +1095,79 @@
         }
     }
 } //adaptive-table
+
+.lang-switcher {
+    position: relative;
+
+    .lang-switcher__body {
+        display: none;
+    }
+
+    .lang-switcher__dropdown-popup {
+        cursor: default;
+        position: absolute;
+        min-width: 120px;
+        box-shadow: 0 7px 14px rgba(116, 116, 116, 0.31);
+        border-radius: 4px;
+        background: white;
+        padding: 10px;
+        z-index: 99;
+
+        .dropdown-popup__popup-list {
+            .popup-list__popup-item {
+                padding: 10px;
+                text-align: center;
+                font-size: 15px;
+                font-weight: 300;
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+                }
+
+                &--active {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .lang-switcher__handle {
+        overflow: visible;
+        user-select: none;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        @keyframes LANG_BODY {
+            0% {
+                opacity: 0;
+            }
+
+            ,
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .lang-switcher__body {
+            animation: LANG_BODY .3s;
+        }
+
+        &.lang-switcher__handle--active {
+            color: #000;
+
+            .lang-switcher__body {
+                display: block;
+            }
+        }
+    }
+}
 
 @import "footer.scss";
 @import "wallets.scss";
