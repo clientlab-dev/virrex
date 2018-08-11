@@ -4,35 +4,35 @@
             <div class="col">
                 <div class="wallets__image" tabindex="0">
                     <img src="assets/img/crypto_logos/dollar.png" id="img" alt="">
-                    <p>Dollar</p>
+                    <p class="wallets__title">Dollar</p>
                     <p class="wallets__tooltip" >Dollar</p>
                 </div>
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
                     <img src="assets/img/crypto_logos/virrex.png" alt="">
-                    <p>Virrex</p>
+                    <p class="wallets__title">Virrex</p>
                     <p class="wallets__tooltip">Virrex</p>
                 </div>
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
                     <img src="assets/img/crypto_logos/zcash.png" alt="">
-                    <p>Zcash</p>
+                    <p class="wallets__title">Zcash</p>
                     <p class="wallets__tooltip">Zcash</p>
                 </div>
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
                     <img src="assets/img/crypto_logos/ethereum.png" alt="">
-                    <p>Ethereum</p>
+                    <p class="wallets__title">Ethereum</p>
                     <p class="wallets__tooltip">Ethereum</p>
                 </div>
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
                     <img src="assets/img/crypto_logos/dash.png" alt="">
-                    <p>Dash</p>
+                    <p class="wallets__title">Dash</p>
                     <p class="wallets__tooltip">Dash</p>
                 </div>
             </div>
@@ -67,9 +67,9 @@
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
-                    <img src="assets/img/crypto_logos/ethereum_classic.png" alt="">
-                    <p class="wallets__title">Ethereum Classic</p>
-                    <p class="wallets__tooltip" id="tooltip">Ethereum Classic</p>
+                    <img src="assets/img/crypto_logos/redcoin.png" alt="">
+                    <p class="wallets__title">Redcoin</p>
+                    <p class="wallets__tooltip" id="tooltip">Redcoin</p>
                 </div>
             </div>
             <div class="col">
@@ -81,9 +81,9 @@
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
-                    <img src="assets/img/crypto_logos/redcoin.png" alt="">
-                    <p class="wallets__title">Redcoin</p>
-                    <p class="wallets__tooltip" id="tooltip">Redcoin</p>
+                    <img src="assets/img/crypto_logos/ethereum_classic.png" alt="">
+                    <p class="wallets__title">Ethereum Classic</p>
+                    <p class="wallets__tooltip" id="tooltip">Ethereum Classic</p>
                 </div>
             </div>
             <div class="col">
@@ -123,9 +123,9 @@
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
-                    <img src="assets/img/crypto_logos/stellar lumen.png" alt="">
-                    <p class="wallets__title">Stellar Lumen</p>
-                    <p class="wallets__tooltip" id="tooltip">Stellar Lumen</p>
+                    <img src="assets/img/crypto_logos/litecoin.png" alt="">
+                    <p class="wallets__title">Lite Coin</p>
+                    <p class="wallets__tooltip" id="tooltip">Lite Coin</p>
                 </div>
             </div>
             <div class="col">
@@ -137,9 +137,9 @@
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
-                    <img src="assets/img/crypto_logos/litecoin.png" alt="">
-                    <p class="wallets__title">Lite Coin</p>
-                    <p class="wallets__tooltip" id="tooltip">Lite Coin</p>
+                    <img src="assets/img/crypto_logos/stellar lumen.png" alt="">
+                    <p class="wallets__title">Stellar Lumen</p>
+                    <p class="wallets__tooltip" id="tooltip">Stellar Lumen</p>
                 </div>
             </div>
             <div class="col">

@@ -17,20 +17,6 @@
                 </li>
             </ul>
             <div class="footer__underline"></div>
-            <!-- <div class="footer__lang-switcher js-lang-switcher" id="langSwitcher">
-                <div class="footer__lang-icon"></div>
-                <div class="footer__lang-text">Русский</div>
-                <div class="footer__dropdown-icon"></div>
-                <div class="footer__dropdown-popup">
-                    <ul class="footer__popup-list">
-                        <li class="footer__popup-item">English</li>
-                        <li class="footer__popup-item footer__popup-item--active">Русский</li>
-                        <li class="footer__popup-item">Deutsch</li>
-                        <li class="footer__popup-item">Italiano</li>
-                    </ul>
-                </div>
-            </div> -->
-
 
             <div class="footer__lang-switcher lang-switcher js-lang-switcher">
                 <div class="lang-switcher__handle">
