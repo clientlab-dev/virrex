@@ -1,6 +1,6 @@
 @import "mixins";
 .two-collumns {
-    margin-top: 84px;
+    margin-top: 22px;
     @include clearfix;
     &__left-col {
         float: left;
@@ -10,5 +10,6 @@
     &__aside {
         float: right;
         width: 22%;
+        padding-top: 8px;
     }
 }

@@ -1,3 +1,4 @@
+<div class="footer__line"></div>
 <footer class="footer">
     <div class="footer__wrap wrap">
         

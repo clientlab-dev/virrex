@@ -6,15 +6,17 @@ $headerOptions = array(
         'headerTheme' => 'header-dark'
     );
 
-insert_header($headerOptions); 
+insert_header($headerOptions);
 ?>
 
-
-<div class="wrap two-collumns">
+<div class="wrap">
+    <div class="news">
+    <h1 class="news__header">Новости Virex</h1>
+    </div>
+<div class="two-collumns">
     <main class="two-collumns__left-col news">
-        <h1 class="news__header">НОВОСТИ Virex</h1>
         <article>
-            <h2 class="news__title">Загаловок</h2>
+            <h2 class="news__title">Загoловок</h2>
             <p class="news__time">23.04.2018 10:30</p>
             <p class="news__content">
                 Банки Уолл-стрит наблюдают падение цен акций, в то время как криптовалютный рынок подскакивает 
@@ -33,7 +35,7 @@ insert_header($headerOptions);
         </article>
 
         <article>
-            <h2 class="news__title">Загаловок</h2>
+            <h2 class="news__title">Загoловок</h2>
             <p class="news__time">23.04.2018 10:30</p>
             <p class="news__content">
                 Банки Уолл-стрит наблюдают падение цен акций, в то время как криптовалютный рынок подскакивает 
@@ -52,7 +54,7 @@ insert_header($headerOptions);
         </article>
 
         <article>
-            <h2 class="news__title">Загаловок</h2>
+            <h2 class="news__title">Загoловок</h2>
             <p class="news__time">23.04.2018 10:30</p>
             <p class="news__content">
                 Банки Уолл-стрит наблюдают падение цен акций, в то время как криптовалютный рынок подскакивает 
@@ -83,10 +85,11 @@ insert_header($headerOptions);
         </div>
     </aside>
 </div>
+</div>
 <div class="wrap">
     <div class="pagination">
         <ul class="pagination__list">
-            <li><a class="pagination__move" href="#">〈</a></li>
+            <!-- <li><a class="pagination__move" href="#">〈</a></li> -->
             <li><a href="#">4</a></li>
             <li><a href="#">5</a></li>
             <li><a href="#">6</a></li>
