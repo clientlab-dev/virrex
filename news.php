@@ -99,11 +99,6 @@
                     <a href="#" class="news__btn">Тема</a>
                     <a href="#" class="news__btn">Тема</a>
                     <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
                 </div>
                     <a href="#" class="news__btn-read">Читать далее >></a>
             </footer>
@@ -138,7 +133,6 @@
             </p>
             <footer>
                 <div class="news__tags">
-                    <a href="#" class="news__btn">Тема</a>
                     <a href="#" class="news__btn">Тема</a>
                     <a href="#" class="news__btn">Тема</a>
                 </div>
