@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('includes/header.php'); ?>
 
 <div class="wrap">
 <button class="btn btn_fill btn_fill_green btn_shadow">
@@ -81,4 +81,4 @@
 </section>
 </div>
 
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>

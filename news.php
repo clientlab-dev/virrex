@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('includes/header.php'); ?>
 
 <?php 
 $headerOptions = array(
@@ -94,4 +94,4 @@ insert_header($headerOptions);
         </ul>
     </div>
 </div>
-<?php include('footer.php') ?>
+<?php include('includes/footer.php'); ?>

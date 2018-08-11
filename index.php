@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('includes/header.php'); ?>
 
 <?php 
 $headerOptions = array(
@@ -126,7 +126,7 @@ insert_header($headerOptions);
 	</div><!-- /.block-title -->
 </div><!-- /.wrap -->
 
-<?php include('wallets.php'); ?>
+<?php include('includes/wallets.php'); ?>
 
 
 <div class="safety">
@@ -193,4 +193,4 @@ insert_header($headerOptions);
 </div><!-- /.wrap -->
 
 
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>

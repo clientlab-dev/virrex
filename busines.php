@@ -1,4 +1,4 @@
-<?php include('header.php'); ?>
+<?php include('includes/header.php'); ?>
 
 
 <?php 
@@ -189,4 +189,4 @@ insert_header($headerOptions);
 </section>
 
 
-<?php include('footer.php'); ?>
+<?php include('includes/footer.php'); ?>
