@@ -376,6 +376,12 @@ body {
     padding-right: 194px;
     height: 92px;
     border-bottom: 2px solid #efefef;
+
+    @include respond(480px) {
+        border-bottom: 1px solid #efefef;
+    }
+
+
     z-index: 2;
 
     @include respond(1088px) {
@@ -449,6 +455,11 @@ body {
 
     &-light {
         border-bottom: none;
+
+        @include respond(480px) {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
+        }
+
 
         .header__nav {
             .nav__el {

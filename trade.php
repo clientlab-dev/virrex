@@ -58,11 +58,20 @@ insert_header($headerOptions);
 					<li>Фиксированный курс обмена по одной из ведущих криптовалютных бирж</li>
 				</ul><!-- /.ul_check -->
 			</div><!-- /.description -->
-
-			
 	</div><!-- /.text-with-right-illustration -->
 </div><!-- /.wrap -->
 </section><!-- /.white-content -->
+
+<section class="gradient-before-footer gradient-before-footer--green">
+	<div class="wrap">
+		<div class="gradient-before-footer__content">
+			<p class="gradient-before-footer__title">Простое решение для торговли и получения прибыли</p>
+			<button class="btn btn_fill btn_fill_green btn_shadow">
+				<span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span>
+			</button>
+		</div>
+	</div>
+</section>
 
 
 <?php include('includes/footer.php'); ?>

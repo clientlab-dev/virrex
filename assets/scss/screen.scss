@@ -459,9 +459,11 @@
     position: relative;
     width: 100%;
     padding-left: 585px;
-    min-height: 600px;
+
+    //min-height: 600px;
     padding-top: 86px;
-    padding-bottom: 86px;
+
+    //padding-bottom: 86px;
 
     @include respond(1024px) {
         padding-left: 0;

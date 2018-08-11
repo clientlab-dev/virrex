@@ -2,25 +2,45 @@
     &__list {
         display: flex;
         list-style: none;
+
         li {
             margin-right: 20px;
+
             a {
-            text-decoration: none;
-            position: relative;
-            display: block;
-            padding: 16px 14px;
-            height: 50px;
-            color: black;
-            line-height: 20px;
-            background-color: #e6eeff;
-            &:hover {
-                background-color: #91b7ff;
+                text-decoration: none;
+                position: relative;
+                display: block;
+                padding: 16px 14px;
+                height: 50px;
+                color: black;
+                line-height: 20px;
+                background-color: #e6eeff;
+
+                &:hover {
+                    background-color: #91b7ff;
+                }
+
+                &.active {
+                    background-color: #91b7ff;
+                }
             }
+
+            &.active {
+                text-decoration: none;
+                position: relative;
+                display: block;
+                padding: 16px 14px;
+                height: 50px;
+                color: black;
+                line-height: 20px;
+                background-color: #91b7ff;
             }
         }
     }
+
     margin-bottom: 60px;
 }
+
 a.pagination__move {
     background-color: transparent !important;
     font-size: 18px;

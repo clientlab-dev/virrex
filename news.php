@@ -89,9 +89,9 @@ insert_header($headerOptions);
 <div class="wrap">
     <div class="pagination">
         <ul class="pagination__list">
-            <!-- <li><a class="pagination__move" href="#">〈</a></li> -->
+            <li><a class="pagination__move" href="#">〈</a></li>
             <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
+            <li class="active">5</li>
             <li><a href="#">6</a></li>
             <li><a class="pagination__move" href="#">〉</a></li>
         </ul>

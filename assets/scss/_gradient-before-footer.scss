@@ -1,4 +1,5 @@
 @import "mixins";
+
 .gradient-before-footer {
     background-position: center;
     background-size: 100% 100%;
@@ -16,23 +17,36 @@
     }
 
     &--green {
-        background-image: linear-gradient(to right, #8ef3e1 0%, rgba(185, 250, 243, 0) 49%, rgba(160, 240, 250, 0.8) 100%);
+        //background-image: linear-gradient(to right, #8ef3e1 0%, rgba(185, 250, 243, 0) 49%, rgba(160, 240, 250, 0.8) 100%);
+        background-image: linear-gradient(to right, #8ef3e1 -23%, rgba(185, 250, 243, 0) 49%, rgba(160, 240, 250, 0.8) 120%);
         color: black;
+
+        @include respond(750px) {
+            background-image: linear-gradient(to right, #8ef3e1 -60%, rgba(185, 250, 243, 0) 49%, rgba(160, 240, 250, 0.8) 147%);
+        }
     }
 
     &__content {
-        max-width: 400px;
+        max-width: 450px;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: 112px 0;
+
         @include respond(560px) {
             padding: 45px 0;
         }
+
+
         // text-align: center;
-   
+
+        .form {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     &__title {
@@ -41,5 +55,9 @@
         text-align: center;
         padding-bottom: 48px;
         line-height: 40px;
+    }
+
+    & + .footer__line {
+        display: none;
     }
 }
