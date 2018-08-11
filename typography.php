@@ -48,22 +48,30 @@
 	<div class="wrap">
 		<div class="gradient-before-footer__content">
 		<p class="gradient-before-footer__title">С нами двигаться в эру цифровой экономики - легче</p>
-			<input type="text" placeholder="Имя Фамилия">
 
+			<form action="#" class="form">
+				<div class="form__item">
+					<input type="text" placeholder="Имя Фамилия">
+				</div><!-- /.form__item -->
 
-<br>
-<br>
-<br>
+				<div class="form__item">
+					<input type="text" placeholder="Имя Фамилия">
+				</div><!-- /.form__item -->
+				<div class="form__item">
+					<textarea name="test" placeholder="Text"></textarea>
+				</div><!-- /.form__item -->
 
-				<div class="form-check">
-					<input type="checkbox" class="form-check__input" id="agree">
-					<label for="agree" class="form-check__label">
-						<span class="form-check__label-icon"></span>
-						Я согласен с <a href="#" class="form-check__label-underline">политикой  конфиденциальности</a>
-					</label>
-				</div>
+				<div class="form__item">
+					<div class="form-check">
+						<input type="checkbox" class="form-check__input" id="agree">
+						<label for="agree" class="form-check__label">
+							<span class="form-check__label-icon"></span>
+							Я согласен с <a href="#">политикой  конфиденциальности</a>
+						</label>
+					</div>
+				</div><!-- /.form__item -->
 
-
+			</form><!-- /.form -->
 
 		</div>
 	</div>

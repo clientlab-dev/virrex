@@ -1,0 +1,95 @@
+.form {
+    text-align: left;
+
+    .form__item {
+        & + .form__item {
+            margin-top: 18px;
+        }
+
+        input, textarea {
+            $color-gray: #707070;
+
+            padding: 18px 22px;
+            color: darken($color-gray, 50%);
+            font-size: 15px;
+            font-weight: 100;
+            border-radius: 3px;
+            font-family: "Gotham Pro";
+            border: none;
+            width: 100%;
+            outline: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.07);
+
+            &::placeholder {
+                color: $color-gray;
+            }
+        }
+
+        textarea {
+            max-width: 100%;
+            min-width: 100%;
+            width: 100%;
+            height: 150px;
+            min-height: 150px;
+            max-height: 300px;
+        }
+
+        .form-check {
+            $gray: #5a5a5a;
+
+            &__input {
+                display: none;
+            }
+
+            &__label {
+                padding-left: 22px;
+                position: relative;
+                user-select: none;
+                color: $gray;
+                display: block;
+                text-align: left;
+
+                a, a:hover, a:link, a:visited {
+                    color: $gray;
+
+                    &:hover {
+                        opacity: .7;
+                    }
+                }
+
+                @include respond(300px) {
+                    max-width: 300px;
+                }
+            }
+
+            &__label-icon {
+                position: absolute;
+                top: -1px;
+                left: 0;
+                width: 14px;
+                height: 14px;
+                background: white;
+                border-radius: 2px;
+                box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+
+                &::after {
+                    transition: all .2s;
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 1px;
+                    background: lighten(#3474bc, 30%);
+                    opacity: 0;
+                }
+            }
+
+            &__input:checked + .form-check__label > .form-check__label-icon::after {
+                opacity: 1;
+            }
+        }
+    }
+}
