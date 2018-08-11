@@ -253,6 +253,21 @@ $(function () {
 		};
 	})();
 
+	/*
+		Reviews slider
+	*/
+	(function(){
+		if ($('.js-reviews__slider').length>0) {
+
+			if ($('.js-reviews__slider > ul li').length >1) {
+				$('.js-reviews__slider > ul').bxSlider({
+					adaptiveHeight:true
+				});
+				$('.js-reviews__slider').removeClass('reviews__slider--one-el');
+			}
+		};
+	})();
+
 
 });
 

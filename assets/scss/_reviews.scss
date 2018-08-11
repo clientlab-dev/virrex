@@ -1,0 +1,216 @@
+.reviews {
+    &__item {
+        padding-top: 12px;
+        position: relative;
+        min-height: 240px;
+
+        &__avatar {
+            display: none;
+            height: 240px;
+            width: 240px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+
+            @include respond(750px) {
+                width: 140px;
+                height: 140px;
+            }
+
+
+            @include respond(640px) {
+                position: relative;
+                margin: auto;
+                margin-bottom: 36px;
+            }
+        }
+
+        &--has-avatar {
+            padding-left: 276px;
+
+            @include respond(750px) {
+                padding-left: 176px;
+            }
+
+
+            @include respond(640px) {
+                padding-left: 0;
+            }
+
+
+            .reviews__item__avatar {
+                display: block;
+            }
+        }
+
+        &__bio {
+            color: #2C2C2C;
+
+            &__name {
+                font-size: 19px;
+                font-weight: 500;
+            }
+
+            &__position {
+                font-weight: 100;
+                font-style: italic;
+                margin-top: 21px;
+            }
+
+            @include respond(640px) {
+                text-align: center;
+            }
+        }
+
+        &__body {
+            margin-top: 38px;
+            padding-right: 78px;
+
+            @include respond(640px) {
+                padding-right: 15px;
+            }
+
+
+            &__text {
+                font-size: 16px;
+                color: #2C2C2C;
+                line-height: 1.6;
+                font-weight: 100;
+            }
+        }
+    }
+
+    &__slider {
+        padding-right: 70px;
+        position: relative;
+
+        @include respond(640px) {
+            padding-right: 0;
+
+            .reviews__item__body {
+                padding-right: 0;
+            }
+        }
+
+
+        &--one-el {
+            padding-right: 0;
+
+            .reviews__item__body {
+                padding-right: 0;
+            }
+        }
+
+        .bx-controls-direction {
+            position: absolute;
+            height: 63px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            width: 100%;
+
+            @include respond(640px) {
+                display: none;
+            }
+
+
+            .bx-prev, .bx-next {
+                display: inline-block;
+                height: 64px;
+                width: 64px;
+                border-radius: 50%;
+                background-color: #EDF3F9;
+                color: transparent;
+                font-size: 1px;
+                transition: opacity .3s;
+
+                &:hover {
+                    opacity: 0.7;
+                }
+            }
+
+            .bx-next {
+                float: right;
+                position: relative;
+                user-select: none;
+
+                &:before, &:after {
+                    content: "";
+                    width: 12px;
+                    height: 2px;
+                    background: #4882BD;
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    transform-origin: right center;
+                    transform: rotate(45deg);
+                }
+
+                &:after {
+                    transform: rotate(-45deg);
+                }
+            }
+
+            .bx-prev {
+                position: relative;
+                opacity: 0;
+
+                &:before, &:after {
+                    content: "";
+                    width: 12px;
+                    height: 2px;
+                    background: #4882BD;
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                    top: 0;
+                    bottom: 0;
+                    transform-origin: left center;
+                    transform: rotate(45deg);
+                }
+
+                &:after {
+                    transform: rotate(-45deg);
+                }
+            }
+        }
+
+        .bx-pager {
+            text-align: center;
+            margin-top: 60px;
+
+            .bx-pager-item {
+                display: inline-block;
+
+                .bx-pager-link {
+                    color: transparent;
+                    user-select: none;
+                    display: inline-block;
+                    height: 9px;
+                    width: 9px;
+                    background: #C9DCEE;
+                    border-radius: 50%;
+                    margin: 0 5px;
+                    transition: background-color 0.3s;
+
+                    &:hover {
+                        opacity: 0.7;
+                    }
+
+                    &.active {
+                        background-color: #4D8AC7;
+                    }
+                }
+            }
+        }
+    }
+} //reviews

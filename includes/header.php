@@ -22,12 +22,14 @@ function insert_header($arOptions){ ?>
 	<div class="wrap">
 		<div class="header <?php echo $arOptions['headerTheme']; ?>">
 				<div class="header__logo">
-					<div class="logo__img logo__img_dark">
-						<img width="94" src="assets/img/logo_dark.svg" alt="virrex logo" />
-					</div><!-- /.logo__img logo__img_dark -->
-					<div class="logo__img logo__img_light">
-						<img width="94" src="assets/img/logo_light.svg" alt="virrex logo" />
-					</div><!-- /.logo__img logo__img_light -->
+					<a href="/">
+						<div class="logo__img logo__img_dark">
+							<img width="94" src="assets/img/logo_dark.svg" alt="virrex logo" />
+						</div><!-- /.logo__img logo__img_dark -->
+						<div class="logo__img logo__img_light">
+							<img width="94" src="assets/img/logo_light.svg" alt="virrex logo" />
+						</div><!-- /.logo__img logo__img_light -->
+					</a>
 				</div><!-- /.header__logo -->
 
 				<button class="mobile-menu-btn js-mobile-menu-btn __mobile-menu-btn_active">
