@@ -1,31 +1,36 @@
+@import "mixins";
 .gradient-before-footer {
-    height: 450px;
     background-position: center;
     background-size: 100% 100%;
     text-align: center;
+    font-weight: 300;
 
     &--blue {
         background-image: url(../assets/img/svg_bg/whiteLines.png), linear-gradient(-83deg, #143b70, #3474bc 48%, #0b3d70);
-        font-weight: 400;
         color: white;
     }
 
     &--light-blue {
         background-image: linear-gradient(to left, rgba(163, 226, 245, 0.5), rgba(244, 253, 255, 0.1), rgba(150, 197, 238, 0.5));
         color: black;
-        font-weight: 100;
     }
 
     &--green {
         background-image: linear-gradient(to right, #8ef3e1 0%, rgba(185, 250, 243, 0) 49%, rgba(160, 240, 250, 0.8) 100%);
         color: black;
-        font-weight: 100;
     }
 
     &__content {
         max-width: 400px;
         margin: 0 auto;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 112px 0;
+        @include respond(560px) {
+            padding: 45px 0;
+        }
         // text-align: center;
    
     }
@@ -34,7 +39,6 @@
         color: inherit;
         font-size: 26px;
         text-align: center;
-        padding-top: 110px;
         padding-bottom: 48px;
         line-height: 40px;
     }

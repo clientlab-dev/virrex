@@ -1,8 +1,14 @@
 .news {
+    p + img {
+        margin-top: 14px;
+    }
     &__header {
         font-size: 46px;
         font-weight: 500;
-        margin-bottom: 75px;
+        margin-top: 76px;
+        float: left;
+        width: 60%;
+        margin-right: 18%;
     }
     &__title {
         font-size: 26px;
@@ -14,14 +20,14 @@
         letter-spacing: 0.07px;
         font-size: 15px;
         font-weight: 300;
-        padding: 10px 0 20px;
+        padding: 10px 0 24px;
     }
     &__content {
         font-size: 16px;
         font-weight: 300;
         letter-spacing: 0.08px;
         line-height: 26px;
-        margin-bottom: 20px;
+        margin-bottom: 6px;
     }
     &__btn {
         &,
@@ -34,7 +40,7 @@
         padding: 10px;
         border: 1px solid #5690ff;
         padding: 4px 14px;
-        font-weight: 300;
+        font-weight: 400;
         border-radius: 24px;
         display: inline-block;
         margin: 6px 12px 6px 0;
@@ -53,22 +59,34 @@
     &__tags {
         float: left;
         max-width: 80%;
+        & .news__btn {
+            margin: 6px 14px 6px 0;
+        }
     }
     article {
-        margin-bottom: 100px;
+        margin-top: 40px;
+        margin-bottom: 62px;
         line-height: 1.6;
         @include clearfix;
+        footer {
+            @include clearfix;
+        }
         p img {
             width: 100%;
             max-width: 100%;
+            margin-top: 14px;
         }
     }
     &__all-tags {
         line-height: 1.6;
         text-align: right;
         margin-top: 24px;
+        & .news__btn {
+            margin: 6px 0px 6px 4px;
+        }
     }
     &__all-tags-header {
         text-align: right;
     }
+    @include clearfix;
 }
