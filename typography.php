@@ -44,7 +44,7 @@
 			</div><!-- /.heading__text -->
 		</div><!-- /.heading heading_h3 -->
 
-<section class="gradient-before-footer gradient-before-footer--blue">
+<section class="gradient-before-footer gradient-before-footer--light-blue">
 	<div class="wrap">
 		<div class="gradient-before-footer__content">
 		<p class="gradient-before-footer__title">С нами двигаться в эру цифровой экономики - легче</p>
@@ -56,10 +56,10 @@
 <br>
 
 				<div class="form-check">
-					<input type="checkbox" class="form-check__input" id="small">
-					<label for="small" class="form-check__label">
+					<input type="checkbox" class="form-check__input" id="agree">
+					<label for="agree" class="form-check__label">
 						<span class="form-check__label-icon"></span>
-						Small tour group
+						Я согласен с <a href="#" class="form-check__label-underline">политикой  конфиденциальности</a>
 					</label>
 				</div>
 

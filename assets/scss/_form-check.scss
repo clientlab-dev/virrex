@@ -1,10 +1,22 @@
 .form-check{
+    $gray: #5a5a5a;
     &__input{
         display: none;
     }
     &__label {
         padding-left: 22px;
         position: relative;
+        user-select: none;
+        color: $gray;
+        display: block;
+        text-align: left;
+        a, a:hover, a:link, a:visited {
+            color: $gray;
+            text-decoration: none;
+        }
+        @include respond(300px) {
+            max-width: 300px;
+        }
     }
     &__label-icon {
         position: absolute;
@@ -25,9 +37,13 @@
             width: 9px;
             height: 9px;
             border-radius: 1px;
-            background: #3474bc;
+            background: lighten(#3474bc, 30%);
             opacity: 0;
         }
+    }
+    &__label-underline {
+        display: inline-block;
+        border-bottom: 1px solid lighten($gray, 50%);
     }
     &__input:checked + &__label > &__label-icon::after {
         opacity: 1;

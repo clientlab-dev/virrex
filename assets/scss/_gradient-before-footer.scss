@@ -7,15 +7,20 @@
         font-weight: 400;
         color: white;
     }
+    &--light-blue {
+        background-image: linear-gradient(to left, rgba(163, 226, 245, 0.5), rgba(244, 253, 255, 0.1), rgba(150, 197, 238, 0.5));
+        color: black;
+        font-weight: 100;
+    }
     &--green {
         background-image: linear-gradient(to right, #8ef3e1 0%, rgba(185, 250, 243, 0) 49%, rgba(160, 240, 250, 0.8) 100%);
         color: black;
         font-weight: 100;
     }
     &__content {
-        max-width: 500px;
+        max-width: 400px;
         margin: 0 auto;
-        text-align: center;
+        // text-align: center;
     }
     &__title {
         color: inherit;
