@@ -1,0 +1,50 @@
+.accordion {
+    padding-bottom: 30px;
+    p {
+        font-weight: 100;
+    }
+    .item {
+        padding-top: 18px;
+        border-top: 2px solid #f0f0f0;
+        &:last-child {
+        border-bottom: 2px solid #f0f0f0;
+        }
+        .title {
+            color: #2c2c2c;
+            font-size: 20px;
+            font-weight: 300;
+            user-select: none;
+            padding-left: 20px;
+            line-height: 43px;
+            cursor: pointer;
+            position: relative;
+
+            &:after {
+                content: "";
+                position: absolute;
+                display: block;
+                right: 40px;
+                top: 10px;
+                width: 26px;
+                height: 13px;
+                background-image: url('../assets/img/interface_icons/gray_arrow_down.png');
+            }
+
+        }
+
+        .body {
+            padding: 20px;
+            display: none;
+        }
+
+        & + div {
+            margin-top: 10px;
+        }
+    }
+    .item--active {
+        .title {
+            color: #5690ff;
+
+        }
+    }
+} //accordion
