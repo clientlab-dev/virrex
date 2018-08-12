@@ -14,6 +14,9 @@
         img {
             // width:54px;
             // height: 54px;
+            //check if this fix works in ie 
+            // if not do it through relative positioning
+            margin-left: -8px;
        
         }
 
