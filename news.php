@@ -41,8 +41,10 @@ insert_header($headerOptions);
                 Банки Уолл-стрит наблюдают падение цен акций, в то время как криптовалютный рынок подскакивает 
                 в то время как гиганты Уолл-стрит JP Morgan и Citigroup получали огромные доходы в первом квартале, 
                 их общие цены на акции упали, сообщил Wall Street Journal (WSJ) в пятницу, 13 апреля...
-                <img src="assets/img/news_images/roof.jpg" alt="">
             </p>
+                <p>
+                    <img src="assets/img/news_images/roof.jpg" alt="">
+                </p>
             <footer>
                 <div class="news__tags">
                     <a href="#" class="news__btn">Тема</a>

@@ -1,6 +1,6 @@
 .news {
-    p + img {
-        margin-top: 14px;
+    p, p + img {
+        margin-bottom: 14px;
     }
 
     &__header {
@@ -108,10 +108,10 @@
             @include clearfix;
         }
 
-        p img {
+        img {
             width: 100%;
             max-width: 100%;
-            margin-top: 14px;
+            // margin-top: 14px;
         }
     }
 
