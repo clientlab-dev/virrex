@@ -8,8 +8,13 @@
         font-weight: 500;
         margin-top: 76px;
         float: left;
-        width: 60%;
-        margin-right: 18%;
+        // width: 60%;
+        // margin-right: 18%;
+        @include respond(600px) {
+            // font-size: 26px;
+            margin-top: 26px;
+            font-size: 36px;
+        }
     }
 
     &__title {
@@ -48,7 +53,7 @@
         font-weight: 400;
         border-radius: 24px;
         display: inline-block;
-        margin: 6px 12px 6px 0;
+        // margin: 6px 12px 6px 0;
         transition: opacity .1s;
 
         &:hover {
@@ -67,6 +72,11 @@
         float: right;
         line-height: 48px;
         font-weight: 500;
+        @include respond(1000px) {
+            width: 100%;
+            margin-top: 12px;
+            // text-align: right;
+        }
 
         &:hover {
             opacity: 0.7;
@@ -76,9 +86,11 @@
     &__tags {
         float: left;
         max-width: 80%;
+        margin: 6px 0;
 
         & .news__btn {
-            margin: 6px 14px 6px 0;
+            margin-right: 14px;
+            // margin: 0px 14px 0px 0;
         }
     }
 
@@ -86,6 +98,9 @@
         margin-top: 40px;
         margin-bottom: 62px;
         line-height: 1.6;
+        @include respond(600px) {
+            margin-top: 10px;
+        }
 
         @include clearfix;
 

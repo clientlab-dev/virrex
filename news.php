@@ -26,9 +26,9 @@ insert_header($headerOptions);
             <footer>
                 <div class="news__tags">
                     <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
-                    <a href="#" class="news__btn">Тема</a>
+                    <a href="#" class="news__btn">Биткоин</a>
+                    <a href="#" class="news__btn">Storage</a>
+                    <a href="#" class="news__btn">GPU</a>
                 </div>
                     <a href="#" class="news__btn-read">Читать далее >></a>
             </footer>

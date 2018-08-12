@@ -2,18 +2,24 @@
 
 .two-collumns {
     margin-top: 22px;
-
     @include clearfix;
 
     &__left-col {
         float: left;
         width: 60%;
         margin-right: 18%;
+        @include respond(1000px) {
+            width: 100%;
+            margin-right: 0;
+        }
     }
 
     &__aside {
         float: right;
         width: 22%;
         padding-top: 8px;
+        @include respond(1000px) {
+            display: none;
+        }
     }
 }
