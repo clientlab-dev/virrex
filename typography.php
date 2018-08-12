@@ -75,8 +75,36 @@
 
 		</div>
 	</div>
+</section>
+<br>
+<hr>
+<section class="typography">
+		<div class="heading heading_h1">
+			<div class="heading__text">
+				1 Heading 46 px medium
+			</div><!-- /.heading__text -->
+			<div class="heading__sub">
+				1 Subheading 20  px regular 80% opacity
+			</div><!-- /.heading__sub -->
+		</div><!-- /.heading heading_h1 -->
 
 
+		<div class="heading heading_h2">
+			<div class="heading__text">
+				2 Heading 26 px regular
+			</div><!-- /.heading__text -->
+			<div class="heading__sub">
+				2 Subheading 22 px regular 80% opacity
+			</div><!-- /.heading__sub -->
+		</div><!-- /.heading heading_h2 -->
+
+		<div class="heading heading_h3">
+			<div class="heading__text">
+				3 Heading 20 px regular
+			</div><!-- /.heading__text -->
+		</div><!-- /.heading heading_h3 -->
+</section>
+<br>
 
 </section>
 </div>

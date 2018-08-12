@@ -210,7 +210,7 @@ $(function () {
 		if ($('#row').length > 0) {
 			var row = document.querySelector('#row');
 			var size = row.childElementCount;
-			for (let i = 0; i < size; i++) {
+			for (var i = 0; i < size; i++) {
 				var imgSize = row.children[i].firstElementChild.firstElementChild.offsetWidth;
 				var tooltip = row.children[i].firstElementChild.lastElementChild;
 				var tooltipSize = row.children[i].firstElementChild.lastElementChild.offsetWidth;
@@ -286,7 +286,36 @@ $(function () {
 		};
 	})();
 
+	(function () {
+		var animating = false;
+		$('.accordion .item').click(function () {
+			if (animating) {
+				return;
+			}
+			var cur = $(this);
+			if (cur.hasClass('item--active')) {
+				animating = true;
+				cur.find('.body').slideUp(200, function () {
+					animating = false;
+					cur.removeClass('item--active');
+				});
+			} else {
+				animating = true;
 
+				$('.accordion .item').not(cur).removeClass('item--active').find('.body').slideUp(300, function () {
+					cur.find('.body').slideDown(200, function () {
+						animating = false;
+						cur.addClass('item--active');
+					});
+				});
+			}
+		});
+
+		$('.accordion .item .body').click(function (e) {
+			e.stopPropagation();
+			return false;
+		});
+	})();
 
 /*End JQReady function*/
 });
