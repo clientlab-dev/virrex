@@ -128,7 +128,7 @@ body {
     }
 
     &_fill {
-        padding: 14px 30px;
+        padding: 17px 30px;
         border: none;
         font-size: 14px;
         font-weight: bold;
@@ -246,8 +246,18 @@ body {
         }
     } //fill
 
+    &_fill_icon {
+        .btn__ico {
+            display: inline-block;
+            height: 10px;
+            vertical-align: middle;
+            position: relative;
+            z-index: 3;
+        }
+    }
+
     &_frame {
-        padding: 12px 30px;
+        padding: 15px 30px;
         border: none;
         font-size: 14px;
         font-weight: bold;
@@ -258,8 +268,20 @@ body {
         overflow: hidden;
         background: transparent;
 
+        &_white {
+            border: 2px solid #fff;
+            color: #fff;
+
+            &:hover {
+                & {
+                    transform: translateY(-2px);
+                }
+            }
+        }
+
         &_blue {
             border: 2px solid #4389ca;
+            color: #000;
 
             &:hover {
                 & {

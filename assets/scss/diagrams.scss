@@ -1,0 +1,132 @@
+@import "_mixins";
+
+.diagrams {
+    padding: 56px 0 0;
+
+    @include respond(750px) {
+        padding-bottom: 80px;
+    }
+
+
+    @include respond(480px) {
+        padding-bottom: 40px;
+    }
+
+
+    .diagrams__items {
+        max-width: 998px;
+        margin: auto;
+
+        @include respond(750px) {
+            max-width: 490px;
+        }
+
+
+        .diagrams__items__item {
+            position: relative;
+            min-height: 357px;
+
+            & + .diagrams__items__item {
+                margin-top: 96px;
+
+                @include respond(500px) {
+                    margin-top: 64px;
+                }
+            }
+
+            &__diagram {
+                position: absolute;
+
+                //top: 0;
+                top: -6%;
+
+                @include respond(750px) {
+                    position: relative;
+                    top: 0;
+                    margin-bottom: 34px;
+                }
+
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+
+                    @include respond(500px) {
+                        width: 75%;
+                    }
+                }
+            }
+
+            &--left {
+                padding-left: 512px;
+
+                @include respond(940px) {
+                    padding-left: 400px;
+                }
+
+
+                @include respond(750px) {
+                    padding-left: 0;
+                }
+
+
+                .diagrams__items__item__diagram {
+                    left: 0;
+                }
+            }
+
+            &--right {
+                padding-right: 512px;
+
+                @include respond(940px) {
+                    padding-right: 400px;
+                }
+
+
+                @include respond(750px) {
+                    padding-right: 0;
+                }
+
+
+                .diagrams__items__item__diagram {
+                    left: 512px;
+
+                    @include respond(940px) {
+                        left: auto;
+                        right: 0;
+                    }
+                }
+            }
+
+            &__legend {
+                .legend__title {
+                    font-size: 20px;
+                    margin-bottom: 36px;
+                }
+
+                ul {
+                    li {
+                        line-height: 1.6;
+                        font-weight: 100;
+                        position: relative;
+                        padding-left: 31px;
+                        min-height: 18px;
+
+                        .legend-color {
+                            position: absolute;
+                            left: 0;
+                            top: 3px;
+                            width: 18px;
+                            height: 18px;
+                            border-radius: 50%;
+                        }
+
+                        & + li {
+                            margin-top: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} //diagrams

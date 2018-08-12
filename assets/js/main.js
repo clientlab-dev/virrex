@@ -75,55 +75,117 @@ $(function () {
 	(function () {
 
 		if ($('.hero-skew').length > 0) {
-			var polygon = $(".hero-skew__polygon")[0];
-			var canvas = document.createElement("canvas");
 
-			var leftGrad = $(".hero-skew__polygon").find('.hero-skew__polygon__left-grad');
-			var rightGrad = $(".hero-skew__polygon").find('.hero-skew__polygon__right-grad');
+			$('.hero-skew').each(function(){
+				var polygon = $(this).find(".hero-skew__polygon")[0];
+				var canvas = document.createElement("canvas");
+					
+					polygon.appendChild(canvas);
+
+				var leftGrad = $(this).find(".hero-skew__polygon").find('.hero-skew__polygon__left-grad');
+				var rightGrad = $(this).find(".hero-skew__polygon").find('.hero-skew__polygon__right-grad');
 
 
-			var rightGradDelta = 8.4;
-			var leftGradDelta = 8.4;
+				var rightGradDelta = 8.4;
+				var leftGradDelta = 8.4;
 
-			/*
-				calculate rotation angle for skew gradient
-			*/
-			function render() {
+				/*
+					calculate rotation angle for skew gradient
+				*/
+				function render() {
 
-				var tanBeta = canvas.width / canvas.height;
+					var tanBeta = canvas.width / canvas.height;
 
-				var beta = Math.degrees(Math.atan(tanBeta));
+					var beta = Math.degrees(Math.atan(tanBeta));
 
-				rightGrad.css({
-					'transform': "rotate(" + (beta - 90 + rightGradDelta) + "deg)"
-				});
+					rightGrad.css({
+						'transform': "rotate(" + (beta - 90 + rightGradDelta) + "deg)"
+					});
 
-				var alfa = 180 - 90 - beta;
+					var alfa = 180 - 90 - beta;
 
-				leftGrad.css({
-					'transform': "rotate(" + (beta - 90 + leftGradDelta) + "deg)"
-				});
+					leftGrad.css({
+						'transform': "rotate(" + (beta - 90 + leftGradDelta) + "deg)"
+					});
 
-				canvas.width = $(polygon).width();
-				canvas.height = $(polygon).height();
-				polygon.appendChild(canvas);
-				var ctx = canvas.getContext("2d");
-				ctx.clearRect(0, 0, canvas.width, canvas.height);
-				ctx.beginPath();
-				ctx.moveTo(0, canvas.height);
-				ctx.lineTo(canvas.width, canvas.height);
-				ctx.lineTo(canvas.width, 0);
-				ctx.fillStyle = "#fff";
-				ctx.fill();
-			}
+					canvas.width = $(polygon).width();
+					canvas.height = $(polygon).height();
+					var ctx = canvas.getContext("2d");
+					ctx.clearRect(0, 0, canvas.width, canvas.height);
+					ctx.beginPath();
+					ctx.moveTo(0, canvas.height);
+					ctx.lineTo(canvas.width, canvas.height);
+					ctx.lineTo(canvas.width, 0);
+					ctx.fillStyle = "#fff";
+					ctx.fill();
+				}
 
-			render();
-			render();
-			$(window).resize(function () {
 				render();
+				render();
+				$(window).resize(function () {
+					render();
+				});
 			});
+
+			
 		};
 
+	})();
+
+
+	/*
+		content-skew
+	*/
+
+	(function(){
+		if ($('.content-skew').length>0) {
+			$('.content-skew').each(function(){
+					var polygon = $(this).find(".content-skew__polygon")[0];
+					var canvas = document.createElement("canvas");
+					polygon.appendChild(canvas);
+
+					var leftGrad = $(this).find('.content-skew__polygon_polygon__left-grad');
+					var rightGrad = $(this).find('.content-skew__polygon_polygon__right-grad');
+
+
+					var rightGradDelta = 8.4;
+					var leftGradDelta = 8.4;
+				function render() {
+
+					var tanBeta = canvas.width / canvas.height;
+
+					var beta = Math.degrees(Math.atan(tanBeta));
+
+					rightGrad.css({
+						'transform': "rotate(" + (beta - 90 + rightGradDelta) + "deg)"
+					});
+
+					var alfa = 180 - 90 - beta;
+
+					leftGrad.css({
+						'transform': "rotate(" + (beta - 90 + leftGradDelta) + "deg)"
+					});
+
+
+					canvas.width = $(polygon).width();
+					canvas.height = $(polygon).height();
+					var ctx = canvas.getContext("2d");
+					ctx.clearRect(0, 0, canvas.width, canvas.height);
+					ctx.beginPath();
+					ctx.moveTo(0, 0);
+					ctx.lineTo(canvas.width, 0);
+					ctx.lineTo(0, canvas.height);
+					ctx.fillStyle = "#fff";
+					ctx.fill();
+				}
+
+				render();
+				render();
+				$(window).resize(function () {
+					render();
+				});
+			});
+		}
 	})();
 
 
