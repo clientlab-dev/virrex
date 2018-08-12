@@ -148,7 +148,7 @@ $(function () {
 		if ($('#row').length > 0) {
 			var row = document.querySelector('#row');
 			var size = row.childElementCount;
-			for (let i = 0; i < size; i++) {
+			for (var i = 0; i < size; i++) {
 				var imgSize = row.children[i].firstElementChild.firstElementChild.offsetWidth;
 				var tooltip = row.children[i].firstElementChild.lastElementChild;
 				var tooltipSize = row.children[i].firstElementChild.lastElementChild.offsetWidth;
