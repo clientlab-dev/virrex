@@ -8,7 +8,18 @@ $headerOptions = array(
 
 insert_header($headerOptions); 
 ?>
+
 <div class="hero hero-fill hero-skew hero-fill_blue hero-main-page">
+<div class="wrap">
+<!-- <div class="wrap d-none"> -->
+	<div class="notice">
+		<div class="notice__body">
+			<div class="notice__warning-icon"></div>
+			На сайте введутся технические работы. <br>
+			Все платежные операции будут возобновлены сегодня в течение дня. 
+		</div>
+	</div>
+</div>
 	<div class="wrap">
 		<div class="text-with-right-illustration text-with-right-illustration_white js-svg-lines svg-lines_blue-2">
 				<h1 class="text-with-right-illustration__title">Virrex Cryptocurrency Digital&nbsp;Bank</h1><!-- /.title -->
