@@ -7,13 +7,16 @@
         // display: flex;
         // flex-direction: column;
         // align-items: center;
-        padding-bottom: 20px;
+        padding-bottom: 22px;
         position: relative;
         outline: none;
 
         img {
             // width:54px;
             // height: 54px;
+            //check if this fix works in ie 
+            // if not do it through relative positioning
+            margin-left: -8px;
        
         }
 

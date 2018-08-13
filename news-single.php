@@ -44,7 +44,7 @@ insert_header($headerOptions);
     <p>Lorem ipsum dolor sit, <strong>Strong Text</strong> amet consectetur adipisicing elit. Ea quia consectetur distinctio dolor consequatur hic, dignissimos error nam sed vitae amet animi quas vel id rem veritatis cumque fuga! Blanditiis.
     Molestias non labore animi dolorum deserunt amet aspernatur <b><i>Bold Italic</i></b> deleniti at ipsam commodi tempora, nostrum sit dignissimos officiis optio rem? Iure velit dicta ut explicabo quam.
     Repudiandae hic, veritatis minus quis nihil nobis nostrum. Provident voluptatem vel, alias nisi facilis esse quos voluptas ipsa officia voluptate quas accusantium quasi, nobis pariatur. Rem velit minima recusandae quas?
-   <img src="assets/img/news_images/roof.jpg" alt="">
+   <p><img src="assets/img/news_images/roof.jpg" alt=""></p>
     Dolorem voluptates, aliquid ipsam dolor reiciendis numquam corporis enim voluptatum mollitia velit placeat doloremque harum nisi quidem magnam architecto tenetur iure voluptatem omnis eaque natus obcaecati accusantium! Accusantium, placeat inventore.</p>
    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo error culpa vel quam illum et rem, dolores iusto voluptatem mollitia! Quae odio obcaecati accusamus veniam eos vero tempora nisi repellendus!
        <br>

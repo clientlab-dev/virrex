@@ -1,6 +1,6 @@
 .news {
-    p + img {
-        margin-top: 14px;
+    p, p + img {
+        margin-bottom: 14px;
     }
 
     &__header {
@@ -74,7 +74,7 @@
         font-weight: 500;
         @include respond(1000px) {
             width: 100%;
-            margin-top: 12px;
+            // margin-top: 12px;
             // text-align: right;
         }
 
@@ -90,13 +90,14 @@
 
         & .news__btn {
             margin-right: 14px;
+            margin-bottom: 12px;
             // margin: 0px 14px 0px 0;
         }
     }
 
     article {
         margin-top: 40px;
-        margin-bottom: 62px;
+        margin-bottom: 58px;
         line-height: 1.6;
         @include respond(600px) {
             margin-top: 10px;
@@ -108,10 +109,10 @@
             @include clearfix;
         }
 
-        p img {
+        img {
             width: 100%;
             max-width: 100%;
-            margin-top: 14px;
+            // margin-top: 14px;
         }
     }
 

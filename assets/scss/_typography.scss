@@ -39,7 +39,7 @@
             color: #755194;
         }
     }
-    p {
+    p, p+img, p > img {
         margin-bottom: 18px;
     }
     ol, ul {
@@ -65,8 +65,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 14px;
-        margin-bottom: 14px;
     }
     b, strong {
         font-weight: bold;
