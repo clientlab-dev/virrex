@@ -216,11 +216,12 @@ $(function () {
 				var tooltipSize = row.children[i].firstElementChild.lastElementChild.offsetWidth;
 				if (tooltipSize > imgSize) {
 					var difference = tooltipSize - imgSize;
-					var result = '-' + difference / 2 + 'px';
+					// the reason for -8 px because I positioned -8px all icons
+					var result = '-' + difference / 2 - 8 + 'px';
 					tooltip.style.left = result;
 				} else {
 					var difference = Math.abs(tooltipSize - imgSize);
-					var result = difference / 2 + 'px';
+					var result = difference / 2 - 8 + 'px';
 					tooltip.style.left = result;
 				}
 			}
