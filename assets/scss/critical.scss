@@ -1,6 +1,7 @@
 @import "compass-reset";
 @import "mixins";
 @import "typography.scss";
+
 * {
     box-sizing: border-box;
 }
@@ -9,7 +10,7 @@ body {
     font-size: 16px;
 
     //font-family: 'Gotham Pro', 'Helvetica', Arial, sans-serif;
-    font-family: 'Gotham Pro';
+    font-family: 'Gotham Pro', 'Helvetica', 'Arial';
 
     //background-color: #d4d4ff;
 }

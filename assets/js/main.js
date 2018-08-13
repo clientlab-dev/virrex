@@ -317,6 +317,130 @@ $(function () {
 		});
 	})();
 
+
+	/*
+		Roadmap slider
+	*/
+	(function(){
+		var roadmap = $('.roadmap');
+		if (roadmap.length>0) {
+			roadmap.each(function(){
+				var parent = $(this);
+				updateScrolableLeftOffset(parent);
+				checkDisabled(parent);
+
+				intHendels(parent);
+			
+				$(window).resize(function () {
+					updateScrolableLeftOffset(parent);
+					checkDisabled(parent);
+				});
+
+				parent.find('.roadmap__scrolable').scroll(function(){
+					checkDisabled(parent);
+				});
+			});
+
+
+			function intHendels(parent){
+				var scrolable = parent.find('.roadmap__scrolable');
+				var handels = {
+					prev : parent.find('.roadmap__hendel--prev'),
+					next : parent.find('.roadmap__hendel--next')
+				}
+				var steps = parent.find('.roadmap__steps__step');
+				var stepW = steps.width();
+
+				console.log('stepW', stepW);
+
+
+				handels.prev.click(function(){
+					stepW = Math.round(stepW);
+					scrolable.animate({
+							scrollLeft: scrolable.scrollLeft() - stepW
+						}, 500, function(){
+							handelsCheck();
+						});
+					return false;
+				});
+
+				handels.next.click(function(){
+					stepW = Math.round(stepW);
+
+					scrolable.animate({
+							scrollLeft: scrolable.scrollLeft() + stepW
+						}, 500, function(){
+							handelsCheck();
+						});
+
+					return false;
+				});
+
+				function handelsCheck(){
+					//debugger;
+
+					console.log('scrolable.scrollLeft()', scrolable.scrollLeft());
+
+					//console.log('stepW', stepW);
+					//console.log('stepW * 3', stepW * 3);
+
+					var winW = $(window).width();
+
+					//console.log('winW', winW);
+
+					if ( scrolable.scrollLeft() >0 ) {
+						handels.prev.removeClass('roadmap__hendel--disabled');
+					}else{
+						handels.prev.addClass('roadmap__hendel--disabled');
+					}
+
+					if ( scrolable.scrollLeft() > 0 ) {
+						handels.prev.removeClass('roadmap__hendel--disabled');
+					}else{
+						handels.prev.addClass('roadmap__hendel--disabled');
+					}
+
+					debugger;
+
+					console.log('scrolable.scrollLeft()', scrolable.scrollLeft());
+
+					if ( stepW * steps.length - scrolable.scrollLeft() <= winW ) {
+						handels.next.removeClass('roadmap__hendel--disabled');
+					}else{
+						handels.next.addClass('roadmap__hendel--disabled');
+					}
+				}
+
+			}
+
+
+		}
+
+		function updateScrolableLeftOffset(parent){
+			var wrap = parent.find('.wrap');
+			var scrolable = parent.find('.roadmap__scrolable');
+			var scrolableLeftOffset = ($(window).width() - wrap.width()) / 2;
+			scrolable.css({
+				'padding-left' : scrolableLeftOffset + 'px'
+			});
+		}
+
+		function checkDisabled(parent){
+			var wrap = parent.find('.wrap');
+			var steps = parent.find('.roadmap__steps__step');
+			steps.each(function(){
+				var step = $(this);
+
+				if ((step.offset().left )  > wrap.width()) {
+					step.addClass('roadmap__steps__step--disabled');
+				}else{
+					step.removeClass('roadmap__steps__step--disabled');
+				}
+			});
+		}
+	})();
+
+
 /*End JQReady function*/
 });
 
