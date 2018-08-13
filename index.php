@@ -8,7 +8,6 @@ $headerOptions = array(
 
 insert_header($headerOptions); 
 ?>
-
 <div class="hero hero-fill hero-skew hero-fill_blue hero-main-page">
 	<div class="wrap">
 		<div class="text-with-right-illustration text-with-right-illustration_white js-svg-lines svg-lines_blue-2">
