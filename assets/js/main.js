@@ -358,7 +358,7 @@ $(function () {
 					stepW = Math.round(stepW);
 					scrolable.animate({
 							scrollLeft: scrolable.scrollLeft() - stepW
-						}, 500, function(){
+						}, 300, function(){
 							handelsCheck();
 						});
 					return false;
@@ -369,7 +369,7 @@ $(function () {
 
 					scrolable.animate({
 							scrollLeft: scrolable.scrollLeft() + stepW
-						}, 500, function(){
+						}, 300, function(){
 							handelsCheck();
 						});
 
@@ -388,27 +388,30 @@ $(function () {
 
 					//console.log('winW', winW);
 
-					if ( scrolable.scrollLeft() >0 ) {
-						handels.prev.removeClass('roadmap__hendel--disabled');
-					}else{
-						handels.prev.addClass('roadmap__hendel--disabled');
-					}
-
+					//debugger;
+/*
 					if ( scrolable.scrollLeft() > 0 ) {
 						handels.prev.removeClass('roadmap__hendel--disabled');
 					}else{
-						handels.prev.addClass('roadmap__hendel--disabled');
+						//handels.prev.addClass('roadmap__hendel--disabled');
+					}*/
+
+					/*var wrap = parent.find('.wrap');
+					if (  stepW * steps.length - scrolable.scrollLeft() > winW ) {
+						 handels.next.removeClass('roadmap__hendel--disabled');
+					} else{
+						 handels.next.addClass('roadmap__hendel--disabled');
 					}
 
-					debugger;
-
-					console.log('scrolable.scrollLeft()', scrolable.scrollLeft());
-
-					if ( stepW * steps.length - scrolable.scrollLeft() <= winW ) {
+					if ( scrolable.scrollLeft() == 0 ) {
+						handels.prev.addClass('roadmap__hendel--disabled');
 						handels.next.removeClass('roadmap__hendel--disabled');
 					}else{
-						handels.next.addClass('roadmap__hendel--disabled');
+						handels.prev.removeClass('roadmap__hendel--disabled');
 					}
+*/
+					
+
 				}
 
 			}
@@ -421,7 +424,18 @@ $(function () {
 			var scrolable = parent.find('.roadmap__scrolable');
 			var scrolableLeftOffset = ($(window).width() - wrap.width()) / 2;
 			scrolable.css({
-				'padding-left' : scrolableLeftOffset + 'px'
+				'padding-left' : scrolableLeftOffset + 'px',
+				//'padding-right' : scrolableLeftOffset + 'px',
+
+			});
+
+			var steps = parent.find('.roadmap__steps__step');
+			var stepW = steps.width();
+
+			$('.roadmap__steps').css({
+				//'padding-left' : scrolableLeftOffset + 'px',
+				'width' : stepW * steps.length + scrolableLeftOffset + 'px',
+
 			});
 		}
 

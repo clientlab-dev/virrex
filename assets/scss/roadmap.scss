@@ -1,3 +1,5 @@
+@import "_mixins";
+
 .roadmap {
     text-align: left;
     color: #FFF;
@@ -6,6 +8,11 @@
         overflow: auto;
         overflow: hidden;
         transition: all .5s;
+
+        @include respond(960px) {
+            overflow: auto;
+        }
+
 
         &::-webkit-scrollbar {
             display: none;
@@ -23,6 +30,16 @@
                 display: inline-block;
                 white-space: normal;
                 vertical-align: top;
+
+                @include respond(750px) {
+                    max-width: 485px;
+                }
+
+
+                @include respond(480px) {
+                    max-width: 290px;
+                }
+
 
                 .title {
                     font-weight: 500;
@@ -74,6 +91,23 @@
                             position: absolute;
                             top: 0;
                             transform: translateX(-100%);
+                            background: #5ADC9D;
+                        }
+                    }
+                }
+
+                &:last-child {
+                    .bar {
+                        position: relative;
+
+                        &:before {
+                            //content: "";
+                            display: block;
+                            height: 100%;
+                            width: 9999900px;
+                            position: absolute;
+                            top: 0;
+                            transform: translateX(100%);
                             background: #5ADC9D;
                         }
                     }

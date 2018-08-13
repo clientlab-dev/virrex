@@ -296,70 +296,7 @@ insert_header($headerOptions);
 			</div><!-- /.wrap -->
 		</div><!-- /.hero-center-text-content -->
 
-		<div class="roadmap">
-			<div class="wrap">
-				<div class="roadmap__hendels">
-					<a href="#" class="roadmap__hendel roadmap__hendel--prev roadmap__hendel--disabled"></a><!-- /.roadmap__hendel roadmap__hendel--prev -->
-					<a href="#" class="roadmap__hendel roadmap__hendel--next"></a><!-- /.roadmap__hendel roadmap__hendel--next -->
-				</div><!-- /.roadmap__hendels -->
-			</div><!-- /.wrap -->
-			<div class="roadmap__scrolable">
-					<div class="roadmap__steps">
-						<div class="roadmap__steps__step roadmap__steps__step--finish">
-							<div class="title">2 квартал 2017</div><!-- /.title -->
-							<div class="bar">
-								<div class="fill"   ></div><!-- /.fill -->
-								<div class="mark"></div><!-- /.mark -->
-							</div><!-- /.bar -->
-							<div class="descr">
-								<ul>
-									<li>Зарождение идеи Virrex Digital Bank</li>
-									<li>Изучение потребностей рынка</li>
-									<li>Разработка технической документации</li>
-									<li>Юридическое исследование</li>
-									<li>Формирование кома нды разработчиков ого кабинета Virrex</li>
-									<li>Начало разработки мультивалютного кошелька платформы</li>
-								</ul>
-							</div><!-- /.descr -->
-						</div><!-- /.roadmap__steps__step -->
-						<div class="roadmap__steps__step">
-							<div class="title">3 квартал 2017</div><!-- /.title -->
-							<div class="bar">
-								<div class="fill"   ></div><!-- /.fill -->
-								<div class="mark"></div><!-- /.mark -->
-							</div><!-- /.bar -->
-							<div class="descr">
-								<ul>
-									<li>Разработка функционального ядра платформы Virrex</li>
-									<li>Релиз личного кабинета пользователя Virrex</li>
-									<li>Релиз мультивалютного кошелька</li>
-									<li>Запуск платформы с кошельками: Bitcoin, Ethereum, Ripple, Dash, Litecoin, Dogecoin</li>
-									<li>Добавление фиатных счетов на платформу: USD, EUR, RUB</li>
-									<li>Разработка и тестирование модуля приема средств ViCash</li>
-									<li>Тесты на безопасность</li>
-									<li>Подключение модуля верификации пользователей по протоколу AML/KYC</li>
-								</ul>
-							</div><!-- /.descr -->
-						</div><!-- /.roadmap__steps__step -->
-						<div class="roadmap__steps__step roadmap__steps__step--disabled">
-							<div class="title">4 квартал 2017</div><!-- /.title -->
-							<div class="bar">
-								<div class="fill"   ></div><!-- /.fill -->
-								<div class="mark"></div><!-- /.mark -->
-							</div><!-- /.bar -->
-							<div class="descr">
-								<ul>
-									<li>Разработка функционального ядра платформы Virrex</li>
-									<li>Релиз личного кабинета пользователя Virrex</li>
-									<li>Релиз мультивалютного кошелька</li>
-									<li>Запуск платформы с кошельками: Bitcoin, Ethereum, Ripple, Dash, Litecoin, Dogecoin</li>
-									<li>Добавление фиатных счетов на платформу: USD, EUR, RUB</li>
-								</ul>
-							</div><!-- /.descr -->
-						</div><!-- /.roadmap__steps__step -->
-					</div><!-- /.roadmap__steps -->
-			</div><!-- /.roadmap__scrolable -->
-		</div><!-- /.roadmap -->
+		<?php include('includes/roadmap.php'); ?>
 
 	<div class="hero-skew__polygon">
 		<div class="hero-skew__polygon__left-grad"></div><!-- /.hero-skew__polygon__left-grad -->
