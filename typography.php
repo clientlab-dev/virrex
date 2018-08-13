@@ -70,6 +70,11 @@
 						</label>
 					</div>
 				</div><!-- /.form__item -->
+				<div class="form__item form__button-align">
+				<button class="btn btn_fill btn_fill_green btn_shadow">
+					<span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span>
+				</button>
+				</div>
 
 			</form><!-- /.form -->
 
