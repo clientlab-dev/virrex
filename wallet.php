@@ -58,7 +58,7 @@ insert_header($headerOptions);
 						<img src="assets/img/benefits/chart.png" alt="">
 					</div><!-- /.img -->
 					<div class="title">
-						11 карьерных статусов, ведущих к финансовым высотам
+					Отсутствие комиссии внутри сервиса.
 					</div><!-- /.title -->
 				</div><!-- /.benefits-list__item -->
 			</div><!-- /.col -->
@@ -68,7 +68,7 @@ insert_header($headerOptions);
 						<img src="assets/img/benefits/credit.png" alt="">
 					</div><!-- /.img -->
 					<div class="title">
-						Традиционный многоуровневый линейный маркетинг
+						Возможность привязки дебетовых карт к кошельку.
 					</div><!-- /.title -->
 				</div><!-- /.benefits-list__item -->
 			</div><!-- /.col -->
@@ -78,7 +78,7 @@ insert_header($headerOptions);
 						<img src="assets/img/benefits/shield.png" alt="">
 					</div><!-- /.img -->
 					<div class="title">
-						Щедрые партнерские вознаграждения за активное участие в продвижении и развитии нашего банка
+						Высокоуровневая защита и безопасность для всех системных транзакций.
 					</div><!-- /.title -->
 				</div><!-- /.benefits-list__item -->
 			</div><!-- /.col -->
@@ -94,7 +94,7 @@ insert_header($headerOptions);
 						<img src="assets/img/benefits/wallets.png" alt="">
 					</div><!-- /.img -->
 					<div class="title">
-						11 карьерных статусов, ведущих к финансовым высотам
+						Вы можете принимать платежи в любой из кошельков и выгодно обменивать внутри системы.
 					</div><!-- /.title -->
 				</div><!-- /.benefits-list__item -->
 			</div><!-- /.col -->
@@ -104,7 +104,7 @@ insert_header($headerOptions);
 						<img src="assets/img/benefits/safe.png" alt="">
 					</div><!-- /.img -->
 					<div class="title">
-						Традиционный многоуровневый линейный маркетинг
+						Цифровая валюта для обеспечения сохранности средств защищена автономным хранилищем (оффлайн хранилище)
 					</div><!-- /.title -->
 				</div><!-- /.benefits-list__item -->
 			</div><!-- /.col -->
@@ -114,7 +114,7 @@ insert_header($headerOptions);
 						<img src="assets/img/benefits/folders.png" alt="">
 					</div><!-- /.img -->
 					<div class="title">
-						Щедрые партнерские вознаграждения за активное участие в продвижении и развитии нашего банка
+						Возможность создавать неограниченное число кошельков для упорядочивания ваших доходов от одного или нескольких бизнесов.
 					</div><!-- /.title -->
 				</div><!-- /.benefits-list__item -->
 			</div><!-- /.col -->
@@ -127,8 +127,7 @@ insert_header($headerOptions);
 	<div class="wrap">
 <div class="heading heading_center heading_h2">
 		<div class="heading__text">
-		Наслаждайтесь финансовой гибкостью при использовании <br>
-интегрированных функций в одном месте
+			Актуальные криптовалюты, представленные на сайте
 		</div><!-- /.heading__text -->
 	</div>
 
@@ -136,8 +135,7 @@ insert_header($headerOptions);
 
 <div class="heading heading_center heading_h2">
 		<div class="heading__text">
-		Наслаждайтесь финансовой гибкостью при использовании <br>
-интегрированных функций в одном месте
+			Ожидаемый листинг криптовалют
 		</div><!-- /.heading__text -->
 	</div>
 </div>
