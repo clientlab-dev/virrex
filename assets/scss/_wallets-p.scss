@@ -9,7 +9,7 @@
             justify-content: flex-start;
         }
     &--transparent {
-        .wallets-p__col{
+        .wallets-p__img-block img, .wallets-p__block{
             opacity: .4;
         }
     }
