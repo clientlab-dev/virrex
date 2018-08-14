@@ -2,7 +2,7 @@
 
 <?php 
 $headerOptions = array(
-        'pageColor' => 'header__wrap_transparent header__wrap_transparent_green',
+        'pageColor' => 'header__wrap_transparent header__wrap_transparent_blue',
         'headerTheme' => 'header-dark'
     );
 
@@ -11,9 +11,9 @@ insert_header($headerOptions);
 
 
 
-<div class="hero hero-fill hero-skew hero-fill_gray-green">
+<div class="hero hero-fill hero-skew hero-fill_gray-dark-blue">
 	<div class="wrap">
-		<div class="text-with-right-illustration js-svg-lines svg-lines_green-2">
+		<div class="text-with-right-illustration js-svg-lines svg-lines_blue-2">
 				<h1 class="text-with-right-illustration__title">Кошелёк</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
 				Универсальный электронный кошелек нового поколения, поддерживающий 19 цифровых валют
@@ -22,9 +22,8 @@ insert_header($headerOptions);
 					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">СОЗДАТЬ БЕЗОПАСНЫЙ КОШЕЛЕК</span></button>
 				</div><!-- /.action-b -->
 
-				<div class="text-with-right-illustration__illustration text-with-right-illustration__illustration--video">
+				<div class="text-with-right-illustration__illustration">
 					<img src="assets/img/ilustrations/wallet.png" alt="" />
-					<a href="#" class="text-with-right-illustration__illustration--video__play text-with-right-illustration__illustration--video__play--green"></a>
 				</div><!-- /.text-with-right-illustration__illustration -->
 		</div><!-- /.text-with-right-illustration -->
 	</div><!-- /.wrap -->
@@ -133,7 +132,7 @@ insert_header($headerOptions);
 		</div><!-- /.heading__text -->
 	</div>
 
-<?php include('includes/wallets.php') ?>
+<?php include('includes/wallets_inside_wallet_page.php') ?>
 
 <div class="heading heading_center heading_h2">
 		<div class="heading__text">
@@ -142,8 +141,8 @@ insert_header($headerOptions);
 		</div><!-- /.heading__text -->
 	</div>
 </div>
-	</div>
 <?php include('includes/wallets_grayed_out.php'); ?>
+	</div>
 <section class="gradient-before-footer gradient-before-footer--light-blue">
 	<div class="wrap">
 		<div class="gradient-before-footer__content">

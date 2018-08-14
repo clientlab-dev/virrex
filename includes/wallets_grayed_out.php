@@ -1,72 +1,113 @@
 <div class="wrap">
-    <div class="wallets" style="opacity: .4">
+    <div class="wallets-p wallets-p--transparent">
         <!-- <div class="row" id="row"> -->
-        <div class="row">
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/steem.png" id="img" alt="">
-                    <p class="wallets__title">Steem</p>
-                    <p class="wallets__tooltip" >Steem</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">Steem</p>
+                    <p class="wallets-p__short-title" >Steem</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/neo.png" alt="">
-                    <p class="wallets__title">Neo</p>
-                    <p class="wallets__tooltip">Neo</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">Neo</p>
+                    <p class="wallets-p__short-title">Neo</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/iota.png" alt="">
-                    <p class="wallets__title">Iota</p>
-                    <p class="wallets__tooltip">Iota</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">Iota</p>
+                    <p class="wallets-p__short-title">miota</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/lisk.png" alt="">
-                    <p class="wallets__title">Lisk</p>
-                    <p class="wallets__tooltip">Lisk</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                <p class="wallets-p__title">Lisk</p>
+                <p class="wallets-p__short-title">lsk</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/waves.png" alt="">
-                    <p class="wallets__title">Waves</p>
-                    <p class="wallets__tooltip">Waves</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">Waves</p>
+                    <p class="wallets-p__short-title">vavea</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
+                    <img src="assets/img/crypto_logos/game_credits.png" alt="">
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                        <p class="wallets-p__title">Game Credits</p>
+                    <p class="wallets-p__short-title">Game Credits</p>
+                </div>
+            </div>
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/cardano.png" alt="">
-                    <p class="wallets__title">cardano</p>
-                    <p class="wallets__tooltip" id="tooltip">cardano</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">cardano</p>
+                    <p class="wallets-p__short-title" id="tooltip">cardano</p>
                 </div>
             </div>
 
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/bytecoin.png" alt="">
-                    <p class="wallets__title">Bytecoin</p>
-                    <p class="wallets__tooltip" id="tooltip">Bytecoin</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">Bytecoin</p>
+                    <p class="wallets-p__short-title" id="tooltip">Bytecoin</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/tron.png" alt="">
-                    <p class="wallets__title">TRON</p>
-                    <p class="wallets__tooltip" id="tooltip">TRON</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">TRON</p>
+                    <p class="wallets-p__short-title" id="tooltip">TRON</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="wallets__image" tabindex="0">
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
                     <img src="assets/img/crypto_logos/eos.png" alt="">
-                    <p class="wallets__title">EOS</p>
-                    <p class="wallets__tooltip" id="tooltip">EOS</p>
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title">EOS</p>
+                    <p class="wallets-p__short-title" id="tooltip">EOS</p>
+                </div>
+            </div>
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title"></p>
+                    <p class="wallets-p__short-title" id="tooltip"></p>
+                </div>
+            </div>
+            <div class="wallets-p__col">
+                <div class="wallets-p__img-block">
+                </div>
+                <div class="wallets-p__block" tabindex="0">
+                    <p class="wallets-p__title"></p>
+                    <p class="wallets-p__short-title" id="tooltip"></p>
                 </div>
             </div>
 
-        </div>
     </div>
 </div>

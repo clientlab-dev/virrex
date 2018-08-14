@@ -151,8 +151,8 @@
             </div>
             <div class="col">
                 <div class="wallets__image" tabindex="0">
-                    <img src="assets/img/crypto_logos/stairs.png" alt="">
-                    <p class="wallets__title">Stairs</p>
+                    <img src="assets/img/crypto_logos/stratis.png" alt="">
+                    <p class="wallets__title">Stratis</p>
                     <p class="wallets__tooltip" id="tooltip">Stairs</p>
                 </div>
             </div>

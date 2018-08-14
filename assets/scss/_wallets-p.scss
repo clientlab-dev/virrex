@@ -1,0 +1,47 @@
+.wallets-p {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &--transparent {
+        .wallets-p__col{
+            opacity: .4;
+        }
+    }
+    &__col {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        // flex-basis: 25%;
+        width: 20%;
+        margin-right: 5%;
+        padding-bottom: 25px;
+        overflow: hidden;
+        @include respond(900px) {
+            width: 33.3333%;
+        }
+        @include respond(700px) {
+            width: 50%;
+        }
+    }
+    &__block {
+    }
+    &__img-block {
+        display: flex;
+        // justify-content: flex-start;
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 5%;
+    }
+    &__title {
+        font-size: 15px;
+        font-weight: 500;
+        display: inline-block;
+        padding-bottom: 4px;
+    }
+    &__short-title {
+        font-size: 15px;
+        opacity: .6;
+        text-transform: uppercase;
+    }
+}
