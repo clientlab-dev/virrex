@@ -904,6 +904,13 @@ body {
         background-size: 16px 16px;
     }
 } //
+// UTILITIES
 .d-none {
     display: none;
+}
+.white-space--sm {
+    height: 100px;
+    @include respond(740px) {
+        height: 0px;
+    }
 }
