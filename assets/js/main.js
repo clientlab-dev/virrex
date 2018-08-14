@@ -494,23 +494,31 @@ $(function () {
 		}
 
 		function updateScrolableLeftOffset(parent){
-			var wrap = parent.find('.wrap');
-			var scrolable = parent.find('.roadmap__scrolable');
-			var scrolableLeftOffset = ($(window).width() - wrap.width()) / 2;
-			scrolable.css({
-				'padding-left' : scrolableLeftOffset + 'px',
-				//'padding-right' : scrolableLeftOffset + 'px',
+			setTimeout( function(){
+				var wrap = parent.find('.wrap');
+				var scrolable = parent.find('.roadmap__scrolable');
+				var scrolableLeftOffset = ($(window).width() - wrap.width()) / 2;
+				console.log('scrolableLeftOffset', scrolableLeftOffset);
 
-			});
+				if (scrolableLeftOffset==0) {
+					scrolableLeftOffset = 15;
+				};
 
-			var steps = parent.find('.roadmap__steps__step');
-			var stepW = steps.width();
+				scrolable.css({
+					'padding-left' : scrolableLeftOffset + 'px',
+					//'padding-right' : scrolableLeftOffset + 'px',
 
-			$('.roadmap__steps').css({
-				//'padding-left' : scrolableLeftOffset + 'px',
-				'width' : stepW * steps.length + scrolableLeftOffset + 'px',
+				});
 
-			});
+				var steps = parent.find('.roadmap__steps__step');
+				var stepW = steps.width();
+
+				$('.roadmap__steps').css({
+					//'padding-left' : scrolableLeftOffset + 'px',
+					'width' : stepW * steps.length + scrolableLeftOffset + 'px',
+
+				});
+			},500);
 		}
 
 		function checkDisabled(parent){

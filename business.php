@@ -3,7 +3,7 @@
 
 <?php 
 $headerOptions = array(
-		'pageColor' => 'header__wrap_transparent',
+		'pageColor' => 'header__wrap_transparent header__wrap_transparent_blue',
 		'headerTheme' => 'header-light'
 	);
 

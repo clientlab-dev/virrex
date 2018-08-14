@@ -17,13 +17,18 @@ insert_header($headerOptions);
 					Успей купить VX токены проекта на Pre Sale
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<a href="#" class="btn btn_fill btn_fill_icon btn_fill_green btn_shadow _btn-m-r"><span class="btn__text">BUY VX Token</span>
-						<img class="btn__ico" src="assets/img/btn_icon/link_arrow_white.svg" height="25" width="25" alt="" />
-					</a>
 
-					<a href="#" class="btn btn_frame btn_frame_white">
-						<span class="btn__text">WHITE PAPER</span>
-					</a>
+
+					<div class="btn-mobile-same-width">
+						
+						<a href="#" class="btn btn_fill btn_fill_icon btn_fill_green btn_shadow _btn-m-r"><span class="btn__text">BUY VX TOKEN</span>
+							<img class="btn__ico" src="assets/img/btn_icon/link_arrow_white.svg" height="25" width="25" alt="" />
+						</a>
+
+						<a href="#" class="btn btn_frame btn_frame_white">
+							<span class="btn__text">WHITE PAPER</span>
+						</a>
+					</div><!-- /.btn-same-width -->
 
 					<div class="social-links">
 					    <a target="_blank" rel="nofollow noopener" href="#"><img src="assets/img/telegram_white.svg" width="34" alt=""></a>
@@ -38,9 +43,9 @@ insert_header($headerOptions);
 					<div class="open-sale-banner">
 						<div class="open-sale-banner__header">Продажа открыта</div><!-- /.open-sale-banner__header -->
 						<div class="open-sale-banner__body">
-							<p>VX Token Price: <strong>0.0018 Eth</strong></p>
+							<p>VX Token Price: <strong>0.0018&nbsp;Eth</strong></p>
 							<p>Bonus: <strong>3%</strong></p>
-							<p>Минимальный пакет для приобретения токенов: <strong>0.05 Eth</strong></p>
+							<p>Минимальный пакет для приобретения токенов: <strong>0.05&nbsp;Eth</strong></p>
 						</div><!-- /.open-sale-banner__body -->
 					</div><!-- /.open-sale-banner -->
 				</div><!-- /.text-with-right-illustration__illustration -->

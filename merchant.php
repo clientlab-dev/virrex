@@ -3,7 +3,7 @@
 
 <?php 
 $headerOptions = array(
-		'pageColor' => 'header__wrap_transparent',
+		'pageColor' => 'header__wrap_transparent header__wrap_transparent_blue ',
 		'headerTheme' => 'header-light'
 	);
 
@@ -11,9 +11,9 @@ insert_header($headerOptions);
 ?>
 
 
-<div class="hero hero-fill hero-skew hero-fill_dark-blue">
+<div class="hero hero-fill hero-skew hero-fill_dark-fiolet hero--api">
 	<div class="wrap">
-		<div class="hero-text-content hero-text-content--center hero-text-content--white">
+		<div class="hero-text-content hero-text-content--center hero-text-content--white js-svg-lines svg-lines_fiolet">
 			<div class="heading heading_h1">
 				<div class="heading__text">
 					Мерчант/API
@@ -41,15 +41,25 @@ insert_header($headerOptions);
 
 			<div class="text-with-right-illustration__description">
 
-				<div class="text-with-right-illustration__description__title">
-					Мы ведем сотрудничество с компаниями, <br />
+				<!-- <div class="text-with-right-illustration__description__title">
+					
+				</div> --><!-- /.title -->
+
+				<div class="heading heading_h2">
+									<div class="heading__text">
+										Мы ведем сотрудничество с компаниями, <br />
 цель которых —ведение бизнеса <br />
 на криптовалюте.
-				</div><!-- /.title -->
+									</div><!-- /.heading__text -->
+								</div>
+
+				<p>
+					
 				Готовый код API значительно упрощает жизнь программисту при разработке уникального сервиса. Достаточно адаптировать существующий код под свои требования так, чтобы оптимально соответствовать задачам сайта.
+				</p>
 				
 				<div class="text-with-right-illustration__footer">
-					<a href="#">Ознакомится с полной схемой возможно после регистрации </a>
+					Ознакомится с полной схемой возможно после регистрации
 				</div><!-- /.action-b -->
 
 			</div><!-- /.description -->

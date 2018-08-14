@@ -135,7 +135,7 @@ insert_header($headerOptions);
 <div class="heading heading_center heading_h2">
 		<div class="heading__text">
 
-			Актуальные криптовалюты, представленные на сайте
+			Актуальные криптовалюты, представленные на&nbsp;сайте
 
 		</div><!-- /.heading__text -->
 	</div>

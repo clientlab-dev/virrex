@@ -195,16 +195,18 @@ insert_header($headerOptions);
 					ГОТОВЫ НАЧАТЬ? 
 				</div><!-- /.ready-to-start__title -->
 				<div class="ready-to-start__subtitle">
-					Создайте учетную запись или войдите в аккаунт
+					Создайте учетную запись или войдите в&nbsp;аккаунт
 				</div><!-- /.ready-to-start__subtitle -->
 			</div><!-- /.ready-to-start__text -->
 			<div class="ready-to-start__actions ready-to-start__col">
-				<a href="" class="btn btn_fill btn_fill_green btn_shadow">
-					<span class="btn__text">ОТКРЫТЬ СЧЕТ</span>
-				</a>
-				<a href="" class="btn btn_frame btn_frame_blue">
-					<span class="btn__text">ВОЙТИ</span>
-				</a>
+				<div class="btn-mobile-same-width">
+					<a href="" class="btn btn_fill btn_fill_green btn_shadow">
+						<span class="btn__text">ОТКРЫТЬ СЧЕТ</span>
+					</a>
+					<a href="" class="btn btn_frame btn_frame_blue">
+						<span class="btn__text">ВОЙТИ</span>
+					</a>
+				</div><!-- /.btn-mobile-same-width -->
 			</div><!-- /.ready-to-start__actions -->
 	</div><!-- /.ready-to-start -->
 </div><!-- /.wrap -->

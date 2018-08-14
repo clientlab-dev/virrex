@@ -49,16 +49,24 @@ insert_header($headerOptions);
 
 			<div class="text-with-right-illustration__description">
 
-				<div class="text-with-right-illustration__description__title">
+				<!-- <div class="text-with-right-illustration__description__title">
 					Принимайте платежи с использованием готового функционала всех электронных кошельков, присутствующих в Virrex Digital Bank
-				</div><!-- /.title -->
-				<ul class="ul-check ul-check--blue-transparent">
+				</div> --><!-- /.title -->
+
+				<div class="heading heading_h2">
+													<div class="heading__text">
+														Принимайте платежи с использованием готового функционала всех электронных кошельков, присутствующих в Virrex Digital Bank
+													</div><!-- /.heading__text -->
+												</div>
+
+
+				<ul class="ul-check ul-check--blue-transparent ul-check--minor">
 					<li>Бесплатная помощь в подключении и работе с модулем</li>
 					<li>Отчет всех транзакций</li>
 					<li>Быстрая и простая настройка подключения сервиса</li>
 				</ul><!-- /.ul_check -->
 			</div><!-- /.description -->
-			<div class="text-with-right-illustration__illustration">
+			<div class="text-with-right-illustration__illustration ">
 				<img src="assets/img/ilustrations/vicash_illustration2.jpg" alt="" />
 			</div><!-- /.text-with-right-illustration__illustration -->
 		</div><!-- /.text-with-right-illustration -->

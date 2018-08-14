@@ -3,6 +3,7 @@
 .roadmap {
     text-align: left;
     color: #FFF;
+    margin-top: -40px;
 
     .roadmap__scrolable {
         overflow: auto;
@@ -42,7 +43,7 @@
 
 
                 .title {
-                    font-weight: 500;
+                    font-weight: normal;
                     font-size: 20px;
                     margin-bottom: 25px;
                     transition: opacity .5s;
