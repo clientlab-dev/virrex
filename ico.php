@@ -304,6 +304,17 @@ insert_header($headerOptions);
 	</div><!-- /.hero-skew__polygon -->
 </div><!-- /.hero -->
 
+<div class="wrap">
+	<div class="great-quote">
+			<div class="quote">
+				"History is written by the Victors!"
+				<div class="author">
+					— Winston Churchill.
+				</div><!-- /.author -->
+			</div><!-- /.quote -->
+	</div><!-- /.ready-to-start -->
+</div><!-- /.wrap -->
+
 <section class="gradient-before-footer gradient-before-footer--light-blue">
 	<div class="wrap">
 		<div class="gradient-before-footer__content">
@@ -327,20 +338,14 @@ insert_header($headerOptions);
 						</label>
 					</div>
 				</div><!-- /.form__item -->
-
-				<div class="form__item">
-					<button class="btn btn_fill btn_fill_green btn_shadow">
+				<div class="form__item form__button-align">
+					<a href="" class="btn btn_fill btn_fill_green btn_shadow">
 						<span class="btn__text">ПОДПИСАТЬСЯ</span>
-					</button>
-				</div><!-- /.form__item -->
+					</a>
+				</div>
 
 			</form><!-- /.form -->
-
 		</div>
 	</div>
-
-
-
 </section>
-
 <?php include('includes/footer.php'); ?>

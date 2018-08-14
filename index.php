@@ -27,11 +27,11 @@ insert_header($headerOptions);
 					Безопасное технологическое решение, сочетающее в себе функциональное наполнение классического банка — хранение, приумножение и обмен, с поддержкой альтернативного способа инвестирования на рынке цифровых валют
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></button>
-					<button class="btn btn_icon btn_icon-white">
+					<a href="" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></a>
+					<a href="" class="btn btn_icon btn_icon-white">
 							<img class="btn__ico" src="assets/img/btn_icon/play.svg" height="25" width="25" alt="" />
 						<span class="btn__text">СМОТРЕТЬ ВИДЕО</span>
-					</button>
+					</a>
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration">
@@ -192,12 +192,12 @@ insert_header($headerOptions);
 				</div><!-- /.ready-to-start__subtitle -->
 			</div><!-- /.ready-to-start__text -->
 			<div class="ready-to-start__actions ready-to-start__col">
-				<button class="btn btn_fill btn_fill_green btn_shadow">
+				<a href="" class="btn btn_fill btn_fill_green btn_shadow">
 					<span class="btn__text">ОТКРЫТЬ СЧЕТ</span>
-				</button>
-				<button class="btn btn_frame btn_frame_blue">
+				</a>
+				<a href="" class="btn btn_frame btn_frame_blue">
 					<span class="btn__text">ВОЙТИ</span>
-				</button>
+				</a>
 			</div><!-- /.ready-to-start__actions -->
 	</div><!-- /.ready-to-start -->
 </div><!-- /.wrap -->

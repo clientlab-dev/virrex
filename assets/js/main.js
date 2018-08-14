@@ -77,57 +77,127 @@ $(function () {
 		if ($('.hero-skew').length > 0) {
 
 			$('.hero-skew').each(function(){
-				var polygon = $(this).find(".hero-skew__polygon")[0];
-				var canvas = document.createElement("canvas");
+
+
+
+
+				if ($(this).find(".hero-skew__polygon").length>0) {
+					var polygon = $(this).find(".hero-skew__polygon")[0];
 					
+					var canvas = document.createElement("canvas");
+
 					polygon.appendChild(canvas);
+					var leftGrad = $(this).find(".hero-skew__polygon").find('.hero-skew__polygon__left-grad');
+					var rightGrad = $(this).find(".hero-skew__polygon").find('.hero-skew__polygon__right-grad');
+					var rightGradDelta = 8.4;
+					var leftGradDelta = 8.4;
 
-				var leftGrad = $(this).find(".hero-skew__polygon").find('.hero-skew__polygon__left-grad');
-				var rightGrad = $(this).find(".hero-skew__polygon").find('.hero-skew__polygon__right-grad');
+					/*
+						calculate rotation angle for skew gradient
+					*/
+					function renderBottom() {
+
+						/*Bottom*/
+						var tanBeta = canvas.width / canvas.height;
+
+						var beta = Math.degrees(Math.atan(tanBeta));
+
+						rightGrad.css({
+							'transform': "rotate(" + (beta - 90 + rightGradDelta) + "deg)"
+						});
+
+						var alfa = 180 - 90 - beta;
+
+						leftGrad.css({
+							'transform': "rotate(" + (beta - 90 + leftGradDelta) + "deg)"
+						});
+
+ 
 
 
-				var rightGradDelta = 8.4;
-				var leftGradDelta = 8.4;
 
-				/*
-					calculate rotation angle for skew gradient
-				*/
-				function render() {
+						canvas.width = $(polygon).width();
+						canvas.height = $(polygon).height();
+						var ctx = canvas.getContext("2d");
+						ctx.clearRect(0, 0, canvas.width, canvas.height);
+						ctx.beginPath();
+						ctx.moveTo(0, canvas.height);
+						ctx.lineTo(canvas.width, canvas.height);
+						ctx.lineTo(canvas.width, 0);
+						ctx.fillStyle = "#fff";
+						ctx.fill();
 
-					var tanBeta = canvas.width / canvas.height;
+					}
 
-					var beta = Math.degrees(Math.atan(tanBeta));
-
-					rightGrad.css({
-						'transform': "rotate(" + (beta - 90 + rightGradDelta) + "deg)"
+					renderBottom();
+					renderBottom();
+					$(window).resize(function () {
+						renderBottom();
 					});
-
-					var alfa = 180 - 90 - beta;
-
-					leftGrad.css({
-						'transform': "rotate(" + (beta - 90 + leftGradDelta) + "deg)"
-					});
-
-					canvas.width = $(polygon).width();
-					canvas.height = $(polygon).height();
-					var ctx = canvas.getContext("2d");
-					ctx.clearRect(0, 0, canvas.width, canvas.height);
-					ctx.beginPath();
-					ctx.moveTo(0, canvas.height);
-					ctx.lineTo(canvas.width, canvas.height);
-					ctx.lineTo(canvas.width, 0);
-					ctx.fillStyle = "#fff";
-					ctx.fill();
 				}
 
-				render();
-				render();
-				$(window).resize(function () {
-					render();
-				});
+
+				if ($(this).find(".hero-skew__polygon--top").length>0) {
+					var polygonTop = $(this).find(".hero-skew__polygon--top")[0];
+
+					var canvasTop = document.createElement("canvas");
+
+					polygonTop.appendChild(canvasTop);
+
+
+					var leftTopGrad = $(this).find(".hero-skew__polygon--top").find('.hero-skew__polygon--top__left-grad');
+					var rightTopGrad = $(this).find(".hero-skew__polygon--top").find('.hero-skew__polygon--top__right-grad');
+
+
+
+					var rightTopGradDelta = 8.4;
+					var leftTopGradDelta = 8.4;
+
+
+					/*
+						calculate rotation angle for skew gradient
+					*/
+					function renderTop() {
+
+						 
+
+
+						/*Top*/
+						var tanBetaTop = canvasTop.width / canvasTop.height;
+
+						var betaTop = Math.degrees(Math.atan(tanBetaTop));
+
+						rightTopGrad.css({
+							'transform': "rotate(" + (betaTop - 90 + rightTopGradDelta) + "deg)"
+						});
+
+						var alfaTop = 180 - 90 - betaTop;
+
+						leftTopGrad.css({
+							'transform': "rotate(" + (betaTop - 90 + leftTopGradDelta) + "deg)"
+						});
+
+
+						canvasTop.width = $(polygonTop).width();
+						canvasTop.height = $(polygonTop).height();
+						var ctxTop = canvasTop.getContext("2d");
+						ctxTop.clearRect(0, 0, canvasTop.width, canvasTop.height);
+						ctxTop.beginPath();
+						ctxTop.moveTo(0, 0);
+						ctxTop.lineTo(canvasTop.width, 0);
+						ctxTop.lineTo(0, canvasTop.height);
+						ctxTop.fillStyle = "#fafafa";
+						ctxTop.fill();
+					}
+
+					renderTop();
+					renderTop();
+					$(window).resize(function () {
+						renderTop();
+					});
+				}
 			});
 
-			
 		};
 
 	})();
@@ -244,8 +314,11 @@ $(function () {
 						if (scrL >= firstColW) {
 							$(this).find('.adaptive-table__table').addClass('adaptive-table__onscroll');
 							$(this).find('.adaptive-table__table tr td,th:first-child').width(Math.round(firstColW));
+							$(this).find('.adaptive-table__table').css({'padding-left':firstColW+"px"});
+
 						} else {
 							$(this).find('.adaptive-table__table').removeClass('adaptive-table__onscroll');
+							$(this).find('.adaptive-table__table').css({'padding-left':0+"px"});
 						}
 					} else {
 						$('.adaptive-table__table').removeClass('adaptive-table__onscroll');

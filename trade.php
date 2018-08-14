@@ -19,7 +19,7 @@ insert_header($headerOptions);
 					Торговый сервис, позволяющий Вам обменивать, покупать и продавать криптовалюту по самому<br /> выгодному курсу
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span></button>
+					<a href="" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span></a>
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration text-with-right-illustration__illustration--video">
@@ -66,9 +66,9 @@ insert_header($headerOptions);
 	<div class="wrap">
 		<div class="gradient-before-footer__content">
 			<p class="gradient-before-footer__title">Простое решение для торговли и получения прибыли</p>
-			<button class="btn btn_fill btn_fill_green btn_shadow">
+			<a href="" class="btn btn_fill btn_fill_green btn_shadow">
 				<span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span>
-			</button>
+			</a>
 		</div>
 	</div>
 </section>

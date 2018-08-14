@@ -1,21 +1,21 @@
 <?php include('includes/header.php'); ?>
 
 <div class="wrap">
-<button class="btn btn_fill btn_fill_green btn_shadow">
+		<a href="" class="btn btn_fill btn_fill_green btn_shadow">
 			<span class="btn__text">BUTTON</span>
-		</button>
+		</a>
 
-		<button class="btn btn_fill btn_fill_blue btn_shadow">
+		<a href="" class="btn btn_fill btn_fill_blue btn_shadow">
 			<span class="btn__text">BUTTON</span>
-		</button>
+		</a>
 
-		<button class="btn btn_frame btn_frame_blue">
+		<a href="" class="btn btn_frame btn_frame_blue">
 			<span class="btn__text">BUTTON</span>
-		</button>
+		</a>
 
-		<button class="btn btn_frame btn_frame_green">
+		<a href="" class="btn btn_frame btn_frame_green">
 			<span class="btn__text">BUTTON</span>
-		</button>
+		</a>
  
 		
 
@@ -71,9 +71,9 @@
 					</div>
 				</div><!-- /.form__item -->
 				<div class="form__item form__button-align">
-				<button class="btn btn_fill btn_fill_green btn_shadow">
+				<a class="btn btn_fill btn_fill_green btn_shadow">
 					<span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span>
-				</button>
+				</a href="">
 				</div>
 
 			</form><!-- /.form -->
@@ -82,6 +82,41 @@
 	</div>
 </section>
 <br>
+<br>
+<section class="gradient-before-footer gradient-before-footer--blue">
+	<div class="wrap">
+		<div class="gradient-before-footer__content">
+		<p class="gradient-before-footer__title">С нами двигаться в эру цифровой экономики - легче</p>
+
+		</div>
+	</div>
+</section>
+<br>
+<br>
+
+<section class="gradient-before-footer gradient-before-footer--light-dark-blue">
+	<div class="wrap">
+		<div class="gradient-before-footer__content">
+		<p class="gradient-before-footer__title">С нами двигаться в эру цифровой экономики - легче</p>
+
+		</div>
+	</div>
+</section>
+<br>
+<br>
+
+<section class="gradient-before-footer gradient-before-footer--green">
+	<div class="wrap">
+		<div class="gradient-before-footer__content">
+		<p class="gradient-before-footer__title">С нами двигаться в эру цифровой экономики - легче</p>
+
+		</div>
+	</div>
+</section>
+<br>
+<br>
+
+
 <hr>
 <section class="typography">
 		<div class="heading heading_h1">

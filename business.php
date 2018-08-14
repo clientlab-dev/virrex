@@ -19,7 +19,7 @@ insert_header($headerOptions);
 					Приглашайте своих друзей, обучайте основам <br /> криптовалютного рынка, зарабатывайте до 23% <br />от оборота вашей структуры
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_blue btn_shadow"><span class="btn__text">СТАТЬ ПАРТНЕРОМ</span></button>
+					<a href="" class="btn btn_fill btn_fill_blue btn_shadow"><span class="btn__text">СТАТЬ ПАРТНЕРОМ</span></a>
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration">
