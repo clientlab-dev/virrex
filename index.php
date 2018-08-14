@@ -46,7 +46,6 @@ insert_header($headerOptions);
 </div><!-- /.hero -->
 
 <div class="catalog catalog_main-page">
-	<!-- <div class="skew-line"></div><!-- /.skew-line -->
 		<div class="wrap">
 			<div class="catalog__cards cols-3">
 				<div class="card col">
