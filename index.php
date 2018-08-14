@@ -48,43 +48,51 @@ insert_header($headerOptions);
 <div class="catalog catalog_main-page">
 		<div class="wrap">
 			<div class="catalog__cards cols-3">
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/valet.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Кошелек</span>
-						<span class="descr">
-							Совершайте переводы, оплачивайте счета и отправляйте криптовалюту без комиссий внутри системы
-						</span>
-					</a>
+				<div class=" col">
+					<div class="card">
+						<a href="#">
+							<img height="158" src="assets/img/catalog_icons/valet.svg" alt="" />
+							<span class="title arrow-link arrow-link_black">Кошелек</span>
+							<span class="descr">
+								Совершайте переводы, оплачивайте счета и отправляйте криптовалюту без комиссий внутри системы
+							</span>
+						</a>
+					</div><!-- /.card -->
 				</div><!-- /.card -->
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/trade.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Вклады</span>
-						<span class="descr">
-							Более 50 возможных вариантов инвестирования
-						</span>
-					</a>
+				<div class="col">
+					<div class="card">
+						<a href="#">
+							<img height="158" src="assets/img/catalog_icons/trade.svg" alt="" />
+							<span class="title arrow-link arrow-link_black">Вклады</span>
+							<span class="descr">
+								Более 50 возможных вариантов инвестирования
+							</span>
+						</a>
+					</div><!-- /.card -->
 				</div><!-- /.card -->
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/inverstement.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Торговля</span>
-						<span class="descr">
-							Самый выгодный и удобный обменный сервис
-						</span>
-					</a>
+				<div class="col">
+					<div class="card">
+						<a href="#">
+							<img height="158" src="assets/img/catalog_icons/inverstement.svg" alt="" />
+							<span class="title arrow-link arrow-link_black">Торговля</span>
+							<span class="descr">
+								Самый выгодный и удобный обменный сервис
+							</span>
+						</a>
+					</div><!-- /.card -->
 				</div><!-- /.card -->
 			</div><!-- /.catalog__cards -->
 		</div><!-- /.wrap -->
 </div><!-- /.catalog -->
 
-<div class="block-title">
-	<h2 class="title">Virrex Digital Bank</h2><!-- /.title -->
-	<p class="subtitle">
-		Многофункциональная платформа собственной разработки, включающая в себя хранение, приумножение и обмен цифровых валют.
-	</p><!-- /.subtitle -->
-</div><!-- /.block-title -->
+<div class="wrap">
+	<div class="block-title">
+		<h2 class="title">Virrex Digital Bank</h2><!-- /.title -->
+		<p class="subtitle">
+			Многофункциональная платформа собственной разработки, включающая в себя хранение, приумножение и обмен цифровых валют.
+		</p><!-- /.subtitle -->
+	</div><!-- /.block-title -->
+</div><!-- /.wrap -->
 
 
 <div class="simple-skew-bg">

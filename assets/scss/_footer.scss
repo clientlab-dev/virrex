@@ -109,6 +109,10 @@
 
         //color: black;
         color: #2C2C2C;
+
+        @include respond(480px) {
+            line-height: 1.3;
+        }
     }
 
     &__list-link {

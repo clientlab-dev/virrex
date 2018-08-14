@@ -134,7 +134,7 @@ body {
         padding: 17px 40px 15px;
         border: none;
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 500;
         border-radius: 3px;
         cursor: pointer;
         outline: none;
@@ -256,6 +256,7 @@ body {
             vertical-align: middle;
             position: relative;
             z-index: 3;
+            font-weight: 500;
         }
     }
 
@@ -263,7 +264,7 @@ body {
         padding: 14px 30px;
         border: none;
         font-size: 14px;
-        font-weight: bold;
+        font-weight: 500;
         border-radius: 4px;
         cursor: pointer;
         outline: none;
@@ -307,9 +308,11 @@ body {
     &_round {
         border-radius: 30px;
         background-color: #55A5E4;
-        padding: 10px 24px;
+
+        //padding: 10px 24px;
+        padding: 10px 24px 7px;
         border: none;
-        font-size: 14px;
+        font-size: 16px;
         cursor: pointer;
         outline: none;
         position: relative;
@@ -317,7 +320,9 @@ body {
         text-decoration: none;
         color: #FFF;
         transition: opacity .3s;
-        font-weight: normal;
+
+        //font-weight: normal;
+        font-weight: 100;
 
         &:hover {
             opacity: 0.7;
@@ -325,7 +330,8 @@ body {
     }
 
     &_link {
-        padding: 10px 24px;
+        //padding: 10px 24px;
+        padding: 10px 24px 7px;
         border: none;
         font-size: 14px;
         cursor: pointer;
@@ -336,6 +342,8 @@ body {
         color: #000;
         transition: opacity .3s;
         background: none;
+        font-size: 16px;
+        font-weight: 100;
 
         //font-weight: 200;
 
@@ -356,6 +364,7 @@ body {
         color: #000;
         transition: opacity .3s;
         background: none;
+        font-weight: 500;
 
         //font-weight: 200;
 
@@ -407,7 +416,7 @@ body {
     }
 
 
-    z-index: 2;
+    z-index: 18;
 
     @include respond(1088px) {
         padding-left: 120px;
@@ -519,7 +528,7 @@ body {
         bottom: 0;
         margin: auto;
         height: 30px;
-        width: 43px;
+        width: 40px;
         cursor: pointer;
         border: none;
         padding: 0;
@@ -533,7 +542,7 @@ body {
         }
 
         &__line {
-            height: 5px;
+            height: 4px;
             background: #000;
 
             &:nth-child(2) {
@@ -909,8 +918,10 @@ body {
 .d-none {
     display: none;
 }
+
 .white-space--sm {
     height: 100px;
+
     @include respond(740px) {
         height: 0px;
     }

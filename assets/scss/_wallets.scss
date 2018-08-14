@@ -3,6 +3,11 @@
 .wallets {
     padding: 40px 0;
 
+    @include respond(750px) {
+        padding-top: 0;
+    }
+
+
     &__image {
         // display: flex;
         // flex-direction: column;
@@ -17,7 +22,6 @@
             //check if this fix works in ie 
             // if not do it through relative positioning
             margin-left: -8px;
-       
         }
 
         .wallets__tooltip {

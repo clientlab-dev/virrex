@@ -16,7 +16,7 @@ insert_header($headerOptions);
 		<div class="text-with-right-illustration js-svg-lines svg-lines_green-2">
 				<h1 class="text-with-right-illustration__title">Торговля</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
-					Торговый сервис, позволяющий Вам обменивать, покупать и продавать криптовалюту по самому<br /> выгодному курсу
+					Торговый сервис, позволяющий Вам обменивать, покупать и продавать криптовалюту по самому выгодному курсу
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
 					<a href="" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span></a>

@@ -1,9 +1,30 @@
 .notice {
     position: absolute;
+
+    @include respond(1024px) {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        left: 0;
+        right: 0;
+        position: relative;
+        margin-bottom: -20px;
+    }
+
+
     @include respond(940px) {
         position: relative;
         top: 20px;
     }
+
+
+    @include respond(480px) {
+        position: relative;
+        top: 20px;
+        margin-bottom: 0;
+    }
+
+
     &__body {
         padding-left: 60px;
         padding-top: 10px;
@@ -15,10 +36,12 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 19.26px;
+
         @include respond(940px) {
             margin-bottom: 48px;
         }
     }
+
     &__warning-icon {
         position: absolute;
         top: 14px;

@@ -11,7 +11,7 @@ insert_header($headerOptions);
 
 
 
-<div class="hero hero-fill hero-skew hero-fill_gray-purpure">
+<div class="hero hero-fill hero-skew hero-fill_gray-purpure hero--deposits">
 	<div class="wrap">
 		<div class="text-with-right-illustration js-svg-lines svg-lines_purpure-2">
 				<h1 class="text-with-right-illustration__title">Вклады</h1><!-- /.title -->
@@ -20,7 +20,7 @@ insert_header($headerOptions);
 						Virrex обеспечивает возможность своим вкладчикам<br /> приумножать свой капитал в рамках Единой Системы
 					</div><!-- /.title -->
 
-					<ul class="ul-check ul-check--purpure-transparent">
+					<ul class="ul-check ul-check--minor  ul-check--purpure-transparent">
 						<li>Доходность в USD, EUR, RUB до 0.7% в сутки</li>
 						<li>Доходность в криптовалюте до 0.55% в сутки</li>
 						<li>Дивиденды от токена компании</li>
@@ -143,7 +143,7 @@ insert_header($headerOptions);
 	</div><!-- /.adaptive-table -->
 	<hr />
 
-	<div class="text-with-left-illustration">
+	<div class="text-with-left-illustration safe-deposits">
 
 		<div class="text-with-left-illustration__illustration">
 			<img src="assets/img/ilustrations/deposits2.png" alt="" />
@@ -154,11 +154,12 @@ insert_header($headerOptions);
 						Сберегательные вклады
 					</div><!-- /.heading__text -->
 				</div><!-- /.heading heading_h2 -->
-				
-				Как полноценный цифровой банк Virrex готов предоставить возможность открытия сберегательных вкладов,позволяющих пользователям без малейшего риска непрерывно накапливать средства для своих целей. Вы всегда сможете пополнить вклад в процессе его существования даже не большими суммами, а при возникновении необходимости вывести часть для своих текущих расходов. 
-				<br />
-				<br />
-				Благодаря сберегательным вкладам пользователям не придётся переживать по поводу инфляции, какой бы ни была экономическая обстановка.
+				<p>
+					Как полноценный цифровой банк Virrex готов предоставить возможность открытия сберегательных вкладов,позволяющих пользователям без малейшего риска непрерывно накапливать средства для своих целей. Вы всегда сможете пополнить вклад в процессе его существования даже не большими суммами, а при возникновении необходимости вывести часть для своих текущих расходов. 
+				</p>
+				<p>
+					Благодаря сберегательным вкладам пользователям не придётся переживать по поводу инфляции, какой бы ни была экономическая обстановка.
+				</p>
 			</div><!-- /.description -->
 	</div><!-- /.text-with-right-illustration -->
 
