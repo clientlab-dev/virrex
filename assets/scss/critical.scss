@@ -789,6 +789,10 @@ body {
                 position: absolute;
                 transform: translateX(-40%);
                 display: none;
+
+                @include respond(1024px) {
+                    transform: translateX(0%);
+                }
             }
 
             &:hover {
@@ -835,6 +839,11 @@ body {
         left: 0;
         right: 0;
         margin: auto;
+
+        @include respond(1024px) {
+            left: 33px;
+            right: auto;
+        }
     }
 
     @include respond(950px) {
