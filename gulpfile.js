@@ -24,7 +24,7 @@ gulp.task('sass', function () {
 			suffix: '.min',
 			prefix: ''
 		}))
-		//.pipe(autoprefixer(['last 15 versions']))
+		.pipe(autoprefixer(['last 15 versions']))
 		.pipe(cleanCSS())
 		.pipe(gulp.dest('css'))
 		.pipe(reload({
@@ -40,7 +40,7 @@ gulp.task('headersass', function () {
 			suffix: '.min',
 			prefix: ''
 		}))
-		//.pipe(autoprefixer(['last 15 versions']))
+		.pipe(autoprefixer(['last 15 versions']))
 		.pipe(cleanCSS())
 		.pipe(gulp.dest('css'))
 		.pipe(reload({
