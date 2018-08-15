@@ -86,7 +86,7 @@
     }
 
     ol, ul {
-        margin: 0 0 1.5em 3em;
+        margin: 0 0 1em 3em;
         line-height: 1.85;
     }
 
@@ -114,7 +114,8 @@
     }
 
     b, strong {
-        font-weight: bold;
+        font-weight: 500;
+        color: lighten(black, 8%);
     }
 
     i {
