@@ -11,12 +11,12 @@ insert_header($headerOptions);
 ?>
 
 
-<div class="hero hero-fill hero-skew hero-fill_dark-blue">
+<div class="hero hero-fill hero-skew hero-fill_dark-blue hero--business">
 	<div class="wrap">
 		<div class="text-with-right-illustration text-with-right-illustration_white js-svg-lines svg-lines_blue-2">
 				<h1 class="text-with-right-illustration__title">Бизнес</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
-					Приглашайте своих друзей, обучайте основам <br /> криптовалютного рынка, зарабатывайте до 23% <br />от оборота вашей структуры
+					Приглашайте своих друзей, обучайте основам  криптовалютного рынка, зарабатывайте до 23% от оборота вашей структуры
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
 					<a href="" class="btn btn_fill btn_fill_blue btn_shadow"><span class="btn__text">СТАТЬ ПАРТНЕРОМ</span></a>
@@ -90,33 +90,40 @@ insert_header($headerOptions);
 		</div><!-- /.heading__sub -->
 	</div><!-- /.heading heading_h2 -->
 
+</div><!-- /.wrap -->
+
+<div class="padding-wrap">
+	
 	<div class="adaptive-table adaptive-table_no-wrap" data-simplebar>
 		<table class="adaptive-table__table">
 			<thead>
 				<tr>
-					<th>Статус</th>
-					<th>Депозит</th>
-					<th>Оборот</th>
-					<th>1 ур.</th>
-					<th>2 ур.</th>
-					<th>3 ур.</th>
-					<th>4 ур.</th>
-					<th>5 ур.</th>
-					<th>6 ур.</th>
-					<th>7 ур.</th>
-					<th>8 ур.</th>
-					<th>9 ур.</th>
+					<th>СТАТУС</th>
+					<th>ДЕПОЗИТ</th>
+					<th>ОБОРОТ</th>
+					<th>1 УР.</th>
+					<th>2 УР.</th>
+					<th>3 УР.</th>
+					<th>4 УР.</th>
+					<th>5 УР.</th>
+					<th>6 УР.</th>
+					<th>7 УР.</th>
+					<th>8 УР.</th>
+					<th>9 УР.</th>
+					<th>10 УР.</th>
+					<th>11 УР.</th>
 					<th>ВСЕ</th>
 				</tr>
 			</thead>
 			<tbody>
-				<?php for ($i=0; $i < 10; $i++) { ?>
 				<tr>
-					<td>Start <?php echo $i; ?></td>
+					<td>Start</td>
 					<td>10 $</td>
 					<td>0 $</td>
 					<td>5 %</td>
-					<td>10 %</td>
+					<td>2 %</td>
+					<td>-</td>
+					<td>-</td>
 					<td>-</td>
 					<td>-</td>
 					<td>-</td>
@@ -126,17 +133,191 @@ insert_header($headerOptions);
 					<td>-</td>
 					<td>-</td>
 				</tr>
-				<?php } ?>
+				<tr>
+					<td>Investor</td>
+					<td>50 $</td>
+					<td>1 000 $</td>
+					<td>5 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Agent</td>
+					<td>150 $</td>
+					<td>3 000 $</td>
+					<td>5 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Holder</td>
+					<td>500 $</td>
+					<td>5 000 $</td>
+					<td>5 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Manager</td>
+					<td>1 000 $</td>
+					<td>15 000 $</td>
+					<td>6 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Partner</td>
+					<td>1 500 $</td>
+					<td>45 000 $</td>
+					<td>6 %</td>
+					<td>3 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Leader</td>
+					<td>3 000 $</td>
+					<td>100 000 $</td>
+					<td>6 %</td>
+					<td>3 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Grand Leader</td>
+					<td>5 000 $</td>
+					<td>250 000 $</td>
+					<td>7 %</td>
+					<td>3 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>-</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Trader</td>
+					<td>10 000 $</td>
+					<td>500 000 $</td>
+					<td>7 %</td>
+					<td>3 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>-</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Grand Trader</td>
+					<td>15 000 $</td>
+					<td>1 000 000 $</td>
+					<td>7 %</td>
+					<td>3 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>-</td>
+				</tr>
+				<tr>
+					<td>Pro Trader</td>
+					<td>30 000 $</td>
+					<td>2 500 000 $</td>
+					<td>8 %</td>
+					<td>3 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>2 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>1 %</td>
+					<td>0,5 %</td>
+				</tr>
 			</tbody>
 		</table>
 	</div><!-- /.adaptive-table -->
+</div><!-- /.padding-wrap -->
 
+<div class="wrap">
 	<div class="heading heading_h2 heading_center">
 		<div class="heading__sub">
 			Для получения вознаграждений за статус необходимо иметь в структуре заявленное количество<br /> партнеров определенного уровня
 		</div><!-- /.heading__sub -->
 	</div><!-- /.heading heading_h2 -->
+</div><!-- /.wrap -->
 
+<div class="padding-wrap">
+	
 	<div class="adaptive-table adaptive-table_no-wrap" data-simplebar>
 		<table class="adaptive-table__table">
 			<thead>
@@ -175,7 +356,8 @@ insert_header($headerOptions);
 			</tbody>
 		</table>
 	</div><!-- /.adaptive-table -->
-</div><!-- /.wrap -->
+</div><!-- /.padding-wrap -->
+
 </section><!-- /.white-content -->
 
 

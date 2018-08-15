@@ -8,6 +8,12 @@ $(function () {
 		$(this).toggleClass('mobile-menu-btn_active');
 	});
 
+	$(document).click(function(event) {
+		if ($(event.target).closest(".mobile-menu-body, .js-mobile-menu-btn").length) return;
+		$(".js-mobile-menu-btn").removeClass('mobile-menu-btn_active');
+		event.stopPropagation();
+	});
+
 	$(window).resize(function () {
 		if ($(this).width() > 940) {
 			$('.js-mobile-menu-btn').removeClass('mobile-menu-btn_active');
@@ -270,6 +276,12 @@ $(function () {
 				$(this).toggleClass('lang-switcher__handle--active');
 			});
 		});
+
+		$(document).click(function(event) {
+			if ($(event.target).closest(".js-lang-switcher, .lang-switcher__handle").length) return;
+			$(".lang-switcher__handle").removeClass('lang-switcher__handle--active');
+			event.stopPropagation();
+		});
 	}());
 
 
@@ -306,7 +318,7 @@ $(function () {
 		if ($('.adaptive-table').length > 0) {
 			$('.simplebar-content').each(function () {
 				$(this).scroll(function () {
-					if ($(window).width() > 600) {
+					if ($(window).width() > 480) {
 						var scrL = $(this).scrollLeft();
 
 						var firstColW = $(this).find('.adaptive-table__table td').first().width();
@@ -453,12 +465,12 @@ $(function () {
 				function handelsCheck(){
 					//debugger;
 
-					console.log('scrolable.scrollLeft()', scrolable.scrollLeft());
+					//console.log('scrolable.scrollLeft()', scrolable.scrollLeft());
 
 					//console.log('stepW', stepW);
 					//console.log('stepW * 3', stepW * 3);
 
-					var winW = $(window).width();
+				//	var winW = $(window).width();
 
 					//console.log('winW', winW);
 
@@ -535,6 +547,10 @@ $(function () {
 			});
 		}
 	})();
+
+	$('.js-close').click(function(){
+		$(this).parents('.box-modal').arcticmodal('close');
+	});
 
 
 /*End JQReady function*/

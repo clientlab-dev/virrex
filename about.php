@@ -80,7 +80,7 @@ insert_header($headerOptions);
 				<?php } ?>
 
 				<li>
-					<div class="reviews__item reviews__item--has-avatar">
+					<div class="reviews__item ">
 						<div class="reviews__item__avatar" style="background-image:url('assets/img/content/review1.jpg');" ></div><!-- /.avatar -->
 						<div class="reviews__item__bio">
 							<div class="reviews__item__bio__name">Мария Ширяева</div><!-- /.bio__name -->

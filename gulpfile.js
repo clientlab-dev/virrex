@@ -51,7 +51,7 @@ gulp.task('headersass', function () {
 gulp.task('js', function () {
 	return gulp.src([
 
-			'assets/js/jquery.arcticmodal-0.3.min.js',
+			'assets/js/jquery.arcticmodal.js',
 			'assets/js/jquery.bxslider.js',
 			'assets/js/jqui.js',
 			'assets/js/jQRangeSlider-5.7.2/lib/jquery.mousewheel.min.js',

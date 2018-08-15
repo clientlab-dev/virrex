@@ -19,12 +19,12 @@ insert_header($headerOptions);
 					Торговый сервис, позволяющий Вам обменивать, покупать и продавать криптовалюту по самому выгодному курсу
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<a href="" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span></a>
+					<a href="#" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span></a>
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration text-with-right-illustration__illustration--video">
 					<img src="assets/img/ilustrations/trade.svg" alt="" />
-					<a href="#" class="text-with-right-illustration__illustration--video__play text-with-right-illustration__illustration--video__play--green"></a>
+					<a href="#" onclick="$('#tradeVideo').arcticmodal()" class="text-with-right-illustration__illustration--video__play text-with-right-illustration__illustration--video__play--green"></a>
 				</div><!-- /.text-with-right-illustration__illustration -->
 		</div><!-- /.text-with-right-illustration -->
 	</div><!-- /.wrap -->

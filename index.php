@@ -27,8 +27,8 @@ insert_header($headerOptions);
 					Безопасное технологическое решение, сочетающее в себе функциональное наполнение классического банка — хранение, приумножение и обмен, с поддержкой альтернативного способа инвестирования на рынке цифровых валют
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<a href="" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></a>
-					<a href="" class="btn btn_icon btn_icon-white">
+					<a href="#" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></a>
+					<a href="#" onclick="$('#tradeVideo').arcticmodal()" class="btn btn_icon btn_icon-white">
 							<img class="btn__ico" src="assets/img/btn_icon/play.svg" height="25" width="25" alt="" />
 						<span class="btn__text">СМОТРЕТЬ ВИДЕО</span>
 					</a>

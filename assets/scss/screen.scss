@@ -1,5 +1,9 @@
 @import "_mixins";
 
+.padding-wrap {
+    padding: 0 15px;
+}
+
 .header__wrap {
     &_transparent {
         .header {
@@ -219,6 +223,31 @@
             }
         }
     }
+
+    &--business {
+        .text-with-right-illustration__illustration {
+            transform: translateY(-60px);
+
+            @include respond(1024px) {
+                transform: translateY(0);
+                margin-top: 0;
+            }
+        }
+
+        .text-with-right-illustration {
+            padding-bottom: 123px;
+            min-height: auto;
+
+            .text-with-right-illustration__description {
+                max-width: 455px;
+            }
+
+            @include respond(1024px) {
+                margin-bottom: 0;
+                padding-bottom: 30px;
+            }
+        }
+    }
 }
 
 .hero-fill {
@@ -272,6 +301,7 @@
 
                 //background: url("../assets/img/svg_bg/3company.svg") no-repeat right top;
                 background: url("../assets/img/svg_bg/1vicash.svg") no-repeat right top;
+                background-size: contain;
 
                 //background: red;
                 //opacity: 0.7;
@@ -311,7 +341,7 @@
 
                 //height: 47%;
                 height: 100%;
-                top: -43.5%;
+                top: -50%;
                 width: 100%;
                 position: absolute;
 
@@ -322,6 +352,7 @@
                 //opacity: 0.7;
                 transform-origin: top right;
                 z-index: 2;
+                background-size: contain;
 
                 //transform: skewY(8.5deg);
 
@@ -437,6 +468,7 @@
                 transform-origin: top right;
                 z-index: 2;
                 will-change: transform;
+                background-size: contain;
 
                 //transform: skewY(8.5deg);
            
@@ -477,6 +509,7 @@
                 //opacity: 0.7;
                 transform-origin: top right;
                 z-index: 2;
+                background-size: contain;
 
                 //transform: skewY(8.5deg);
 
@@ -519,6 +552,7 @@
                 width: 100%;
                 position: absolute;
                 background: url("../assets/img/svg_bg/API4.svg") no-repeat right top;
+                background-size: contain;
 
                 //background: red;
                 //opacity: 0.7;
@@ -557,6 +591,7 @@
                 width: 100%;
                 position: absolute;
                 background: url("../assets/img/svg_bg/API4.svg") no-repeat right top;
+                background-size: contain;
 
                 //background: red;
                 //opacity: 0.7;
@@ -595,6 +630,7 @@
                 width: 100%;
                 position: absolute;
                 background: url("../assets/img/svg_bg/4green.svg") no-repeat right top;
+                background-size: contain;
 
                 //background: red;
                 //opacity: 0.7;
@@ -633,6 +669,7 @@
                 width: 100%;
                 position: absolute;
                 background: url("../assets/img/svg_bg/2purple.svg") no-repeat right top;
+                background-size: contain;
 
                 //background: red;
                 //opacity: 0.7;
@@ -741,6 +778,7 @@
             width: 100%;
             position: absolute;
             background: url("../assets/img/svg_bg/4blue.svg") no-repeat right top;
+            background-size: contain;
 
             //background: red;
             //opacity: 0.7;
@@ -1232,7 +1270,7 @@
             left: 0;
 
             //background: url("../assets/img/svg_bg/2blue.svg") no-repeat center right, url("../assets/img/svg_bg/2blue_2.svg") no-repeat 111% 239px;
-            background: url(../assets/img/svg_bg/2blue.svg) no-repeat center right, url(../assets/img/svg_bg/2blue_2.svg) no-repeat right bottom;
+            background: url(../assets/img/svg_bg/2blue_2.svg) no-repeat right bottom;
             background-size: 64%;
             position: absolute;
             top: 0;
@@ -1961,6 +1999,11 @@
 
     .adaptive-table {
         margin-top: 66px;
+        max-width: 1360px;
+        margin-left: auto;
+        margin-right: auto;
+
+        //padding: 0 15px;
 
         & + hr {
             margin-top: 116px;
@@ -2103,12 +2146,12 @@
             }
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 480px) {
             min-width: 100%;
 
             tr {
                 td, th {
-                    padding: 11px 18px;
+                    padding: 8px 18px;
                     font-size: 14px;
                 }
             }
@@ -2375,10 +2418,13 @@
 .crypto-centers-info {
     .heading_h2 {
         margin-bottom: 26px;
+        margin-left: 0;
     }
 
     &__text {
         line-height: 1.3;
+        font-weight: 100;
+        font-size: 18px;
 
         p {
             & + p {
