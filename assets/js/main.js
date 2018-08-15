@@ -387,7 +387,6 @@ $(function () {
 
 		$('.accordion .item .body').click(function (e) {
 			e.stopPropagation();
-			return false;
 		});
 	})();
 

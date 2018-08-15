@@ -43,7 +43,7 @@
         margin-bottom: 18px;
     }
     ol, ul {
-        margin: 0 0 1.5em 3em;
+        margin: 0 0 1em 3em;
         line-height: 1.85;
     }
 
@@ -67,7 +67,8 @@
         margin-right: auto;
     }
     b, strong {
-        font-weight: bold;
+        font-weight: 500;
+        color: lighten(black, 8%);
     }
     i {
         font-style: italic;
