@@ -11,19 +11,19 @@ insert_header($headerOptions);
 
 
 
-<div class="hero hero-fill hero-skew hero-fill_gray-green">
+<div class="hero hero-fill hero-skew hero-fill_gray-green hero--trade">
 	<div class="wrap">
 		<div class="text-with-right-illustration js-svg-lines svg-lines_green-2">
 				<h1 class="text-with-right-illustration__title">Торговля</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
-					Торговый сервис, позволяющий Вам обменивать, покупать и продавать криптовалюту по самому<br /> выгодному курсу
+					Торговый сервис, позволяющий Вам обменивать, покупать и продавать криптовалюту по самому выгодному курсу
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span></button>
+					<a href="" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span></a>
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration text-with-right-illustration__illustration--video">
-					<img src="assets/img/ilustrations/trade.png" alt="" />
+					<img src="assets/img/ilustrations/trade.svg" alt="" />
 					<a href="#" class="text-with-right-illustration__illustration--video__play text-with-right-illustration__illustration--video__play--green"></a>
 				</div><!-- /.text-with-right-illustration__illustration -->
 		</div><!-- /.text-with-right-illustration -->
@@ -39,7 +39,7 @@ insert_header($headerOptions);
 <div class="wrap">
 	<div class="heading heading_center heading_h2">
 		<div class="heading__text">
-			 Торговля - удобна и доступна как для новичков, <br />
+			 Торговля - удобна и доступна как для новичков,  
 так и для профессионалов
 		</div><!-- /.heading__text -->
 	</div><!-- /.heading heading_h2 -->
@@ -66,9 +66,9 @@ insert_header($headerOptions);
 	<div class="wrap">
 		<div class="gradient-before-footer__content">
 			<p class="gradient-before-footer__title">Простое решение для торговли и получения прибыли</p>
-			<button class="btn btn_fill btn_fill_green btn_shadow">
+			<a href="" class="btn btn_fill btn_fill_green btn_shadow">
 				<span class="btn__text">НАЧАТЬ ТОРГОВЛЮ</span>
-			</button>
+			</a>
 		</div>
 	</div>
 </section>

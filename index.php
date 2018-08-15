@@ -27,11 +27,11 @@ insert_header($headerOptions);
 					Безопасное технологическое решение, сочетающее в себе функциональное наполнение классического банка — хранение, приумножение и обмен, с поддержкой альтернативного способа инвестирования на рынке цифровых валют
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></button>
-					<button class="btn btn_icon btn_icon-white">
+					<a href="" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">ОТКРЫТЬ СЧЕТ</span></a>
+					<a href="" class="btn btn_icon btn_icon-white">
 							<img class="btn__ico" src="assets/img/btn_icon/play.svg" height="25" width="25" alt="" />
 						<span class="btn__text">СМОТРЕТЬ ВИДЕО</span>
-					</button>
+					</a>
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration">
@@ -48,43 +48,51 @@ insert_header($headerOptions);
 <div class="catalog catalog_main-page">
 		<div class="wrap">
 			<div class="catalog__cards cols-3">
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/valet.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Кошелек</span>
-						<span class="descr">
-							Совершайте переводы, оплачивайте счета и отправляйте криптовалюту без комиссий внутри системы
-						</span>
-					</a>
+				<div class=" col">
+					<div class="card">
+						<a href="#">
+							<img height="158" src="assets/img/catalog_icons/valet.svg" alt="" />
+							<span class="title arrow-link arrow-link_black">Кошелек</span>
+							<span class="descr">
+								Совершайте переводы, оплачивайте счета и отправляйте криптовалюту без комиссий внутри системы
+							</span>
+						</a>
+					</div><!-- /.card -->
 				</div><!-- /.card -->
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/trade.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Вклады</span>
-						<span class="descr">
-							Более 50 возможных вариантов инвестирования
-						</span>
-					</a>
+				<div class="col">
+					<div class="card">
+						<a href="#">
+							<img height="158" src="assets/img/catalog_icons/trade.svg" alt="" />
+							<span class="title arrow-link arrow-link_black">Вклады</span>
+							<span class="descr">
+								Более 50 возможных вариантов инвестирования
+							</span>
+						</a>
+					</div><!-- /.card -->
 				</div><!-- /.card -->
-				<div class="card col">
-					<a href="#">
-						<img height="158" src="assets/img/catalog_icons/inverstement.svg" alt="" />
-						<span class="title arrow-link arrow-link_black">Торговля</span>
-						<span class="descr">
-							Самый выгодный и удобный обменный сервис
-						</span>
-					</a>
+				<div class="col">
+					<div class="card">
+						<a href="#">
+							<img height="158" src="assets/img/catalog_icons/inverstement.svg" alt="" />
+							<span class="title arrow-link arrow-link_black">Торговля</span>
+							<span class="descr">
+								Самый выгодный и удобный обменный сервис
+							</span>
+						</a>
+					</div><!-- /.card -->
 				</div><!-- /.card -->
 			</div><!-- /.catalog__cards -->
 		</div><!-- /.wrap -->
 </div><!-- /.catalog -->
 
-<div class="block-title">
-	<h2 class="title">Virrex Digital Bank</h2><!-- /.title -->
-	<p class="subtitle">
-		Многофункциональная платформа собственной разработки, включающая в себя хранение, приумножение и обмен цифровых валют.
-	</p><!-- /.subtitle -->
-</div><!-- /.block-title -->
+<div class="wrap">
+	<div class="block-title">
+		<h2 class="title">Virrex Digital Bank</h2><!-- /.title -->
+		<p class="subtitle">
+			Многофункциональная платформа собственной разработки, включающая в себя хранение, приумножение и обмен цифровых валют.
+		</p><!-- /.subtitle -->
+	</div><!-- /.block-title -->
+</div><!-- /.wrap -->
 
 
 <div class="simple-skew-bg">
@@ -187,16 +195,18 @@ insert_header($headerOptions);
 					ГОТОВЫ НАЧАТЬ? 
 				</div><!-- /.ready-to-start__title -->
 				<div class="ready-to-start__subtitle">
-					Создайте учетную запись или войдите в аккаунт
+					Создайте учетную запись или войдите в&nbsp;аккаунт
 				</div><!-- /.ready-to-start__subtitle -->
 			</div><!-- /.ready-to-start__text -->
 			<div class="ready-to-start__actions ready-to-start__col">
-				<button class="btn btn_fill btn_fill_green btn_shadow">
-					<span class="btn__text">ОТКРЫТЬ СЧЕТ</span>
-				</button>
-				<button class="btn btn_frame btn_frame_blue">
-					<span class="btn__text">ВОЙТИ</span>
-				</button>
+				<div class="btn-mobile-same-width">
+					<a href="" class="btn btn_fill btn_fill_green btn_shadow">
+						<span class="btn__text">ОТКРЫТЬ СЧЕТ</span>
+					</a>
+					<a href="" class="btn btn_frame btn_frame_blue">
+						<span class="btn__text">ВОЙТИ</span>
+					</a>
+				</div><!-- /.btn-mobile-same-width -->
 			</div><!-- /.ready-to-start__actions -->
 	</div><!-- /.ready-to-start -->
 </div><!-- /.wrap -->

@@ -24,7 +24,7 @@
 								</ul>
 							</div><!-- /.descr -->
 						</div><!-- /.roadmap__steps__step -->
-						<div class="roadmap__steps__step">
+						<div class="roadmap__steps__step roadmap__steps__step--finish">
 							<div class="title">3 квартал 2017</div><!-- /.title -->
 							<div class="bar">
 								<div class="fill"   ></div><!-- /.fill -->
@@ -43,7 +43,7 @@
 								</ul>
 							</div><!-- /.descr -->
 						</div><!-- /.roadmap__steps__step -->
-						<div class="roadmap__steps__step">
+						<div class="roadmap__steps__step roadmap__steps__step--finish">
 							<div class="title">4 квартал 2017</div><!-- /.title -->
 							<div class="bar">
 								<div class="fill"   ></div><!-- /.fill -->
@@ -60,7 +60,7 @@
 							</div><!-- /.descr -->
 						</div><!-- /.roadmap__steps__step -->
 
-						<div class="roadmap__steps__step">
+						<div class="roadmap__steps__step roadmap__steps__step--finish">
 							<div class="title">1 квартал 2018</div><!-- /.title -->
 							<div class="bar">
 								<div class="fill"></div><!-- /.fill -->
@@ -80,7 +80,7 @@
 							</div><!-- /.descr -->
 						</div><!-- /.roadmap__steps__step -->
 
-						<div class="roadmap__steps__step">
+						<div class="roadmap__steps__step roadmap__steps__step--finish">
 							<div class="title">2 квартал 2018</div><!-- /.title -->
 							<div class="bar">
 								<div class="fill"></div><!-- /.fill -->

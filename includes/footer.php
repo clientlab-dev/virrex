@@ -5,16 +5,16 @@
         <div class="footer__col footer__col--1">
             <ul class="footer__list">
                 <li class="footer__list-item footer__top-list-item">
-                    <a href="#" class="footer__list-link">БИЗНЕС</a>
+                    <a href="business.php" class="footer__list-link">БИЗНЕС</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__list-link">О КОМПАНИИ</a>
+                    <a href="about.php" class="footer__list-link">О КОМПАНИИ</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__list-link">НОВОСТИ</a>
+                    <a href="news.php" class="footer__list-link">НОВОСТИ</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__list-link">FAQ</a>
+                    <a href="faq.php" class="footer__list-link">FAQ</a>
                 </li>
             </ul>
             <div class="footer__underline"></div>
@@ -50,13 +50,13 @@
                     <a href="#">Кошелёк</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">Вклады</a>
+                    <a href="deposits.php">Вклады</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">Торговля</a>
+                    <a href="trade.php">Торговля</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">ICO</a>
+                    <a href="ico.php">ICO</a>
                 </li>
             </ul>
         </div>
@@ -66,10 +66,10 @@
                     МЕРЧАНТ
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">API</a>
+                    <a href="merchant.php">API</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">VICASH</a>
+                    <a href="vicash.php">VICASH</a>
                 </li>
             </ul>
         </div>
@@ -79,19 +79,19 @@
                     ДОКУМЕНТЫ И ПРЕЗЕНТАЦИИ
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">Пользовательское соглашение</a>
+                    <a href="policy.php">Пользовательское соглашение</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">Партнерское соглашение</a>
+                    <a href="policy.php">Партнерское соглашение</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#">Политика конфиденциальности</a>
+                    <a href="policy.php">Политика конфиденциальности</a>
                 </li>
                 <li class="footer__list-item">
                     <a href="#">Регистрация компании</a>
                 </li>
                 <li class="footer__list-item">
-                    <a href="#" class="footer__list-link footer__list-link--dotted">Бизнес с VIRREX.pdf</a>
+                    <a href="business.php" class="footer__list-link footer__list-link--dotted">Бизнес с VIRREX.pdf</a>
                 </li>
                 <li class="footer__list-item">
                     <a href="#" class="footer__list-link footer__list-link--dotted">VIRREX ICO.pdf</a>

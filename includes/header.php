@@ -44,7 +44,7 @@ function insert_header($arOptions){ ?>
 								<li class="nav__el nav__el-has-child"><a href="#">Продукты</a>
 									<ul class="nav__child">
 										<li class="nav__child__el">
-											<a href="#">
+											<a href="wallet.php">
 													<img class="nav__child__el__icon" src="assets/img/submenu_icons/walet.svg" height="48" width="48" alt="" />
 													<span class="nav__child__el__title">Кошелек</span>
 													<span class="nav__child__el__description">
@@ -53,7 +53,7 @@ function insert_header($arOptions){ ?>
 											</a>
 										</li><!-- /.nav__child__el -->
 										<li class="nav__child__el">
-											<a href="#">
+											<a href="deposits.php">
 													<img class="nav__child__el__icon" src="assets/img/submenu_icons/contributions.svg" height="48" width="48" alt="" />
 													<span class="nav__child__el__title">Вклады</span>
 													<span class="nav__child__el__description">
@@ -62,7 +62,7 @@ function insert_header($arOptions){ ?>
 											</a>
 										</li><!-- /.nav__child__el -->
 										<li class="nav__child__el">
-											<a href="#">
+											<a href="trade.php">
 													<img class="nav__child__el__icon" src="assets/img/submenu_icons/trade.svg" height="48" width="48" alt="" />
 													<span class="nav__child__el__title">Торговля</span>
 													<span class="nav__child__el__description">
@@ -71,7 +71,7 @@ function insert_header($arOptions){ ?>
 											</a>
 										</li><!-- /.nav__child__el -->
 										<li class="nav__child__el">
-											<a href="#">
+											<a href="ico.php">
 													<img class="nav__child__el__icon" src="assets/img/submenu_icons/virrex.svg" height="48" width="48" alt="" />
 													<span class="nav__child__el__title">
 														ICO
@@ -84,11 +84,11 @@ function insert_header($arOptions){ ?>
 									</ul>
 
 								</li><!-- /.nav__el -->
-								<li class="nav__el"><a href="#">Мерчант</a></li><!-- /.nav__el -->
-								<li class="nav__el"><a href="#">Бизнес</a></li><!-- /.nav__el -->
-								<li class="nav__el"><a href="#">О компании</a></li><!-- /.nav__el -->
-								<li class="nav__el"><a href="#">Новости</a></li><!-- /.nav__el -->
-								<li class="nav__el"><a href="#">FAQ</a></li><!-- /.nav__el -->
+								<li class="nav__el"><a href="merchant.php">Мерчант</a></li><!-- /.nav__el -->
+								<li class="nav__el"><a href="business.php">Бизнес</a></li><!-- /.nav__el -->
+								<li class="nav__el"><a href="about.php">О компании</a></li><!-- /.nav__el -->
+								<li class="nav__el"><a href="news.php">Новости</a></li><!-- /.nav__el -->
+								<li class="nav__el"><a href="faq.php">FAQ</a></li><!-- /.nav__el -->
 							</ul>
 						</nav>
 					</div><!-- /.header__nav -->

@@ -1,0 +1,14 @@
+@import "_mixins";
+
+.vicash-illustration {
+    padding-bottom: 10%;
+
+    img {
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+        display: table;
+        position: relative;
+        z-index: 3;
+    }
+} //vicash-illustration

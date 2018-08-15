@@ -11,16 +11,23 @@ insert_header($headerOptions);
 
 
 
-<div class="hero hero-fill hero-skew hero-fill_gray-dark-blue">
+<div class="hero hero-fill hero-skew hero-fill_gray-dark-blue hero--wallet">
 	<div class="wrap">
 		<div class="text-with-right-illustration js-svg-lines svg-lines_blue-2">
 				<h1 class="text-with-right-illustration__title">Кошелёк</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
 				Универсальный электронный кошелек нового поколения, поддерживающий 19 цифровых валют
 				</div><!-- /.description -->
-				<div class="text-with-right-illustration__action-b">
-					<button class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">СОЗДАТЬ БЕЗОПАСНЫЙ КОШЕЛЕК</span></button>
+
+
+				<div class="text-with-right-illustration__action-b __desktop">
+					<a href="#" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">СОЗДАТЬ БЕЗОПАСНЫЙ КОШЕЛЕК</span></a>
 				</div><!-- /.action-b -->
+
+				<div class="text-with-right-illustration__action-b __mobile">
+					<a href="#" class="btn btn_fill btn_fill_green btn_shadow"><span class="btn__text">СОЗДАТЬ КОШЕЛЕК</span></a>
+				</div><!-- /.action-b -->
+
 
 				<div class="text-with-right-illustration__illustration">
 					<img src="assets/img/ilustrations/wallet.png" alt="" />
@@ -45,8 +52,8 @@ insert_header($headerOptions);
 
 <div class="heading heading_center heading_h2">
 		<div class="heading__text">
-		Наслаждайтесь финансовой гибкостью при использовании <br>
-интегрированных функций в одном месте
+		Наслаждайтесь финансовой гибкостью при использовании  
+интегрированных функций в одном&nbsp;месте
 		</div><!-- /.heading__text -->
 	</div>
 
@@ -127,7 +134,9 @@ insert_header($headerOptions);
 	<div class="wrap">
 <div class="heading heading_center heading_h2">
 		<div class="heading__text">
-			Актуальные криптовалюты, представленные на сайте
+
+			Актуальные криптовалюты, представленные на&nbsp;сайте
+
 		</div><!-- /.heading__text -->
 	</div>
 
@@ -135,7 +144,9 @@ insert_header($headerOptions);
 
 <div class="heading heading_center heading_h2">
 		<div class="heading__text">
+
 			Ожидаемый листинг криптовалют
+
 		</div><!-- /.heading__text -->
 	</div>
 </div>
@@ -145,9 +156,12 @@ insert_header($headerOptions);
 	<div class="wrap">
 		<div class="gradient-before-footer__content">
 			<p class="gradient-before-footer__title">Зарегистрируйтесь, чтобы получить онлайн-кошелек прямо сейчас</p>
-			<button class="btn btn_fill btn_fill_green btn_shadow">
+			<a href="#" class="btn btn_fill btn_fill_green btn_shadow __desktop">
 				<span class="btn__text">СОЗДАТЬ БЕЗОПАСНЫЙ КОШЕЛЕК</span>
-			</button>
+			</a>
+			<a href="#" class="btn btn_fill btn_fill_green btn_shadow __mobile">
+				<span class="btn__text">СОЗДАТЬ КОШЕЛЕК</span>
+			</a>
 		</div>
 	</div>
 </section>

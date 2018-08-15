@@ -51,7 +51,7 @@ insert_header($headerOptions);
                     <a href="#" class="news__btn">Тема</a>
                     <a href="#" class="news__btn">Тема</a>
                 </div>
-                    <a href="#" class="news__btn-read">Читать далее >></a>
+                    <a href="news-single.php" class="news__btn-read">Читать далее >></a>
             </footer>
         </article>
 
@@ -68,7 +68,7 @@ insert_header($headerOptions);
                     <a href="#" class="news__btn">Тема</a>
                     <a href="#" class="news__btn">Тема</a>
                 </div>
-                    <a href="#" class="news__btn-read">Читать далее >></a>
+                    <a href="news-single.php" class="news__btn-read">Читать далее >></a>
             </footer>
         </article>
 
