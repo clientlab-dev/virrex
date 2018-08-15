@@ -1,60 +1,74 @@
 @import "mixins";
+
 .accordion {
     @include clearfix;
+
     padding-bottom: 110px;
+
     p {
         font-weight: 100;
         margin-bottom: 16px;
     }
-     h5 {
+
+    h5 {
         font-size: 16px;
     }
+
     .item {
         padding-top: 18px;
         cursor: pointer;
         border-top: 2px solid #f0f0f0;
         padding: 16px 0 6px;
+
         &:last-child {
-        border-bottom: 2px solid #f0f0f0;
-        padding-bottom: 16px;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 16px;
         }
+
         .title {
             color: #2c2c2c;
             font-size: 20px;
             font-weight: 400;
             user-select: none;
             padding-left: 20px;
-            line-height: 43px;
+
+            //line-height: 43px;
+            line-height: 1.3;
             position: relative;
+            padding-right: 69px;
+            padding-top: 8px;
+            padding-bottom: 8px;
 
             &:after {
                 content: "";
                 position: absolute;
                 display: block;
-                right: 40px;
+                right: 15px;
                 top: 14px;
                 width: 26px;
                 height: 13px;
-                background-image: url('../assets/img/interface_icons/gray_arrow_down.png');
+                background-image: url("../assets/img/interface_icons/gray_arrow_down.png");
             }
-
         }
 
         .body {
             padding: 20px 20px 0 20px;
             display: none;
+            cursor: default;
         }
 
         & + div {
             margin-top: 10px;
         }
     }
+
     .item--active {
         .title {
             color: #5690ff;
+
             &::after {
                 // transform: rotate(180deg);
-                background-image: url('../assets/img/interface_icons/blue_arrow_up.png');
+                background-image: url("../assets/img/interface_icons/blue_arrow_up.png");
             }
         }
     }

@@ -94,7 +94,10 @@ function insert_header($arOptions){ ?>
 					</div><!-- /.header__nav -->
 
 					<div class="header__personal ">
-						<a href="#" class="btn btn_round">Вход</a>
+
+						<div class="btn-wrap btn-wrap--round">
+							<a href="#" class="btn btn_round pseudo">Вход</a>
+						</div><!-- /.btn-wrap -->
 						<div class="lang-switcher js-lang-switcher">
 							<div tabindex="0" class="btn btn_link lang-switcher__handle">
 								<span class="current-lang">RU</span>

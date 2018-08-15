@@ -14,7 +14,7 @@ insert_header($headerOptions);
 		<div class="text-with-right-illustration text-with-right-illustration_white js-svg-lines svg-lines_blue-2">
 				<h1 class="text-with-right-illustration__title">ICO Virrex</h1><!-- /.title -->
 				<div class="text-with-right-illustration__description">
-					Успей купить VX токены проекта на Pre Sale
+					Успей купить VX токены проекта на Pre&nbsp;Sale
 				</div><!-- /.description -->
 				<div class="text-with-right-illustration__action-b">
 
@@ -154,22 +154,22 @@ insert_header($headerOptions);
  			<div class="ico-allow__list">
  				<ul>
  					<li>
- 						<div style="background-image:url(assets/img/ico_icons/1.png);" class="img"></div><!-- /.img -->
+ 						<div style="background-image:url(assets/img/ico_icons/1.svg);" class="img"></div><!-- /.img -->
  						<div class="title">Ускорить темпы развития платформы</div><!-- /.title -->
  						<p>Главной задачей ICO Virrex является ускорение темпов разработки платформы и реализации заявленных продуктов.</p>
  					</li>
  					<li>
- 						<div style="background-image:url(assets/img/ico_icons/2.png);" class="img"></div><!-- /.img -->
+ 						<div style="background-image:url(assets/img/ico_icons/2.svg);" class="img"></div><!-- /.img -->
  						<div class="title">Придать массовости и популяризации Virrex</div><!-- /.title -->
  						<p>Пользователем Cryptocurrency Digital Bank Virrex может стать абсолютно любой человек, вне зависимости от географического положения.</p>
  					</li>
  					<li>
- 						<div style="background-image:url(assets/img/ico_icons/3.png);" class="img"></div><!-- /.img -->
+ 						<div style="background-image:url(assets/img/ico_icons/3.svg);" class="img"></div><!-- /.img -->
  						<div class="title">Внедрить инновационные технологий</div><!-- /.title -->
  						<p>Все реализуемые и реализованные продукты соответствуют требованиям современной действительности и функционально опережают любые банковские продукты, существующие в классических банках и используемые в повседневной жизни.</p>
  					</li>
  					<li>
- 						<div style="background-image:url(assets/img/ico_icons/4.png);" class="img"></div><!-- /.img -->
+ 						<div style="background-image:url(assets/img/ico_icons/4.svg);" class="img"></div><!-- /.img -->
  						<div class="title">Обеспечить полный спектр банковских услуг</div><!-- /.title -->
  						<p>Virrex - первый цифровой банк сочетающий в себе полную функциональную платформу классического банка с использованием цифровых валют и технологии blockchain.</p>
  					</li>

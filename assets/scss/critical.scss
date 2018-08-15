@@ -22,7 +22,7 @@ body {
     min-width: 290px;
     margin: 0 auto;
 
-    @include respond(940px) {
+    @include respond(950px) {
         max-width: 750px;
     }
 }
@@ -116,6 +116,26 @@ body {
     }
 } //heading
 
+.pseudo {
+    white-space: nowrap;
+}
+
+.pseudo:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    height: 17px;
+    width: 0;
+}
+
+.btn-wrap {
+    display: inline-block;
+
+    &--round {
+        height: 14px;
+    }
+}
+
 .btn {
     text-decoration: none;
     display: inline-block;
@@ -131,7 +151,9 @@ body {
     &_fill {
         // padding: 14px 30px;
         //padding: 15px 40px 13px;
-        padding: 17px 40px 15px;
+        padding: 17px 40px;
+
+        //padding: 17px 40px 15px;
         border: none;
         font-size: 14px;
         font-weight: 500;
@@ -261,7 +283,7 @@ body {
     }
 
     &_frame {
-        padding: 14px 30px;
+        padding: 15px 30px;
         border: none;
         font-size: 14px;
         font-weight: 500;
@@ -308,9 +330,9 @@ body {
     &_round {
         border-radius: 30px;
         background-color: #55A5E4;
+        padding: 10px 24px;
 
-        //padding: 10px 24px;
-        padding: 10px 24px 7px;
+        //padding: 10px 24px 7px;
         border: none;
         font-size: 16px;
         cursor: pointer;
@@ -423,7 +445,7 @@ body {
     }
 
 
-    @include respond(940px) {
+    @include respond(950px) {
         padding-right: 0;
     }
 
@@ -453,7 +475,7 @@ body {
             .btn_round {
                 background: #5690FF;
 
-                @include respond(940px) {
+                @include respond(950px) {
                     background: #5690FF !important;
                     color: #fff !important;
                 }
@@ -464,7 +486,7 @@ body {
                     color: #313231;
                 }
 
-                @include respond(940px) {
+                @include respond(950px) {
                     .btn_link {
                         color: #3a72be;
                     }
@@ -509,7 +531,7 @@ body {
                     color: #FFF;
                 }
 
-                @include respond(940px) {
+                @include respond(950px) {
                     .btn_link {
                         color: #3a72be;
                     }
@@ -550,7 +572,7 @@ body {
             }
         }
 
-        @include respond(940px) {
+        @include respond(950px) {
             display: block;
         }
 
@@ -663,7 +685,7 @@ body {
     .mobile-menu-body {
         height: 100%;
 
-        @include respond(940px) {
+        @include respond(950px) {
             display: none;
         }
     }
@@ -697,7 +719,7 @@ body {
                 top: 10px;
             }
 
-            @include respond(940px) {
+            @include respond(950px) {
                 top: 0;
 
                 .lang-switcher__dropdown-popup {
@@ -723,7 +745,7 @@ body {
     text-align: center;
     display: table;
 
-    @include respond(940px) {
+    @include respond(950px) {
         text-align: left;
     }
 
@@ -767,6 +789,10 @@ body {
                 position: absolute;
                 transform: translateX(-40%);
                 display: none;
+
+                @include respond(1024px) {
+                    transform: translateX(0%);
+                }
             }
 
             &:hover {
@@ -813,9 +839,14 @@ body {
         left: 0;
         right: 0;
         margin: auto;
+
+        @include respond(1024px) {
+            left: 33px;
+            right: auto;
+        }
     }
 
-    @include respond(940px) {
+    @include respond(950px) {
         width: 100%;
         box-shadow: 0 0 0 0 #fff;
 
@@ -846,7 +877,7 @@ body {
         width: 100%;
         opacity: 1 !important;
 
-        @include respond(940px) {
+        @include respond(950px) {
             padding-left: 66px;
             min-height: 42px;
         }
@@ -868,7 +899,7 @@ body {
         bottom: 0;
         margin: auto;
 
-        @include respond(940px) {
+        @include respond(950px) {
             height: 30px;
             width: 30px;
             left: 16px;
@@ -879,7 +910,7 @@ body {
         font-size: 18px;
         display: block;
 
-        //    @include respond(940px) {}
+        //    @include respond(950px) {}
    
     }
 
@@ -890,7 +921,7 @@ body {
         margin-top: 9px;
         font-weight: 100;
 
-        @include respond(940px) {
+        @include respond(950px) {
             display: none;
         }
     }

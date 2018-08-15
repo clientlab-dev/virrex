@@ -1,64 +1,110 @@
+@import "_mixins";
+
 .typography {
     word-wrap: break-word;
     letter-spacing: 0.08px;
     line-height: 26px;
-    h1, h2, h3, h4,  h5,  h6 {
-        margin-bottom: 18px;
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 24px;
         font-weight: 500;
+
         // color: #3a3a3a;
         color: #303030;
         line-height: 1;
     }
+
     h1 {
-     font-size: 3rem;
+        font-size: 3rem;
     }
+
     h2 {
         font-size: 2.4rem;
     }
+
     h3 {
         font-size: 2rem;
     }
+
     h4 {
         font-size: 1.25rem;
     }
+
     h5 {
         font-size: 1.2rem;
     }
+
     h6 {
         font-size: 1rem;
     }
+
+    @include respond(480px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        h4 {
+            font-size: 1.25rem;
+        }
+
+        h5 {
+            font-size: 1.2rem;
+        }
+
+        h6 {
+            font-size: 1rem;
+        }
+    }
+
+
     a {
         $blue: #4169e1;
+
         color: $blue;
         text-decoration: none;
+
         &:hover {
             text-decoration: underline;
             color: darken($blue, 15%);
         }
+
         &:visited {
             color: #755194;
         }
     }
-    p, p+img, p > img {
-        margin-bottom: 18px;
+
+    p, p + img, p > img {
+        margin-bottom: 12px;
     }
+
     ol, ul {
-        margin: 0 0 1.5em 3em;
+        margin: 0 0 1em 3em;
         line-height: 1.85;
     }
 
     ul {
-    list-style: disc;
+        list-style: disc;
     }
+
     ol {
         list-style: decimal;
     }
+
     hr {
         background-color: #ccc;
         border: 0;
         height: 1px;
         margin-bottom: 1.5em;
     }
+
     img {
         height: auto;
         max-width: 100%;
@@ -66,14 +112,17 @@
         margin-left: auto;
         margin-right: auto;
     }
+
     b, strong {
-        font-weight: bold;
+        font-weight: 500;
+        color: lighten(black, 8%);
     }
+
     i {
         font-style: italic;
     }
-    p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
-        margin-top: 36px;
-    }
 
+    p + h1, p + h2, p + h3, p + h4, p + h5, p + h6 {
+        margin-top: 40px;
+    }
 }

@@ -1,34 +1,49 @@
 @import "mixins";
+
 .errors-page {
     height: 364px;
     margin-top: 174px;
+    padding-bottom: 40px;
+
     @include respond(600px) {
         margin-top: 64px;
         height: 264px;
     }
+
+
+    @include respond(480px) {
+        height: auto;
+    }
+
+
     &__header {
         h1 {
             color: #000000;
             font-size: 35px;
             font-weight: 500;
+
             @include respond(600px) {
                 font-size: 24px;
             }
         }
+
         h2 {
             font-size: 22px;
             font-weight: 400;
             line-height: 1.26;
             margin-bottom: 38px;
+
             @include respond(600px) {
                 font-size: 18px;
             }
         }
+
         p {
             color: #2c2c2c;
             font-size: 18px;
             font-weight: 300;
             letter-spacing: 0.08px;
+
             @include respond(600px) {
                 font-size: 16px;
                 letter-spacing: 0.07px;
