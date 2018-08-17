@@ -1,5 +1,8 @@
 $(function () {
 
+// $('#login').arcticmodal();
+// $('#recover').arcticmodal();
+$('#success-register').arcticmodal();
 
 	/*
 		Burger btn
