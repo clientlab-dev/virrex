@@ -66,21 +66,55 @@
     padding: 39px 6px 1px;
     position: relative;
     border-radius: 2px;
+    &--wide {
+        padding: 39px 12px 1px;
+    }
+    .mb-sm {
+        margin-bottom: 42px !important;
+    }
 
     iframe {
         max-width: 100%;
     }
     .modal-login {
+        padding: 0 72px;
         &--no-footer {
             padding-bottom: 30px;
         }
+        &__py-sm {
+            padding-top: 10px;
+            padding-bottom: 8px;
+        }
+        &__icon {
+            position: absolute;
+            top: -68px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 60px;
+            &--ok {
+                background-image: url('../assets/img/interface_icons/ok.png');
+            }
+            &--error {
+                background-image: url('../assets/img/interface_icons/error.png');
+            }
+        }
         &__wrap {
-            width: 530px;
+            width: 520px;
+            position: relative;
             @include respond(600px) {
                 width: initial;
             }
+
+            h1 {
+                color: #000000;
+                text-align: center;
+                // margin-bottom: 40px;
+                margin-bottom: 24px;
+                font-size: 26px;
+                font-weight: 400;
+            }
         }
-        padding: 0 80px;
         .form .form__item + .form__item {
         margin-top: 20px;
         }
@@ -143,25 +177,99 @@
                 }
             }
         }
-        h1 {
-            color: #000000;
-            text-align: center;
-            margin-bottom: 40px;
-            font-size: 26px;
-            font-weight: 400;
-        }
         &__info-text {
+            $color: rgba(#138147, 1);
             text-align: center;
-            opacity: 0.8;
-            color: #138147;
+            color: $color;
             line-height: 23px;
             font-weight: 400;
             font-size: 14px;
-            margin-top: -16px;
+            // margin-top: -16px;
+            a, a:link, a:visited {
+                color: lighten($color, 5%);
+                font-weight: 500;
+                text-decoration: none;
+            }
+            &--error {
+                $color: rgba(#dc0000, 1);
+                color: $color;
+                a, a:link, a:visited {
+                    color: lighten($color, 5%);
+                    font-weight: 500;
+                    text-decoration: none;
+                }
+            }
         }
         &__button-align {
             text-align: center;
             margin-top: 22px;
         }
+
+    }
+
+
+    }
+
+.modal-form-check {
+    $gray: #5a5a5a;
+
+    &__input {
+        display: none;
+    }
+
+    &__label {
+        padding-left: 22px;
+        position: relative;
+        user-select: none;
+        color: $gray;
+        display: block;
+        text-align: left;
+        font-size: 14px;
+        line-height: 20px;
+        font-size: 13px;
+
+        a, a:hover, a:link, a:visited {
+            color: #0096dc;
+
+            &:hover {
+                opacity: .7;
+            }
+        }
+
+        @include respond(300px) {
+            max-width: 300px;
+        }
+    }
+
+    &__label-icon {
+        position: absolute;
+        top: 1px;
+        left: 0;
+        width: 16px;
+        height: 16px;
+        background: white;
+        border-radius: 2px;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.05);
+        border: 1px solid darken(#f9f9f9, 4%);
+
+        &::after {
+            transition: all .2s;
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 9px;
+            height: 9px;
+            border-radius: 1px;
+
+            // background: lighten(#3474bc, 30%);
+            background: lighten(black, 2%);
+            opacity: 0;
+        }
+    }
+
+    &__input:checked + .modal-form-check__label > .modal-form-check__label-icon::after {
+        opacity: 1;
     }
 }

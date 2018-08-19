@@ -2,8 +2,12 @@ $(function () {
 
 // $('#login').arcticmodal();
 // $('#recover').arcticmodal();
-$('#success-register').arcticmodal();
-
+// $('#success-registration').arcticmodal();
+// $('#confirmed-registration').arcticmodal();
+// $('#can-enter').arcticmodal();
+// $('#key-error').arcticmodal();
+// $('#confirmation-error').arcticmodal();
+$('#registration').arcticmodal();
 	/*
 		Burger btn
 	*/
