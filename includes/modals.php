@@ -32,6 +32,10 @@
 					<input type="password" class="modal-login__input" id="pass">
 				</div>
 
+				<span class="modal-login__status modal-login__status--invalid">
+					Пароль указан неверено.
+				</span>
+
 				<div class="form__item form__button-align">
 					<a href="" class="btn btn_fill btn_fill_green btn_shadow">
 						<span class="btn__text">ВОЙТИ</span>
@@ -39,7 +43,9 @@
 				</div>
 			</div>
 				<div class="modal-login__footer">
-					<span>Забыли пароль? <a href="#">Восстановить</a></span>
+					<span>Забыли пароль?
+					 <a href="#">Восстановить</a>
+					 </span>
 					<a href="#">Зарегистрироваться</a>
 				</div>
 			</form>
@@ -102,7 +108,7 @@
 				<div class="modal-login__info-text">
 					На ваш Email адрес было отправлено письмо с подтверждением входа. После подтверждения Вы сможете продолжить процедуру входа в кошелек.
 				</div>
-				<div class="form__item modal-login__button-align">
+				<div class="form__item modal-login__button-align mb-6">
 					<a href="#" onclick="return false" class="btn btn_fill btn_fill_green btn_shadow js-close">
 						<span class="btn__text">ОКЕЙ</span>
 					</a>

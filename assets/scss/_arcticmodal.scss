@@ -82,8 +82,11 @@
     }
     .modal-login {
         padding: 0 72px;
-        @include respond(500px) {
-            padding: 0 50px;
+        @include respond(480px) {
+            padding: 0 60px;
+        }
+        @include respond(450px) {
+            padding: 0 40px;
         }
         @include respond(450px) {
             padding: 0 24px;
@@ -129,6 +132,9 @@
                 margin-bottom: 24px;
                 font-size: 26px;
                 font-weight: 400;
+                @media only screen and (max-width:488px) {
+                    margin-top: 10px;
+                }
             }
         }
         .form .form__item + .form__item {
@@ -181,6 +187,19 @@
             font-size: 14px;
             font-weight: 400;
             width: 86%;
+                @include respond(400px) {
+                    flex-direction: column;
+                    height: initial;
+                }
+            span {
+                @include respond(400px) {
+                    // display: block;
+                    margin-top: 14px;
+                    margin-bottom: 14px;
+                    text-align: center;
+                    // width: 100%;
+                }
+            }
             
             margin-bottom: 18px;
             a {
@@ -332,4 +351,7 @@
             min-height: 150px;
             max-height: 300px;
         }
-        }
+    }
+mb-6 {
+    margin-bottom: 6px !important;
+}
