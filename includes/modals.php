@@ -15,7 +15,7 @@
 	<div class="box-modal popups article-template" id="login">
 		<div class="win-modal ">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b8b8b8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
@@ -54,7 +54,7 @@
 	<div class="box-modal popups article-template" id="recover">
 		<div class="win-modal ">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
@@ -93,7 +93,7 @@
 	<div class="box-modal popups article-template" id="success-registration">
 		<div class="win-modal ">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
@@ -119,7 +119,7 @@
 	<div class="box-modal popups article-template" id="confirmed-registration">
 		<div class="win-modal ">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
@@ -147,7 +147,7 @@
 	<div class="box-modal popups article-template" id="can-enter">
 		<div class="win-modal ">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
@@ -177,7 +177,7 @@
 	<div class="box-modal popups article-template" id="key-error">
 		<div class="win-modal ">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
@@ -206,7 +206,7 @@
 	<div class="box-modal popups article-template" id="confirmation-error">
 		<div class="win-modal ">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b3b3b3" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.4"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
@@ -234,44 +234,67 @@
 	<div class="box-modal popups article-template" id="registration">
 		<div class="win-modal win-modal--wide">
 			<div class="close js-close">
-				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#b8b8b8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
+				<svg viewBox="0 0 9.63 9.58" xmlns="http://www.w3.org/2000/svg"><g fill="none" stroke="#919191" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1"><path d="m.38.38 8.73 8.73"/><path d="m9.26.38-8.84 8.83"/></g></svg>
 			</div><!-- /.close -->
 			<!-- modal_body -->
 			<div class="modal-login__wrap">
 			<div class="modal-login">
 			<h1 class="mb-sm">Регистрация</h1>
 			<form class="form" action="" autocomplete="off">
-				<div class="form__item">
+				<div class="form__item-m">
 					<label for="name" class="modal-login__label">Имя</label>
 					<input type="text" class="modal-login__input" id="name">
 				</div>
 
-				<div class="form__item">
+				<span class="modal-login__status modal-login__status--invalid status-pb">
+					Введите имя.
+				</span>
+
+				<div class="form__item-m">
 					<label for="last-name" class="modal-login__label">Фамилия</label>
 					<input type="text" class="modal-login__input" id="last-name">
 				</div>
 
-				<div class="form__item">
+					<span class="modal-login__status modal-login__status--invalid status-pb">
+						Введите фамилию.
+					</span>
+
+				<div class="form__item-m">
 					<label class="modal-login__label" for="reg-email">Email</label>
 					<input type="text" class="modal-login__input" id="reg-email">
 				</div>
-				<!-- <span class="modal-login__status modal-login__status--invalid">
-					Указанный Email не найден.
-				</span> -->
 
-				<div class="form__item">
+					<span class="modal-login__status modal-login__status--invalid status-pb">
+						Введите (правильный) Email.
+					</span>
+
+
+
+				<div class="form__item-m">
 					<label class="modal-login__label" for="reg-pass">Пароль</label>
 					<input type="password" class="modal-login__input" id="reg-pass">
 				</div>
 
+					<span class="modal-login__status modal-login__status--invalid status-pb">
+						Введите пароль. <!-- (Пароль должен состоять больше 6 символов.) -->
+					</span>
 
-				<div class="form__item">
+
+				<div class="form__item-m">
 					<label class="modal-login__label" for="reg-pass-repeat">Повторите пароль</label>
 					<input type="password" class="modal-login__input" id="reg-pass-repeat">
 				</div>
+					<span class="modal-login__status modal-login__status--invalid status-pb d-none">
+						Пароли не совпадают, повторите пароль еще раз.
+					</span>
+
+				<div class="form__item-m">
+					<label class="modal-login__label" for="sponsor-number">Номер спонсора</label>
+					<input type="text" class="modal-login__input" id="sponsor-number">
+				</div>
 
 
-				<div class="form__item">
+				<div class="form__item-m">
 					<div class="modal-form-check">
 						<input type="checkbox" class="modal-form-check__input" id="agree">
 						<label for="agree" class="modal-form-check__label">
@@ -281,7 +304,7 @@
 					</div>
 				</div>
 
-				<div class="form__item form__button-align">
+				<div class="form__item-m form__button-align">
 					<a href="" class="btn btn_fill btn_fill_green btn_shadow">
 						<span class="btn__text">ЗАРЕГИСТРИРОВАТЬСЯ</span>
 					</a>

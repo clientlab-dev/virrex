@@ -7,7 +7,7 @@ $(function () {
 // $('#can-enter').arcticmodal();
 // $('#key-error').arcticmodal();
 // $('#confirmation-error').arcticmodal();
-$('#registration').arcticmodal();
+// $('#registration').arcticmodal();
 	/*
 		Burger btn
 	*/
