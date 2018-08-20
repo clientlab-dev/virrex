@@ -325,6 +325,7 @@ body {
                 }
             }
         }
+
         &_black {
             border: 2px solid black;
             color: #000;
@@ -930,6 +931,7 @@ body {
         opacity: 0.6;
         margin-top: 9px;
         font-weight: 100;
+        font-weight: 400;
 
         @include respond(950px) {
             display: none;

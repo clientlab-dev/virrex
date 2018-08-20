@@ -76,6 +76,7 @@
         max-width: 777px;
         margin-left: auto;
         margin-right: auto;
+        font-weight: 400;
 
         @include respond(480px) {
             font-size: 20px;
