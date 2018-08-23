@@ -5,7 +5,7 @@
 	<title>Virrex</title>
 
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimal-ui"/>
-
+	<meta name="cmsmagazine" content="eb5a6fa4dfcd6e79d367222fbcf8513b" />
 	<link rel="stylesheet" href="css/critical.min.css" />
 </head>
 <body>
