@@ -7,8 +7,8 @@
 *.sql
 /node_modules
 #/wp-admin
-/css
-/js
+#/css
+#/js
 #css/
 #js/
 # Hidden files
@@ -17,5 +17,5 @@
 *Thumbs.db
 *.sass-cache*
 *~imageoptim*
-css/*.css
+#css/*.css
 /package-lock.json
