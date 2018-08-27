@@ -252,7 +252,8 @@
 
 .hero-fill {
     &_blue {
-        background: linear-gradient(-7deg, #87dcff 0, #1485d9 100%);
+        //background: linear-gradient(-7deg, #87dcff 0, #1485d9 100%);
+        background: linear-gradient(-13deg, #87dcff 0, rgb(21, 120, 207) 80%, rgb(21, 120, 207) 100%);
     }
 
     &_dark-blue {
@@ -2700,6 +2701,7 @@
         }
     }
 }
+
 .d-none {
     display: none !important;
 }
