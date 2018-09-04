@@ -559,6 +559,14 @@ $(function () {
 	});
 
 
+	$('.mainpage-animation').each(function(){
+		//debugger;
+		if ($(window).width()>=700) {
+			$(this).attr('src',$(this).attr('data-src'));
+		};
+	});
+ 
+
 /*End JQReady function*/
 });
 

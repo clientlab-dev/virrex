@@ -35,7 +35,8 @@ insert_header($headerOptions);
 				</div><!-- /.action-b -->
 
 				<div class="text-with-right-illustration__illustration">
-					<img src="assets/img/ilustrations/mainpage1.png" height="554" width="446" alt="" />
+					<img class="mainpage-animation--image" src="assets/img/ilustrations/mainpage1.png" height="554" width="446" alt="" /> 
+					<iframe class='mainpage-animation'  data-src="/assets/img/animations/mainpage.html" src=""  frameborder="0"></iframe>
 				</div><!-- /.text-with-right-illustration__illustration -->
 		</div><!-- /.text-with-right-illustration -->
 	</div><!-- /.wrap -->

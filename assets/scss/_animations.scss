@@ -1,0 +1,49 @@
+@import "_mixins";
+
+.text-with-right-illustration__illustration {
+    @include respond(1024px) {
+        overflow: hidden;
+    }
+}
+
+.mainpage-animation--image {
+    display: none !important;
+
+    @include respond(750px) {
+        display: block !important;
+    }
+}
+
+.mainpage-animation {
+    position: absolute;
+    top: -11%;
+    left: -107%;
+    height: 769px;
+    width: 1459px;
+
+    @include respond(1190px) {
+        width: 1024px;
+        left: -66%;
+    }
+
+
+    @include respond(1024px) {
+        position: relative;
+        width: 130%;
+        left: 0;
+        margin: -19% 0 -20% -18%;
+    }
+
+
+    @include respond(940px) {
+        position: relative;
+        width: 130%;
+        left: 0;
+        margin: -24% 0 -26% -18%;
+    }
+
+
+    @include respond(750px) {
+        display: none;
+    }
+}
