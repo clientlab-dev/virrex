@@ -2,57 +2,84 @@
     margin-top: 80px;
     display: flex;
     flex-wrap: wrap;
+
     // justify-content: space-between;
     justify-content: flex-start;
-        @include respond(720px) {
-            // justify-content: space-around;
-            justify-content: flex-start;
-        }
+
+    @include respond(720px) {
+        // justify-content: space-around;
+        justify-content: flex-start;
+    }
+
+
     &--transparent {
-        .wallets-p__img-block img, .wallets-p__block{
+        .wallets-p__img-block img, .wallets-p__block {
             opacity: .4;
         }
     }
+
     &__col {
         @include respond(720px) {
             justify-content: space-evenly;
         }
+
+
         display: flex;
         flex-wrap: nowrap;
         align-items: flex-start;
+
         // flex-basis: 25%;
         width: 20%;
         margin-right: 5%;
         padding-bottom: 25px;
+
         @include respond(1200px) {
             margin-right: 0%;
             width: 33.33%;
         }
+
+
         @include respond(720px) {
             margin-right: 0%;
             align-items: center;
             justify-content: center;
         }
     }
+
     &__block {
         @include respond(720px) {
             display: none;
         }
     }
+
     &__img-block {
         display: flex;
+
         // justify-content: flex-start;
         justify-content: center;
         align-items: flex-start;
         margin-right: 5%;
         position: relative;
         outline: none;
+
         &:focus .wallets-p__tooltip {
             visibility: visible;
-            @include respond(300px) {} 
+
+            @include respond(300px) {}
         }
 
+        .img {
+            margin-left: -8px;
+            width: 54px;
+            height: 54px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            box-shadow: 0px 4px 7px 0 rgba(0, 0, 0, 0.14);
+            border-radius: 50%;
+        }
     }
+
     &__title {
         margin-top: 7px;
         font-size: 15px;
@@ -60,11 +87,13 @@
         display: inline-block;
         padding-bottom: 4px;
     }
+
     &__short-title {
         font-size: 15px;
         opacity: .6;
         text-transform: uppercase;
     }
+
     &__tooltip {
         position: absolute;
         background-color: #5adc9d;
@@ -83,6 +112,7 @@
         @media only screen and (min-width: 720px) {
             display: none;
         }
+
         &::after {
             content: '';
             display: block;
@@ -97,5 +127,4 @@
             border-color: #5adc9d transparent transparent transparent;
         }
     }
-
 }

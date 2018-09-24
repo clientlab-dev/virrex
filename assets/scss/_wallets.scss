@@ -17,11 +17,25 @@
         outline: none;
 
         img {
-            // width:54px;
-            // height: 54px;
+            width: 54px;
+            height: 54px;
+
+            //height: auto;
+
             //check if this fix works in ie 
             // if not do it through relative positioning
             margin-left: -8px;
+        }
+
+        .img {
+            margin-left: -8px;
+            width: 54px;
+            height: 54px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+            box-shadow: 0px 4px 7px 0 rgba(0, 0, 0, 0.14);
+            border-radius: 50%;
         }
 
         .wallets__tooltip {
@@ -38,6 +52,7 @@
             white-space: nowrap;
             padding: 10px 10px 7px;
             visibility: hidden;
+
             @media only screen and (min-width: 380px) {
                 display: none;
             }
@@ -69,7 +84,8 @@
     }
 
     &__title {
-        padding-top: 4px;
+        //padding-top: 4px;
+        padding-top: 17px;
         color: #2c2c2c;
         font-size: 15px;
         font-weight: 500;

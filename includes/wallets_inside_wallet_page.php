@@ -3,7 +3,7 @@
         <!-- <div class="row" id="row"> -->
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/bitcoin.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/bitcoin.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Bitcon</p>
                 </div>
                 <div class="wallets-p__block">
@@ -13,7 +13,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/virrex.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/virrex.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Virrex</p>
                 </div>
                 <div class="wallets-p__block">
@@ -23,7 +23,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/siacoin.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/siacoin.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Siacon</p>
                 </div>
                 <div class="wallets-p__block">
@@ -33,7 +33,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/dash.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/dash.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Dash</p>
                 </div>
                 <div class="wallets-p__block">
@@ -43,7 +43,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/bitcoin_cash.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/bitcoin_cash.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Bitcoin Cash</p>
                 </div>
                 <div class="wallets-p__block">
@@ -53,7 +53,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/ethereum.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/ethereum.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Ethereum</p>
                 </div>
                 <div class="wallets-p__block">
@@ -63,7 +63,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/komodo.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/komodo.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Komodo</p>
                 </div>
                 <div class="wallets-p__block">
@@ -74,7 +74,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/digibyte.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/digibyte.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Digibyte</p>
                 </div>
                 <div class="wallets-p__block">
@@ -85,7 +85,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/litecoin.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/litecoin.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Lite Coin</p>
                 </div>
                 <div class="wallets-p__block">
@@ -95,7 +95,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/ethereum_classic.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/ethereum_classic.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Ethereum Classic</p>
                 </div>
                 <div class="wallets-p__block">
@@ -105,7 +105,7 @@
             </div>
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/nem.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/nem.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >NEM</p>
                 </div>
                 <div class="wallets-p__block">
@@ -116,7 +116,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/monero.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/monero.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip">Monero</p>
                 </div>
                 <div class="wallets-p__block">
@@ -127,7 +127,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/stratis.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/stratis.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Stratis</p>
                 </div>
                 <div class="wallets-p__block">
@@ -138,7 +138,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/qtum.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/qtum.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >QTUM</p>
                 </div>
                 <div class="wallets-p__block">
@@ -149,7 +149,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/redcoin.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/redcoin.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Redcoin</p>
                 </div>
                 <div class="wallets-p__block">
@@ -160,7 +160,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/dogecoin.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/dogecoin.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Dogecoin</p>
                 </div>
                 <div class="wallets-p__block">
@@ -171,7 +171,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/ripple.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/ripple.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip">Ripple</p>
                 </div>
                 <div class="wallets-p__block">
@@ -182,7 +182,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/stellar lumen.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/stellar-lumen.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >Stellar Lumen</p>
                 </div>
                 <div class="wallets-p__block">
@@ -193,7 +193,7 @@
 
             <div class="wallets-p__col">
                 <div class="wallets-p__img-block" tabindex="0">
-                    <img src="assets/img/crypto_logos/zcash.png" alt="">
+                    <div class="img" style="background-image:url('assets/img/crypto_logos/zcash.png')"></div><!-- /.img -->
                     <p class="wallets-p__tooltip" >ZCash</p>
                 </div>
                 <div class="wallets-p__block">
